@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Services",
+    "subservice": [
+      "BIM Services",
+      "BIM Consultation",
+      "CAD Drafting Services",
+      "3D Visuals & Rendering Services",
+      "3D modeling Services"
+    ]
+  }
+]
