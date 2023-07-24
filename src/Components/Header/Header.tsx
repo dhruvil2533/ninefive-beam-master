@@ -40,11 +40,11 @@ export const Header = () => {
                     ${
                       path === "/"
                         ? !scrolled
-                          ? "p-3 transparencyBG05 fixed-top"
-                          : "p-1 shadow-lg fixed-top blueBG05 whiteText"
+                          ? " transparencyBG05 fixed-top"
+                          : "p-1 shadow-lg fixed-top transparencyBG05 blackText"
                         : !scrolled
-                        ? "p-3 transparencyBG05 fixed-top"
-                        : "p-1 shadow-lg fixed-top blueBG05 whiteText"
+                        ? " transparencyBG05 fixed-top"
+                        : "p-1 shadow-lg fixed-top transparencyBG05  blackText"
                     }
                 `}
       >
@@ -113,7 +113,7 @@ export const Header = () => {
                                 ${megaVisible ? 'visible-1 opacity-1' : ''}
                             `}
                             > */}
-              <div
+              {/* <div
                 className={` card border-primary shadow-lg p-1 border-0 bg-white
                                 ${!scrolled ? "mega-box" : "mega-box-scrolled"}
                                 ${megaVisible ? "visible-1 opacity-1" : ""}
@@ -125,7 +125,7 @@ export const Header = () => {
                             "
                   onMouseOut={() => setMegavisible(false)}
                 >
-                  <div
+                <div
                     className="row text-start p-2"
                     onMouseOver={() => setMegavisible(true)}
                   >
@@ -152,7 +152,7 @@ export const Header = () => {
                     })}
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* <div className="h-100 d-inline-block">
               <Link
@@ -265,7 +265,7 @@ export const Header = () => {
           >
             Home
           </Link>
-          <MaterialLink
+          {/* <MaterialLink
             href="#"
             className="text-decoration-none h6 text-uppercase d-block mb-2 text-white"
             onClick={() => {
@@ -274,12 +274,18 @@ export const Header = () => {
             }}
           >
             Services
-          </MaterialLink>
+          </MaterialLink> */}
           <Link
-            to="/projects"
+            to="/services"
             className="text-decoration-none h6 text-uppercase d-block text-white"
           >
-            Projects
+            Services
+          </Link>
+          <Link
+            to="/portfolio"
+            className="text-decoration-none h6 text-uppercase d-block text-white"
+          >
+            portfolio
           </Link>
           {/* <Link
             to="/bim"
@@ -305,6 +311,7 @@ export const Header = () => {
           >
             Contact Us
           </Link>
+
           <div className="text-center">
             <IconButton
               className="redBG text-white"
@@ -315,7 +322,7 @@ export const Header = () => {
           </div>
         </Collapse>
       </div>
-      <SwipeableDrawer
+      {/* <SwipeableDrawer
         anchor="left"
         open={drawer}
         onClose={() => setDrawer(false)}
@@ -359,7 +366,7 @@ export const Header = () => {
             );
           })}
         </Accordion>
-      </SwipeableDrawer>
+      </SwipeableDrawer> */}
     </div>
   );
 };

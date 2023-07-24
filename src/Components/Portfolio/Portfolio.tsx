@@ -20,6 +20,7 @@ import img14 from "./images2/329&331 Main Street_03.jpg";
 import img15 from "./images2/JJ Render.jpg";
 import img16 from "./images2/414 Flushing Ave_05.jpg";
 import img17 from "./images2/Model 2.jpg";
+import img0 from "./images2/portfolio-image1.jpg";
 // import Modal from "react-bootstrap/Modal";
 // import Button from "react-bootstrap/Button";
 import projectsData from "../../Constants/projectsData";
@@ -49,20 +50,70 @@ const Portfolio = () => {
   // };
   // const handleClose = () => setOpen(false);
 
+  // State to control the visibility of the modal
+  const [showModal, setShowModal] = useState(false);
+
+  // Event handler to open the modal
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  // Event handler to close the modal
+  const closeModal = () => {
+    setShowModal(false);
+  };
   return (
     <>
       <div className="container-fluid portfolio-container p-0">
         <Header />
         <div
-          className="container img-container mb-5"
+          className=" img-container mb-5"
           data-aos="zoom-in"
           data-aos-delay={700}
         >
-          <h1 className="text-bold text-center">NineFive BIM Portfolio</h1>
-          <h3 className="text-center">
-            We have done projects across residential, commercial, industrial,
-            institutional and other segments.
-          </h3>
+          <div>
+            <img
+              src={img0}
+              alt="img-0"
+              style={{
+                width: "100%",
+                height: "450px",
+                position: "absolute",
+                left: 0,
+                right: 0,
+                top: 0,
+                zIndex: -2,
+              }}
+            />
+          </div>
+          <div style={{ zIndex: 0, color: "white" }}>
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <h1 className="text-bold text-center">NineFive BIM Portfolio</h1>
+
+            <h3 className="text-center">
+              We have done projects across residential, commercial, industrial,
+              institutional and other segments.
+            </h3>
+          </div>
+
+          <div
+            className="container-fluid"
+            style={{
+              width: "100%",
+              height: "450px",
+              backgroundColor: "black",
+              position: "absolute",
+              left: 0,
+              right: 0,
+              top: 0,
+              opacity: 0.4,
+              zIndex: -1,
+            }}
+          ></div>
         </div>
 
         <div className="container-fluid text-center mt-5 mb-5">
@@ -262,7 +313,13 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>

@@ -11,6 +11,10 @@ import { AllServiceList } from "../../Constants/AllServices";
 import { Link } from "react-router-dom";
 import { WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
+import img1 from "./images/1.png";
+import img2 from "./images/2.png";
+import img3 from "./images/3.png";
+import img4 from "./images/4.png";
 
 type ImageProps = {
   path: string;
@@ -78,199 +82,100 @@ const Drawings = () => {
 
   return (
     <>
-      {deviceWidth > 1200 ? (
-        <div
-          className="container-fluid m-0 p-0"
-          style={{
-            width: "100%",
-            height: "100vh",
-            backgroundImage: `url('/images/Drawings/${index}.png')`,
-            backgroundPosition: "center center",
-            backgroundSize: "100% 100%",
-            zIndex: 999,
-          }}
+      <div id="carouselExample" className="carousel slide carousel-fade">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <h2
+              className="img_title"
+              style={{
+                position: "absolute",
+                bottom: "25%",
+                left: "2%",
+                zIndex: "1",
+                fontWeight: "700",
+                borderBottom: "3px solid #19394d",
+                borderTop: "3px solid #19394d",
+                padding: "5px 0",
+              }}
+            >
+              Bim Services
+            </h2>
+            <img src={img1} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <h2
+              className="img_title"
+              style={{
+                position: "absolute",
+                bottom: "25%",
+                left: "2%",
+                zIndex: "1",
+                fontWeight: "700",
+                borderBottom: "3px solid #19394d",
+                borderTop: "3px solid #19394d",
+                padding: "5px 0",
+              }}
+            >
+              BIM Consultation
+            </h2>
+            <img src={img2} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <h2
+              className="img_title"
+              style={{
+                position: "absolute",
+                bottom: "25%",
+                left: "2%",
+                zIndex: "1",
+                fontWeight: "700",
+                borderBottom: "3px solid #19394d",
+                borderTop: "3px solid #19394d",
+                padding: "5px 0",
+              }}
+            >
+              3D Visuals & Rendering Service
+            </h2>
+            <img src={img3} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <h2
+              className="img_title"
+              style={{
+                position: "absolute",
+                bottom: "25%",
+                left: "2%",
+                zIndex: "1",
+                fontWeight: "700",
+                borderBottom: "3px solid #19394d",
+                borderTop: "3px solid #19394d",
+                padding: "5px 0",
+              }}
+            >
+              CAD Drafting Services
+            </h2>
+            <img src={img4} className="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
         >
-          {index === 1 ? (
-            <div
-              className="container-fluid text-end pe-5"
-              style={{
-                position: "absolute",
-                bottom: "30%",
-                left: "0",
-              }}
-            >
-              <h1 className="fw-bolder letter-spacing2 text-white text-uppercase">
-                <span
-                  style={{
-                    background: "#2061abAA",
-                    padding: ".75rem 1.5rem",
-                  }}
-                  data-aos="zoom-in"
-                  data-aos-duration={2500}
-                >
-                  BIM Services
-                </span>
-              </h1>
-            </div>
-          ) : // <div className="container-fluid text-center p-0 h-100">
-          //   <h4
-          //     className="blueText fw-bold text-uppercase letter-spacing1 text-center pt-3 pb-3"
-          //     style={{
-          //       position: "absolute",
-          //       top: "85%",
-          //       left: "50%",
-          //       borderBottom: "3px solid #2061ab",
-          //       borderTop: "3px solid #2061ab",
-          //     }}
-          //     data-aos="zoom-in"
-          //     data-aos-duration={1500}
-          //   >
-          //     CAD Services
-          //   </h4>
-          //   <h5
-          //                             style={{
-          //                                 position: 'absolute',
-          //                                 top: '70%',
-          //                                 width: '100%'
-          //                             }}
-          //                             data-aos="zoom-out"
-          //                             data-aos-delay={1500}
-          //                             data-aos-duration={1500}
-          //                             className='text-dark fw-bold text-uppercase text-center d-block w-100'
-          //                         >
-          //                             The structural integration
-          //                         </h5>
-          // </div>
-          index === 2 ? (
-            <div
-              className="conntainer-fluid text-end pe-5"
-              style={{
-                position: "absolute",
-                bottom: "30%",
-                left: "0",
-              }}
-            >
-              <h2 className="fw-bolder letter-spacing2 text-white text-uppercase">
-                <span
-                  style={{
-                    borderTop: "3px solid #2061AB",
-                    borderBottom: "3px solid #2061AB",
-                  }}
-                  data-aos="fade-right"
-                  data-aos-duration={1500}
-                >
-                  BIM Consultation
-                </span>
-              </h2>
-            </div>
-          ) : index === 3 ? (
-            <div className="container-fluid h-100 p-0">
-              <div
-                className="w-50 h-100"
-                style={{
-                  position: "absolute",
-                  left: 0,
-                }}
-              >
-                <div
-                  className="hv-center d-flex h-100"
-                  style={{
-                    width: "80%",
-                  }}
-                >
-                  <h2
-                    className="text-uppercase fw-bold letter-spacing2 blueText pb-2"
-                    style={{
-                      borderBottom: "3px solid #2061AB",
-                    }}
-                    data-aos="fade-right"
-                    data-aos-duration={1500}
-                  >
-                    3D Visuals & Rendering Service
-                  </h2>
-                </div>
-              </div>
-              {/* <div
-                className="w-50 h-100"
-                style={{
-                  position: "absolute",
-                  left: "60%",
-                }}
-              >
-                <div
-                  className="hv-center d-flex h-100"
-                  style={{
-                    width: "80%",
-                  }}
-                >
-                  <h2
-                    className="text-uppercase fw-bold letter-spacing2 blueText pb-2"
-                    style={{
-                      borderBottom: "3px solid #2061AB",
-                    }}
-                    data-aos="fade-left"
-                    data-aos-delay={1500}
-                    data-aos-duration={1500}
-                  >
-                    Structural Modeling
-                  </h2>
-                </div>
-              </div> */}
-            </div>
-          ) : (
-            <div className="h-100 w-100">
-              <h2
-                className="text-uppercase blueText fw-bolder letter-spacing2 pt-3 pb-3"
-                style={{
-                  position: "absolute",
-                  top: "55%",
-                  right: "85%",
-                  borderTop: "3px solid #2061AB",
-                  borderBottom: "3px solid #2061AB",
-                }}
-                data-aos="fade-down"
-                data-aos-duration={2500}
-              >
-                CAD Drafting Services
-              </h2>
-            </div>
-          )}
-        </div>
-      ) : (
-        <div className="container p-0 mt-5 mb-5">
-          <Carousel fade>
-            {[
-              "Business Information Modeling",
-              "Design Engineering",
-              "Structural Modeling",
-              "Detailed Architect Information",
-            ].map((value, key) => {
-              return (
-                <Carousel.Item key={key} interval={3000}>
-                  <img
-                    src={`/images/Drawings/${key + 1}.png`}
-                    alt=""
-                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                  />
-                  <Carousel.Caption className="fw-bold blueText m-0">
-                    <h6 className="m-0 p-0">
-                      <span
-                        className="p-1 pt-2 pb-2 text-white text-uppercase"
-                        style={{
-                          backgroundColor: "#2061AB99",
-                          fontSize: ".95rem",
-                        }}
-                      >
-                        {value}
-                      </span>
-                    </h6>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              );
-            })}
-          </Carousel>
-        </div>
-      )}
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
     </>
   );
 };
@@ -348,7 +253,7 @@ export const ServiceDescription = () => {
                     />
                   </CardMedia> */}
                   <CardContent data-aos="fade-right" data-aos-delay={700}>
-                    <h6 className="text-center orangeText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
                       {data.name}
                     </h6>
                     <h6 className="text-justify blueText mt-3">
@@ -379,7 +284,7 @@ export const ServiceDescription = () => {
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                   />
                   <CardContent data-aos="fade-right" data-aos-delay={700}>
-                    <h6 className="text-center orangeText textBlue fw-bolder letter-spacing1 mb-2">
+                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
                       {data.name}
                     </h6>
                     <h6 className="text-justify blueText mt-3">
@@ -400,7 +305,7 @@ export const AllServices = () => {
   return (
     <div className="container-fluid mt-5 mb-5">
       <h2 className="text-center col-12 heading-text mt-5 mb-5 fw-bolder letter-spacing2">
-        Our Services
+        Our Expertise
       </h2>
       <div className="row" id="services_id">
         {AllServiceList.map((data, key) => {

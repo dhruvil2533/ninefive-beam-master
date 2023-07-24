@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import Description from "../../Constants/ServiceBrief";
 import { Footer } from "../Footer/Footer";
@@ -20,36 +21,72 @@ const DescriptionCard = () => {
   });
   return (
     <>
-      <h2 className="text-center blueText mt-5 mb-5 fw-bolder letter-spacing2 ">
+      <div className="section_Padding"></div>
+
+      <h2
+        className="text-center blueText mb-5 fw-bolder letter-spacing2 "
+        // style={{ marginTop: "7%" }}
+      >
         Our Services
       </h2>
-      <div className="d-lg-flex" style={{ margin: "5% 0" }}>
+      <div className="container">
+        <div className="card-container">
+          {Description.map((data, key) => {
+            return (
+              <div key={key} className="cardall">
+                <div className="blueBG05 p-3 h-100">
+                  <img
+                    src={`/images/services/${data.image}`}
+                    className="img-thumbnail"
+                    alt=""
+                  />
+                  <h6 className={`text-center fw-bold mt-5 text-white`}>
+                    {data.name}
+                  </h6>
+                  <h6 className={`text-justify fw-bold mt-5 text-white`}>
+                    {data.description}
+                  </h6>
+                  <Link
+                    to={`/sub-service/0/${data.name}`}
+                    className="text-white know-more-btn  text-decoration-none btn btn-secondary"
+                  >
+                    Know More
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      {/* <div className="d-lg-flex" style={{ margin: "5% 0" }}>
         {Description.map((data, key) => {
           return (
             <div
               key={key}
               className="border border-light m-0 p-1"
-              style={{ width: deviceWidth > 992 ? "20%" : "100%" }}
+              style={{
+                width: deviceWidth > 992 ? "33%" : "100%",
+              }}
             >
-              <div className="blueBG05 random p-3 h-100">
+              <div className="blueBG05 p-3 h-100 ">
                 <img
                   src={`/images/services/${data.image}`}
                   className="img-thumbnail"
                   alt=""
-                  data-aos="zoom-in"
-                  data-aos-delay={700}
+                  // data-aos="zoom-in"
+                  // data-aos-delay={700}
                 />
                 <h6
                   className={`text-center fw-bold mt-5 text-white`}
-                  data-aos="fade-right"
-                  data-aos-delay={700}
+                  // data-aos="fade-right"
+                  // data-aos-delay={700}
                 >
                   {data.name}
                 </h6>
                 <h6
                   className={`text-justify fw-bold mt-5 text-white`}
-                  data-aos="fade-right"
-                  data-aos-delay={700}
+                  // data-aos="fade-right"
+                  // data-aos-delay={700}
                 >
                   {data.description}
                 </h6>
@@ -64,7 +101,8 @@ const DescriptionCard = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
+      <Footer />
     </>
   );
 };
@@ -90,7 +128,7 @@ export const Services = () => {
           <WhatsApp />
         </IconButton>
       </MaterialLink>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

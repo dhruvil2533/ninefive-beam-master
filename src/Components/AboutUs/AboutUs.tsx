@@ -8,14 +8,15 @@ import Accountability from "../../Assets/Images/Core Values/accountability.png";
 import Integrity from "../../Assets/Images/Core Values/integrity.png";
 import Respect from "../../Assets/Images/Core Values/respect.png";
 import Teamwork from "../../Assets/Images/Core Values/teamwork.png";
+import img0 from "../Portfolio/images2/portfolio-image1.jpg";
 
 export const AboutUs = () => {
   document.title = "NineFive BIM - About Us";
   return (
     <div className="container-fluid p-0">
       <Header />
-      <div
-        className="container img-container mb-5 "
+      {/* <div
+        className=" img-container mb-5 "
         data-aos="zoom-in"
         data-aos-delay={700}
         id="about_us"
@@ -25,8 +26,59 @@ export const AboutUs = () => {
           We have done projects across residential, commercial, industrial,
           institutional and other segments.
         </h3>
-      </div>
+      </div> */}
+
+      {/* <div
+        className=" img-container mb-5"
+        data-aos="zoom-in"
+        data-aos-delay={700}
+      >
+        <div>
+          <img
+            src={img0}
+            alt="img-0"
+            style={{
+              width: "100%",
+              height: "450px",
+              position: "absolute",
+              left: 0,
+              right: 0,
+              top: 0,
+              zIndex: -2,
+            }}
+          />
+        </div>
+        <div style={{ zIndex: 0, color: "white" }}>
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <h1 className="text-bold text-center">NineFive BIM</h1>
+
+          <h3 className="text-center">(About Us)</h3>
+        </div>
+
+        <div
+          className="container-fluid"
+          style={{
+            width: "100%",
+            height: "450px",
+            backgroundColor: "black",
+            position: "absolute",
+            left: 0,
+            right: 0,
+            top: 0,
+            opacity: 0.4,
+            zIndex: -1,
+          }}
+        ></div>
+      </div> */}
+      <div className="section_Padding"></div>
       <div className="container mt-5 mb-5">
+        <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
+          About Us
+        </h3>
         <h5
           className="text-justify blueText text-center"
           data-aos="fade-left"
@@ -41,7 +93,7 @@ export const AboutUs = () => {
           Training forms an integral part of work ethics.
         </h5>
         <h3
-          className="text-center col-12 orangeText mt-5 mb-3 fw-bolder letter-spacing2"
+          className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2"
           data-aos="zoom-in"
           data-aos-delay={300}
         >
@@ -75,9 +127,7 @@ export const AboutUs = () => {
               className="img-thumbnail p-0 border-0 bg-transparent w-50"
             />
           </div>
-          <h4 className="fw-bolder text-center orangeText mt-3 mb-3">
-            Mission
-          </h4>
+          <h4 className="fw-bolder text-center blueText mt-3 mb-3">Mission</h4>
           <h6 className="text-center blueText">
             We aim to maintain the highest standards of professionalism,
             integrity, high-quality client satisfaction, and technological
@@ -94,7 +144,7 @@ export const AboutUs = () => {
               className="img-thumbnail p-0 border-0 bg-transparent w-50"
             />
           </div>
-          <h4 className="fw-bolder text-center orangeText mt-3 mb-3">Vision</h4>
+          <h4 className="fw-bolder text-center blueText mt-3 mb-3">Vision</h4>
           <h6 className="text-center blueText">
             Our vision is to be a leading global participant in the
             pre-construction industry by integrating cutting-edge and developing
@@ -127,7 +177,7 @@ export const AboutUs = () => {
                 width={"100%"}
                 alt=""
               />
-              <h3 className="text-center orangeText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
+              <h3 className="text-center blueText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
                 Accountability
               </h3>
 
@@ -147,7 +197,7 @@ export const AboutUs = () => {
           >
             <CardContent>
               <img src={Respect} height={"300px"} width={"100%"} alt="" />
-              <h3 className="text-center orangeText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
+              <h3 className="text-center blueText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
                 Respect
               </h3>
 
@@ -167,7 +217,7 @@ export const AboutUs = () => {
           >
             <CardContent>
               <img src={Integrity} height={"300px"} width={"100%"} alt="" />
-              <h3 className="text-center orangeText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
+              <h3 className="text-center blueText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
                 Integrity
               </h3>
 
@@ -187,7 +237,7 @@ export const AboutUs = () => {
           >
             <CardContent>
               <img src={Teamwork} height={"300px"} width={"100%"} alt="" />
-              <h3 className="text-center orangeText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
+              <h3 className="text-center blueText textBlue fw-bold letter-spacing1 d-none d-lg-block mb-2">
                 Teamwork
               </h3>
 
