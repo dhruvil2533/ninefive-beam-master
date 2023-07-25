@@ -37,7 +37,7 @@ const DescriptionCard = () => {
               key // Display the first three cards in the first row
             ) => (
               <div
-                className="col-md-4 mb-5 p-2" // Adjust the column sizes as per your preference
+                className="col-md-4 mb-5 " // Adjust the column sizes as per your preference
                 data-aos="zoom-in"
                 data-aos-delay={300}
                 key={key}
@@ -55,6 +55,8 @@ const DescriptionCard = () => {
                     <h6 className="text-justify blueText mt-3">
                       {data.description}
                     </h6>
+                    <br />
+                    <br />
                     <Link
                       to={`/sub-service/0/${data.name}`}
                       className="text-white know-more-btn  text-decoration-none btn btn-secondary"
@@ -62,6 +64,8 @@ const DescriptionCard = () => {
                       Know More
                     </Link>
                   </CardContent>
+                  <br />
+                  <br />
                 </Card>
               </div>
             )
@@ -75,7 +79,7 @@ const DescriptionCard = () => {
               key // Display the remaining two cards in the second row
             ) => (
               <div
-                className="col-md-4 mb-5 p-2" // Adjust the column sizes as per your preference
+                className="col-md-4 mb-5" // Adjust the column sizes as per your preference
                 data-aos="zoom-in"
                 data-aos-delay={300}
                 key={key}
@@ -93,6 +97,8 @@ const DescriptionCard = () => {
                     <h6 className="text-justify blueText mt-3">
                       {data.description}
                     </h6>
+                    <br />
+                    <br />
                     <Link
                       to={`/sub-service/0/${data.name}`}
                       className="text-white know-more-btn  text-decoration-none btn btn-secondary"
@@ -100,6 +106,8 @@ const DescriptionCard = () => {
                       Know More
                     </Link>
                   </CardContent>
+                  <br />
+                  <br />
                 </Card>
               </div>
             )

@@ -123,14 +123,12 @@ export const AboutUs = () => {
           <div className="col-lg-4 p-4">
             <div className="container mt-3 mb-3 text-center">
               <img
-                src="/images/icons/mission-icon.svg"
+                src="/images/icons/icon-1.png"
                 alt=""
                 className="img-thumbnail p-0 border-0 bg-transparent w-50"
               />
             </div>
-            <h4 className="fw-bolder text-center blueText mt-3 mb-3">
-              Mission
-            </h4>
+            <h4 className="fw-bolder text-center blueText mb-3">Mission</h4>
             <p className=" blueText text-justify">
               We aim to maintain the highest standards of professionalism,
               integrity, high-quality client satisfaction, and technological
@@ -143,7 +141,7 @@ export const AboutUs = () => {
           <div className="col-lg-4 p-4">
             <div className="container mt-3 mb-3 text-center">
               <img
-                src="/images/icons/vision-icon.svg"
+                src="/images/icons/icon-2.png"
                 alt=""
                 className="img-thumbnail p-0 border-0 bg-transparent w-50"
               />

@@ -82,7 +82,11 @@ const Drawings = () => {
 
   return (
     <>
-      <div id="carouselExample" className="carousel slide carousel-fade">
+      <div
+        id="carouselExampleAutoplaying"
+        className="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-inner">
           <div className="carousel-item active">
             <h2
@@ -160,7 +164,7 @@ const Drawings = () => {
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
           <span className="carousel-control-prev-icon" aria-hidden="true" />
@@ -169,7 +173,7 @@ const Drawings = () => {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true" />
@@ -194,7 +198,7 @@ export const Features = () => {
           style={{ width: "100%", height: "100%" }}
         />
         <div>
-          <h5 className="text-justify blueText mt-5">
+          <h5 className=" blueText mt-5">
             At NineFive BIM, we understand the complexities and challenges that
             come with outsourcing your architectural, engineering, and
             construction (AEC) projects. <br />
@@ -252,7 +256,7 @@ export const ServiceDescription = () => {
                       className="w-75 bg-transparent"
                     />
                   </CardMedia> */}
-                  <CardContent data-aos="fade-right" data-aos-delay={700}>
+                  <CardContent data-aos="fade-right" data-aos-delay={500}>
                     <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
                       {data.name}
                     </h6>
@@ -283,7 +287,7 @@ export const ServiceDescription = () => {
                     alt=""
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                   />
-                  <CardContent data-aos="fade-right" data-aos-delay={700}>
+                  <CardContent data-aos="fade-right" data-aos-delay={500}>
                     <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
                       {data.name}
                     </h6>

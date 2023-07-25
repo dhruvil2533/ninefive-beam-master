@@ -240,7 +240,9 @@ export const Header = () => {
       <div className="container-fluid p-2 blueBG text-white d-block d-lg-none">
         <div className="row">
           <div className="col-9 text-center">
-            <img src={logo} alt="" className="logo border-0 " />
+            <Link to="/">
+              <img src={logo} alt="" className="logo border-0 " />
+            </Link>
           </div>
           <div className="col-3">
             <div className="h-100 d-inline-block align-middle"></div>
