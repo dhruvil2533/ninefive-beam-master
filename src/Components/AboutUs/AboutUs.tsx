@@ -9,7 +9,7 @@ import Integrity from "../../Assets/Images/Core Values/integrity.png";
 import Respect from "../../Assets/Images/Core Values/respect.png";
 import Teamwork from "../../Assets/Images/Core Values/teamwork.png";
 import img0 from "../Portfolio/images2/portfolio-image1.jpg";
-
+import Aboutcards from "../../Constants/aboutus";
 export const AboutUs = () => {
   document.title = "NineFive BIM - About Us";
   return (
@@ -155,15 +155,45 @@ export const AboutUs = () => {
         <div className="col-lg-3"></div>
       </div>
 
-      <div className="row p-3">
-        <h2
+      <div className="container p-3">
+        <h3
           className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
           data-aos="zoom-in"
           data-aos-delay={300}
         >
           Core Values
-        </h2>
-        <div className="col-lg-3 p-3">
+        </h3>
+
+        <div className="container">
+          <div className="row justify-content-center">
+            {Aboutcards.map((data, key) => (
+              <div
+                className="col-12 col-md-6 col-lg-3 mb-4 p-2" // Adjust the column sizes as per your preference
+                data-aos="zoom-in"
+                data-aos-delay={key * 100} // Delay the animation for each card
+                key={key}
+              >
+                <Card className="h-100 me-2 shadow-lg card-filling">
+                  <img
+                    src={`/images/services/${data.image}`}
+                    alt=""
+                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
+                  />
+                  <CardContent data-aos="fade-right" data-aos-delay={500}>
+                    <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                      {data.name}
+                    </h2>
+                    <h6 className="text-justify blueText mt-3">
+                      {data.description}
+                    </h6>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* <div className="col-lg-3 p-3">
           <Card
             className="shadow"
             data-aos="zoom-out"
@@ -246,7 +276,7 @@ export const AboutUs = () => {
               </h6>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
       <MaterialLink href="https://wa.me/7016591928" target="_blank">
         <IconButton

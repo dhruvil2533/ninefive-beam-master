@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Card, CardContent, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
 import Description from "../../Constants/ServiceBrief";
 import { Footer } from "../Footer/Footer";
@@ -30,6 +30,84 @@ const DescriptionCard = () => {
         Our Services
       </h2>
       <div className="container">
+        <div className="row ">
+          {Description.slice(0, 3).map(
+            (
+              data,
+              key // Display the first three cards in the first row
+            ) => (
+              <div
+                className="col-md-4 mb-5 p-2" // Adjust the column sizes as per your preference
+                data-aos="zoom-in"
+                data-aos-delay={300}
+                key={key}
+              >
+                <Card className="h-100 shadow-lg card-filling">
+                  <img
+                    src={`/images/services/${data.image}`}
+                    alt=""
+                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
+                  />
+                  <CardContent data-aos="fade-right" data-aos-delay={500}>
+                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                      {data.name}
+                    </h6>
+                    <h6 className="text-justify blueText mt-3">
+                      {data.description}
+                    </h6>
+                    <Link
+                      to={`/sub-service/0/${data.name}`}
+                      className="text-white know-more-btn  text-decoration-none btn btn-secondary"
+                    >
+                      Know More
+                    </Link>
+                  </CardContent>
+                </Card>
+              </div>
+            )
+          )}
+        </div>
+
+        <div className="row  justify-content-center">
+          {Description.slice(3).map(
+            (
+              data,
+              key // Display the remaining two cards in the second row
+            ) => (
+              <div
+                className="col-md-4 mb-5 p-2" // Adjust the column sizes as per your preference
+                data-aos="zoom-in"
+                data-aos-delay={300}
+                key={key}
+              >
+                <Card className="h-100 shadow-lg card-filling">
+                  <img
+                    src={`/images/services/${data.image}`}
+                    alt=""
+                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
+                  />
+                  <CardContent data-aos="fade-right" data-aos-delay={400}>
+                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                      {data.name}
+                    </h6>
+                    <h6 className="text-justify blueText mt-3">
+                      {data.description}
+                    </h6>
+                    <Link
+                      to={`/sub-service/0/${data.name}`}
+                      className="text-white know-more-btn  text-decoration-none btn btn-secondary"
+                    >
+                      Know More
+                    </Link>
+                  </CardContent>
+                </Card>
+              </div>
+            )
+          )}
+        </div>
+      </div>
+
+      {/* <div className="container">
         <div className="card-container">
           {Description.map((data, key) => {
             return (
@@ -57,7 +135,7 @@ const DescriptionCard = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
       {/* <div className="d-lg-flex" style={{ margin: "5% 0" }}>
         {Description.map((data, key) => {
           return (
@@ -112,13 +190,13 @@ export const Services = () => {
   return (
     <>
       <Header />
-      <div
+      {/* <div
         style={{
           height: "100vh",
         }}
-      >
-        <DescriptionCard />
-      </div>
+      > */}
+      <DescriptionCard />
+      {/* </div> */}
       <MaterialLink href="https://wa.me/7016591928" target="_blank">
         <IconButton
           size="large"
