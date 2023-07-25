@@ -596,3 +596,126 @@ img {
     margin: 5% 0;
   }
 }
+
+.Dis_container {
+  width: 50%;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 17%;
+  left: 45%;
+}
+/* .design {
+  width: 10%;
+  background-color: red;
+} */
+#tab-0,
+#tab-1,
+#tab-2,
+#tab-3,
+#tab-4,
+#tab-5,
+#tab-6,
+#tab-7 {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.276);
+  height: 45px;
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+}
+#tab-0:active,
+#tab-1:active,
+#tab-2:active,
+#tab-3:active,
+#tab-4:active,
+#tab-5:active,
+#tab-6:active,
+#tab-7:active {
+  background-color: #19394d;
+  color: white;
+}
+#tab-0:focus,
+#tab-1:focus,
+#tab-2:focus,
+#tab-3:focus,
+#tab-4:focus,
+#tab-5:focus,
+#tab-6:focus,
+#tab-7:focus {
+  background-color: #19394d;
+  color: white;
+}
+
+.accordion-body {
+  padding: 0;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    left: 0%;
+    text-align: justify;
+  }
+  .accordion {
+    width: 100%;
+  }
+}
+@media (min-width: 400px) and (max-width: 800px) {
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 115%;
+    left: 0%;
+    text-align: justify;
+  }
+  .accordion {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    left: 0%;
+    text-align: justify;
+  }
+  .accordion {
+    width: 100%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .Dis_container {
+    width: 55%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 17%;
+    left: 41%;
+  }
+  .accordion {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .Dis_container {
+    width: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 17%;
+    left: 47%;
+  }
+}

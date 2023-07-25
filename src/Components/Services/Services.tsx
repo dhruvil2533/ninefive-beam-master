@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Card, CardContent, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
 import Description from "../../Constants/ServiceBrief";
@@ -7,18 +8,40 @@ import { Header } from "../Header/Header";
 import { WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
 import ServiceData from "../../Constants/Services.json";
-
+import Tabs from "../SubService/tabs";
 type MouseOverType = {
   mouseOver: boolean;
   key: number;
 };
+const Home = () => <div>Home Component</div>;
+const Profile = () => <div>Profile Component</div>;
+const Contact = () => <div>Contact Component</div>;
+
+//  Tabs Array
+const tabs = [
+  {
+    label: "Home", // define Label
+    Component: Home, // assign Component
+  },
+  {
+    label: "Profile", // Add more
+    Component: Profile,
+  },
+  {
+    label: "Contact",
+    Component: Contact,
+  },
+];
 
 const DescriptionCard = () => {
+  const [selectedTab1, setSelectedTab1] = useState(0);
+  const [selectedTab2, setSelectedTab2] = useState(0);
   const deviceWidth = window.innerWidth;
   const [over, setOver] = React.useState<MouseOverType>({
     mouseOver: false,
     key: -1,
   });
+
   return (
     <>
       <div className="section_Padding"></div>
