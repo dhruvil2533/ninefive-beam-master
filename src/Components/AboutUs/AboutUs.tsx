@@ -79,7 +79,7 @@ export const AboutUs = () => {
         <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
           About Us
         </h3>
-        <h5
+        <p
           className="text-justify blueText text-center"
           data-aos="fade-left"
           data-aos-delay={300}
@@ -91,7 +91,7 @@ export const AboutUs = () => {
           To deliver the very best to clients, NineFive BIM believes that along
           with technology, enhancement of people skills is critical. Regular
           Training forms an integral part of work ethics.
-        </h5>
+        </p>
         <h3
           className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2"
           data-aos="zoom-in"
@@ -99,7 +99,7 @@ export const AboutUs = () => {
         >
           Who We Are?
         </h3>
-        <h5
+        <p
           className="text-justify blueText"
           data-aos="fade-up-left"
           data-aos-delay={300}
@@ -114,45 +114,51 @@ export const AboutUs = () => {
           With an Oath to serve the vision of Arbaaz, This Company will provide
           innovative outsourcing solutions to lead the industry with state of
           the art quality, on-time delivery, and affordable prices.
-        </h5>
+        </p>
       </div>
 
-      <div className="row">
-        <div className="col-lg-3"></div>
-        <div className="col-lg-3 p-2">
-          <div className="container mt-3 mb-3 text-center">
-            <img
-              src="/images/icons/mission-icon.svg"
-              alt=""
-              className="img-thumbnail p-0 border-0 bg-transparent w-50"
-            />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-4 p-4">
+            <div className="container mt-3 mb-3 text-center">
+              <img
+                src="/images/icons/mission-icon.svg"
+                alt=""
+                className="img-thumbnail p-0 border-0 bg-transparent w-50"
+              />
+            </div>
+            <h4 className="fw-bolder text-center blueText mt-3 mb-3">
+              Mission
+            </h4>
+            <p className=" blueText text-justify">
+              We aim to maintain the highest standards of professionalism,
+              integrity, high-quality client satisfaction, and technological
+              know-how for our clients throughout the project-ideation process.
+              We promise to establish a long-lasting working relationship built
+              on trust and on-time delivery of products that will satisfy the
+              client.
+            </p>
           </div>
-          <h4 className="fw-bolder text-center blueText mt-3 mb-3">Mission</h4>
-          <h6 className="text-center blueText">
-            We aim to maintain the highest standards of professionalism,
-            integrity, high-quality client satisfaction, and technological
-            know-how for our clients throughout the project-ideation process. We
-            promise to establish a long-lasting working relationship built on
-            trust and on-time delivery of products that will satisfy the client.
-          </h6>
-        </div>
-        <div className="col-lg-3 p-2">
-          <div className="container mt-3 mb-3 text-center">
-            <img
-              src="/images/icons/vision-icon.svg"
-              alt=""
-              className="img-thumbnail p-0 border-0 bg-transparent w-50"
-            />
+          <div className="col-lg-4 p-4">
+            <div className="container mt-3 mb-3 text-center">
+              <img
+                src="/images/icons/vision-icon.svg"
+                alt=""
+                className="img-thumbnail p-0 border-0 bg-transparent w-50"
+              />
+            </div>
+            <h4 className="fw-bolder text-center blueText mt-3 mb-3">Vision</h4>
+            <p className=" blueText text-justify">
+              Our vision is to be a leading global participant in the
+              pre-construction industry by integrating cutting-edge and
+              developing technology into our projects with our in-depth
+              knowledge, effective teamwork, and communication to add value to
+              what we produce.
+            </p>
           </div>
-          <h4 className="fw-bolder text-center blueText mt-3 mb-3">Vision</h4>
-          <h6 className="text-center blueText">
-            Our vision is to be a leading global participant in the
-            pre-construction industry by integrating cutting-edge and developing
-            technology into our projects with our in-depth knowledge, effective
-            teamwork, and communication to add value to what we produce.
-          </h6>
+          <div className="col-lg-2"></div>
         </div>
-        <div className="col-lg-3"></div>
       </div>
 
       <div className="container p-3">
