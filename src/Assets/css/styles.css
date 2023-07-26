@@ -777,8 +777,11 @@ img {
     top: 119%;
     left: 0%;
   }
+  .Dis_container p {
+    text-align: justify;
+  }
   .container_padding {
-    padding-bottom: 74rem;
+    padding-bottom: 92rem;
   }
 }
 
