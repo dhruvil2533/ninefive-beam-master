@@ -11,10 +11,10 @@ import { AllServiceList } from "../../Constants/AllServices";
 import { Link } from "react-router-dom";
 import { WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
-import img1 from "./images/1.png";
-import img2 from "./images/2.png";
-import img3 from "./images/3.png";
-import img4 from "./images/4.png";
+import img1 from "./images/ninefive-1.jpg";
+import img2 from "./images/ninefive-2.jpg";
+import img3 from "./images/ninefive-3.jpg";
+import img4 from "./images/ninefive-4.jpg";
 
 type ImageProps = {
   path: string;
@@ -84,40 +84,40 @@ const Drawings = () => {
     <>
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide carousel-fade"
+        className="carousel slide carousel-fade mt-5"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
             <h2
-              className="img_title"
+              className="img_"
               style={{
                 position: "absolute",
-                bottom: "25%",
+                bottom: "30%",
                 left: "2%",
-                zIndex: "1",
+                color: "white",
+                zIndex: " 1",
                 fontWeight: "700",
-                borderBottom: "3px solid #19394d",
-                borderTop: "3px solid #19394d",
-                padding: "5px 0",
+                borderBottom: "3px solid white",
+                borderTop: "3px solid white",
               }}
             >
               Bim Services
             </h2>
-            <img src={img1} className="d-block w-100" alt="..." />
+            <img src={img1} className="d-block w-100 " alt="..." />
           </div>
           <div className="carousel-item">
             <h2
-              className="img_title"
+              className="img_"
               style={{
                 position: "absolute",
-                bottom: "25%",
+                bottom: "30%",
                 left: "2%",
-                zIndex: "1",
+                color: "white",
+                zIndex: " 1",
                 fontWeight: "700",
-                borderBottom: "3px solid #19394d",
-                borderTop: "3px solid #19394d",
-                padding: "5px 0",
+                borderBottom: "3px solid white",
+                borderTop: "3px solid white",
               }}
             >
               BIM Consultation
@@ -126,16 +126,16 @@ const Drawings = () => {
           </div>
           <div className="carousel-item">
             <h2
-              className="img_title"
+              className="img_"
               style={{
                 position: "absolute",
-                bottom: "25%",
+                bottom: "30%",
                 left: "2%",
-                zIndex: "1",
+                color: "white",
+                zIndex: " 1",
                 fontWeight: "700",
-                borderBottom: "3px solid #19394d",
-                borderTop: "3px solid #19394d",
-                padding: "5px 0",
+                borderBottom: "3px solid white",
+                borderTop: "3px solid white",
               }}
             >
               3D Visuals & Rendering Service
@@ -144,16 +144,16 @@ const Drawings = () => {
           </div>
           <div className="carousel-item">
             <h2
-              className="img_title"
+              className="img_"
               style={{
                 position: "absolute",
-                bottom: "25%",
+                bottom: "30%",
                 left: "2%",
-                zIndex: "1",
+                color: "white",
+                zIndex: " 1",
                 fontWeight: "700",
-                borderBottom: "3px solid #19394d",
-                borderTop: "3px solid #19394d",
-                padding: "5px 0",
+                borderBottom: "3px solid white",
+                borderTop: "3px solid white",
               }}
             >
               CAD Drafting Services

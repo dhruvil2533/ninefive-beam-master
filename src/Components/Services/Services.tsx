@@ -33,6 +33,8 @@ const tabs = [
   },
 ];
 
+const array1 = [0, 1, 2, 3, 4];
+
 const DescriptionCard = () => {
   const [selectedTab1, setSelectedTab1] = useState(0);
   const [selectedTab2, setSelectedTab2] = useState(0);

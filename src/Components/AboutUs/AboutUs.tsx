@@ -10,7 +10,10 @@ import Respect from "../../Assets/Images/Core Values/respect.png";
 import Teamwork from "../../Assets/Images/Core Values/teamwork.png";
 import img0 from "../Portfolio/images2/portfolio-image1.jpg";
 import Aboutcards from "../../Constants/aboutus";
+import Description from "../../Constants/ServiceBrief";
+import aboutdes from "./aboutD";
 export const AboutUs = () => {
+  const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
   return (
     <div className="container-fluid p-0">
@@ -178,18 +181,27 @@ export const AboutUs = () => {
                 key={key}
               >
                 <Card className="h-100 me-2 shadow-lg card-filling">
-                  <img
+                  {/* <img
                     src={`/images/services/${data.image}`}
                     alt=""
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                  />
+                  /> */}
                   <CardContent data-aos="fade-right" data-aos-delay={500}>
-                    <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
-                      {data.name}
-                    </h2>
-                    <h6 className="text-justify blueText mt-3">
-                      {data.description}
-                    </h6>
+                    <div>
+                      <img
+                        src={`/images/services/${data.image}`}
+                        alt=""
+                        className="imgg border-0 p-0 rounded-0 bg-transparent"
+                      />
+                    </div>
+                    <div>
+                      <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                        {data.name}
+                      </h2>
+                      <h6 className="text-justify blueText mt-3">
+                        {data.description}
+                      </h6>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
@@ -281,7 +293,202 @@ export const AboutUs = () => {
             </CardContent>
           </Card>
         </div> */}
+
+        <div className="container">
+          <h3
+            className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
+            data-aos="zoom-in"
+            data-aos-delay={300}
+          >
+            Why Choose NineFive BIM?
+          </h3>
+
+          <p>
+            At NineFive BIM, we understand the complexities and challenges that
+            come with outsourcing your architectural, engineering, and
+            construction (AEC) projects. <br />
+            <br />
+            We strive to be your trusted partner in providing Building
+            Information Modeling (BIM) services, revolutionizing the way you
+            plan, design, construct, and manage your projects. Here are the
+            compelling reasons to choose NineFive BIM for all your outsourcing
+            requirements:
+          </p>
+          <div className="row ">
+            {aboutdes.map((data, key) => {
+              return (
+                <>
+                  {deviceWidth > 992 ? (
+                    <div
+                      className="mb-5 p-2"
+                      style={{ width: "33%" }}
+                      data-aos="zoom-in"
+                      data-aos-delay={300}
+                      key={key}
+                    >
+                      <Card className="h-100 shadow-lg card-filling">
+                        {/* <img
+                          src={`/images/services/${data.image}`}
+                          alt=""
+                          className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
+                        /> */}
+                        {/* <CardMedia>
+                    <Image
+                      data-aos="fade-right"
+                      data-aos-delay={400}
+                      path={`home/service/${data.image}`}
+                      className="w-75 bg-transparent"
+                    />
+                  </CardMedia> */}
+                        <CardContent data-aos="fade-right" data-aos-delay={500}>
+                          <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                            {data.name}
+                          </h6>
+                          <h6 className="text-justify blueText mt-3">
+                            {data.description}
+                          </h6>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  ) : (
+                    <div
+                      className="container mb-5 p-2"
+                      data-aos="zoom-in"
+                      data-aos-delay={300}
+                      key={key}
+                    >
+                      <Card className="h-100 shadow-lg card-filling">
+                        {/* <CardMedia image="/public/images/services/bim-modeling.JPG" /> */}
+                        {/* <Image
+                      data-aos="fade-right"
+                      data-aos-delay={400}
+                      path={`home/service/${data.image}`}
+                      className="w-75 bg-transparent"
+                    /> */}
+                        {/* </CardMedia> */}
+                        {/* <img
+                          src={`/images/services/${data.image}`}
+                          alt=""
+                          className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
+                        /> */}
+                        <CardContent data-aos="fade-right" data-aos-delay={500}>
+                          <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                            {data.name}
+                          </h6>
+                          <h6 className="text-justify blueText mt-3">
+                            {data.description}
+                          </h6>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  )}
+                </>
+              );
+            })}
+          </div>
+
+          {/* <div>
+            <h3 style={{ color: "#19394d" }}>1. Expertise and Experience:</h3>
+            <p>
+              With a team of highly skilled and experienced professionals,
+              NineFive BIM brings a wealth of expertise to the table. We have a
+              proven track record of successfully delivering BIM solutions for
+              various projects, including commercial buildings, residential
+              complexes, infrastructure development, and more. Our proficiency
+              in the latest BIM software and technologies ensures accurate and
+              efficient project execution.
+            </p>
+            <h3 style={{ color: "#19394d" }}>
+              2. Comprehensive Range of Services:
+            </h3>
+            <p>
+              We offer a comprehensive suite of BIM services tailored to meet
+              the diverse needs of our clients. From 3D modeling and clash
+              detection to quantity takeoffs, construction documentation, and
+              facility management, we cover every aspect of the project
+              lifecycle. Our multidisciplinary approach enables us to deliver
+              integrated solutions that streamline collaboration and enhance
+              project outcomes.
+            </p>
+            <h3 style={{ color: "#19394d" }}>3. Cost-Effectiveness:</h3>
+            <p>
+              Outsourcing your BIM requirements to NineFive BIM can
+              significantly reduce your project costs. By leveraging our
+              expertise and infrastructure, you can eliminate the need for
+              in-house BIM teams, software licenses, and hardware investments.
+              We offer flexible engagement models, allowing you to scale
+              resources up or down based on project demands, ensuring optimal
+              resource utilization and cost-efficiency.
+            </p>
+            <h3 style={{ color: "#19394d" }}>4. Time Efficiency:</h3>
+            <p>
+              At NineFive BIM, we prioritize delivering projects within the
+              stipulated timelines. Our streamlined workflows, standardized
+              processes, and project management expertise ensure efficient
+              project execution. By outsourcing to us, you can leverage our
+              ability to meet deadlines while maintaining the highest quality
+              standards, accelerating your project schedules, and gaining a
+              competitive edge.
+            </p>
+            <h3 style={{ color: "#19394d" }}>5. Quality Assurance:</h3>
+            <p>
+              We adhere to stringent quality control processes to ensure the
+              accuracy and reliability of our deliverables. Our team follows
+              industry best practices and standards, conducting regular quality
+              checks at every project phase. From model accuracy and
+              coordination to data integrity and compliance, we guarantee the
+              highest level of quality in our BIM services.
+            </p>
+            <h3 style={{ color: "#19394d" }}>
+              6. Data Security and Confidentiality:
+            </h3>
+            <p>
+              We understand the importance of data security and confidentiality
+              in the outsourcing industry. At NineFive BIM, we implement robust
+              data protection measures to safeguard your intellectual property
+              and project-related information. Our secure infrastructure,
+              stringent access controls, and confidentiality agreements ensure
+              the utmost protection of your sensitive data.
+            </p>
+            <h3 style={{ color: "#19394d" }}>
+              7. Collaboration and Communication:
+            </h3>
+            <p>
+              Effective communication and collaboration are vital for successful
+              outsourcing partnerships. Our team is proficient in English and
+              skilled in intercultural communication, ensuring smooth
+              collaboration across geographies. We employ advanced collaboration
+              tools and platforms to facilitate real-time communication,
+              enabling seamless project coordination and fostering transparency.
+            </p>
+            <h3 style={{ color: "#19394d" }}>
+              8. Scalability and Flexibility:
+            </h3>
+            <p>
+              NineFive BIM is equipped to handle projects of varying sizes and
+              complexities. Whether you require BIM support for a small-scale
+              residential project or a large-scale infrastructure development,
+              we have the capability to scale resources accordingly. Our
+              flexible engagement models allow you to adapt to changing project
+              requirements, ensuring a tailored outsourcing experience.
+            </p>
+            <h3 style={{ color: "#19394d" }}>9. Customer Satisfaction:</h3>
+            <p>
+              Client satisfaction is at the core of our business philosophy. We
+              believe in establishing long-term relationships by delivering
+              exceptional value and exceeding expectations. Our customer-centric
+              approach ensures that we understand your unique needs and provide
+              customized solutions that align with your project goals. <br />
+              <br />
+              Choose NineFive BIM as your trusted outsourcing partner and unlock
+              the full potential of BIM for your AEC projects. Contact us today
+              to discuss how we can collaborate to drive innovation, efficiency,
+              and success in your projects.
+            </p>
+          </div> */}
+        </div>
       </div>
+
       <MaterialLink href="https://wa.me/7016591928" target="_blank">
         <IconButton
           size="large"

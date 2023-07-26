@@ -1192,6 +1192,8 @@ const Twentynine = () => (
   </div>
 );
 
+const thirty = () => <div>hello!</div>;
+
 // const thirteen = () => (
 //   <div className="Dis_container">Space & Facility management</div>
 // );
@@ -1326,7 +1328,19 @@ const tabsfive = [
     Component: Twentynine,
   },
 ];
+
 export const SubService = () => {
+  const modalsData = [
+    {
+      title: "Modal 1 Title",
+      content: "Modal 1 Content Here",
+    },
+    {
+      title: "Modal 2 Title",
+      content: "Modal 2 Content Here",
+    },
+    // Add more objects for each modal
+  ];
   // const [selectedTab1, setSelectedTab1] = useState(0);
   const [selectedTab2, setSelectedTab2] = useState(0);
   const { service, name } = useParams();
@@ -1365,34 +1379,43 @@ export const SubService = () => {
     <div className="container-fluid p-0">
       <Header />
       <div className="section_Padding"></div>
-
+      <div className="section_Padding"></div>
+      <Link to="./modal.tsx"></Link>
       <div className="container">
         <div className="accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button collapsed "
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                BIM Services
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              className="accordion-collapse collapse show"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div className="accordion-body show">
-                <Tabs
-                  selectedTab={selectedTab2}
-                  onClick={setSelectedTab2}
-                  tabs={tabsone}
-                  type="pills"
-                />
+            <div className="row d-flex flex-column">
+              <div className="col">
+                <div>
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      BIM Services
+                    </button>
+                  </h2>
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  id="flush-collapseOne"
+                  className="accordion-collapse collapse show"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div className="accordion-body show">
+                    <Tabs
+                      selectedTab={selectedTab2}
+                      onClick={setSelectedTab2}
+                      tabs={tabsone}
+                      type="pills"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1509,6 +1532,8 @@ export const SubService = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br /> <br />
       </div>
       {/* <div className="container_padding"></div> */}
       {/* <div className="container">
@@ -1596,7 +1621,6 @@ export const SubService = () => {
           </div>
         </div>
       </div> */}
-
       {/* <div className="container mt-5 mb-5">
         <h4
           className="redText col-12 fw-bold mb-5 text-center display-5"
@@ -1793,7 +1817,6 @@ export const SubService = () => {
           })}
       </div> */}
       <div className="section_Padding"></div>
-
       <div className="section_Padding"></div>
       <div className="container-fluid mt-3 mb-3 p-0"></div>
       <MaterialLink href="https://wa.me/7016591928" target="_blank">
@@ -1805,7 +1828,7 @@ export const SubService = () => {
           <WhatsApp />
         </IconButton>
       </MaterialLink>
-      <div className="container_padding"></div>
+      {/* <div className="container_padding"></div> */}
       <Footer />
     </div>
   );

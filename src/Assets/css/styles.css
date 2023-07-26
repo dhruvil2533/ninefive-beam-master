@@ -4,6 +4,16 @@ body {
   font-family: "Exo 2", sans-serif !important;
   overflow-x: hidden;
 }
+.img_ {
+  position: "absolute";
+  bottom: 0%;
+  left: 2%;
+  z-index: 1;
+  font-weight: 700;
+  border-bottom: 3px solid #19394d;
+  border-top: 3px solid #19394d;
+  padding: 5px 0;
+}
 
 html {
   padding: 0 !important;
@@ -581,11 +591,11 @@ img {
 }
 
 .Dis_container {
-  width: 50%;
+  width: 40%;
   background-color: transparent;
   position: absolute;
   right: 0;
-  top: 17%;
+  top: 18%;
   left: 45%;
 }
 .Dis_container hr {
@@ -594,6 +604,29 @@ img {
   opacity: 1;
   background-color: #4d7d9b;
   margin: 10px auto;
+}
+.accordion {
+  width: 500px;
+}
+.Dis_container p {
+  text-align: justify;
+}
+@media (max-width: 1200px) {
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: static;
+  }
+
+  .accordion-item .row .col {
+    width: 100%;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .Dis_container p {
+    text-align: justify;
+  }
 }
 /* .design {
   width: 10%;
@@ -652,10 +685,10 @@ img {
 .container_padding {
   padding-bottom: 2rem;
 }
+/* .d-block {
+  height: 95vh;
+} */
 
-.accordion {
-  width: 500px;
-}
 /* .accordion-body {
   position: absolute;
   left: 0;
@@ -666,9 +699,12 @@ img {
     display: flex;
     width: 100%;
   }
+  /* .d-block {
+    height: 100%;
+  } */
 }
 
-@media (min-width: 1000px) and (max-width: 1400px) {
+/* @media (min-width: 1000px) and (max-width: 1400px) {
   .accordion {
     width: 400px;
   }
@@ -774,16 +810,17 @@ img {
     background-color: transparent;
     position: absolute;
     right: 0;
-    top: 119%;
+    top: 97%;
     left: 0%;
   }
   .Dis_container p {
     text-align: justify;
+    padding: 0px 5px;
   }
   .container_padding {
-    padding-bottom: 92rem;
+    padding-bottom: 87rem;
   }
-}
+} */
 
 /* @media (min-width: 376px) and (max-width: 390px) {
   .Dis_container {
@@ -846,13 +883,15 @@ img {
 }
 @media (min-width: 1200px) and (max-width: 1400px) {
 } */
-.img_title {
-  position: "absolute";
-  bottom: 25%;
-  left: 2%;
-  z-index: 1;
-  font-weight: 700;
-  border-bottom: 3px solid #19394d;
-  border-top: 3px solid #19394d;
-  padding: 5px 0;
+
+.containery p {
+  font-size: 16px;
+}
+
+.imgg {
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }

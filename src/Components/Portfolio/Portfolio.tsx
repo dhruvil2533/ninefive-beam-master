@@ -50,18 +50,6 @@ const Portfolio = () => {
   // };
   // const handleClose = () => setOpen(false);
 
-  // State to control the visibility of the modal
-  const [showModal, setShowModal] = useState(false);
-
-  // Event handler to open the modal
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  // Event handler to close the modal
-  const closeModal = () => {
-    setShowModal(false);
-  };
   return (
     <>
       <div className="container-fluid portfolio-container p-0">
@@ -290,11 +278,11 @@ const Portfolio = () => {
       <div className="main">
         <ul className="cards">
           <li className="cards_item">
-            <div className="card">
+            <div className="card ">
               <div className="card_image">
                 <img src={img2} />
               </div>
-              <div className="card_content img">
+              <div className="card_content img " style={{ zIndex: "2" }}>
                 <h2 className="card_title">Heritage church Facade model</h2>
                 <br />
                 <p className="card_text">
