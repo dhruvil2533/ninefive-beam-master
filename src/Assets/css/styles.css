@@ -542,23 +542,6 @@ img {
   display: flex;
   width: 20%;
 }
-.accordion {
-  width: 500px;
-}
-/* .accordion-body {
-  position: absolute;
-  left: 0;
-  width: 500px;
-} */
-@media (max-width: 990px) {
-  .responsive {
-    display: flex;
-    width: 100%;
-  }
-  .accordion {
-    width: 100%;
-  }
-}
 
 .section_Padding {
   padding-top: 6%;
@@ -658,21 +641,136 @@ img {
   padding-bottom: 2rem;
 }
 
-@media (max-width: 375px) {
+.accordion {
+  width: 500px;
+}
+/* .accordion-body {
+  position: absolute;
+  left: 0;
+  width: 500px;
+} */
+@media (max-width: 990px) {
+  .responsive {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .accordion {
+    width: 400px;
+  }
+  .Dis_container {
+    width: 50%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 9%;
+    left: 44%;
+  }
+  .container_padding {
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .accordion {
+    width: 371px;
+  }
+  .Dis_container {
+    width: 47%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 48%;
+    left: 53%;
+  }
+  .container_padding {
+    padding-bottom: 13rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .accordion {
+    width: 100%;
+  }
   .Dis_container {
     width: 100%;
     background-color: transparent;
     position: absolute;
     right: 0;
-    top: 119%;
+    top: 105%;
     left: 0%;
   }
   .container_padding {
-    padding-bottom: 58rem;
+    padding-bottom: 35rem;
+  }
+}
+@media (min-width: 701px) and (max-width: 800px) {
+  .accordion {
+    width: 100%;
+  }
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 115%;
+    left: 0%;
+  }
+  .container_padding {
+    padding-bottom: 35rem;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .accordion {
+    width: 100%;
+  }
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 96%;
+    left: 0%;
+  }
+  .container_padding {
+    padding-bottom: 47rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .accordion {
+    width: 100%;
+  }
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 102%;
+    left: 0%;
+  }
+  .container_padding {
+    padding-bottom: 40rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .accordion {
+    width: 100%;
+  }
+  .Dis_container {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 94%;
+    left: 0%;
+  }
+  .container_padding {
+    padding-bottom: 60rem;
   }
 }
 
-@media (min-width: 376px) and (max-width: 390px) {
+/* @media (min-width: 376px) and (max-width: 390px) {
   .Dis_container {
     width: 100%;
     background-color: transparent;
@@ -710,7 +808,7 @@ img {
   .container_padding {
     padding-bottom: 33rem;
   }
-}
+} */
 /* @media (min-width: 300px) and (max-width: 400px) {
   .accordion {
     width: 100%;
