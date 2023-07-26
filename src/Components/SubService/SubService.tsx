@@ -31,7 +31,13 @@ const one = () => (
       >
         Scan To BIM
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Whether you need to convert scans of your existing buildings and
         structures or retrieve as-built information post-construction, we have
         the perfect solution for you. Our Scan to BIM process is versatile and
@@ -70,7 +76,13 @@ const two = () => (
       >
         As-Build Models
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Transform your building's as-built conditions into a precisely drawn 3D
         model by digitizing and documenting its virtual rendition. As-built
         diagrams are typically produced during or after the construction phase
@@ -100,7 +112,13 @@ const three = () => (
       >
         BIM MEP Services
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         BIM is increasingly being utilized by MEP contractors, MEP consultants,
         and Design-Build firms to enhance the design, detailing, estimation,
         fabrication, and installation of MEP (mechanical, electrical, and
@@ -136,7 +154,13 @@ const four = () => (
       >
         Architectural and Structural BIM
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         BIM is a digital process that involves the creation of 3D models of a
         building's physical and functional characteristics. BIM services have
         become a vital part of the architecture, engineering, and construction
@@ -168,7 +192,13 @@ const five = () => (
       >
         Clash Detection & Coordination
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Clash detection and coordination services are essential for any
         construction project as they help to identify and resolve potential
         conflicts between different building systems before the construction
@@ -209,7 +239,13 @@ const six = () => (
       >
         Revit Family Creation
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Revit is a powerful software used in the architecture, engineering, and
         construction (AEC) industry for designing and documenting building
         projects. One of the key features of Revit is its ability to create
@@ -230,7 +266,13 @@ const seven = () => (
       >
         PDF or CAD to BIM
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Building Information Modeling (BIM) has become crucial for AEC
         professionals as it creates 3D digital building models for construction
         simulation and design evaluation before construction begins. However,
@@ -259,7 +301,13 @@ const eight = () => (
       >
         BIM Implementation & Execution Consultation
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         BIM is a digital representation of the physical and functional
         characteristics of a building or infrastructure project. It encompasses
         the use of intelligent 3D models that incorporate detailed information
@@ -287,7 +335,13 @@ const nine = () => (
       >
         Time Simulation & Cost estimation
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Introducing our comprehensive BIM Time Simulation and Cost Estimation
         services, designed to enhance project planning, optimize schedules,
         control costs, and streamline construction processes. By leveraging
@@ -311,7 +365,13 @@ const ten = () => (
       >
         Green Energy Building
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         As BIM Green Energy Building Consultation, we specialize in providing
         cutting-edge BIM services with a strong focus on green energy and
         sustainability. As a leading outsourcing company in the architectural
@@ -336,7 +396,13 @@ const eleven = () => (
       >
         Space & Facility management
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         BIM Space & Facility Management Consultation is a service that leverages
         the power of BIM technology to help organizations effectively manage
         their built environments. It combines the principles of BIM, space
@@ -363,7 +429,13 @@ const twelve = () => (
       >
         Scheduling and Quantity take-Off
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         At NineFive BIM, we specialize in BIM scheduling consultation services
         for the construction industry. Our expertise allows us to optimize
         project timelines, improve resource allocation, and enhance project
@@ -389,7 +461,13 @@ const thirteen = () => (
       >
         2D CAD Drafting
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         NineFive BIM, your premier destination for 2D CAD drafting services.
         With our extensive expertise and commitment to excellence, we provide
         top-notch drafting solutions to clients worldwide. Whether you're an
@@ -416,7 +494,13 @@ const fourteen = () => (
       >
         Architectural & Structural Drafting
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         NineFive BIM, the epitome of excellence in delivering exquisite
         architectural and structural drafting services. Equipped with a team of
         seasoned drafters and designers, we offer unrivaled outsourcing
@@ -439,7 +523,13 @@ const fifteen = () => (
       >
         CAD Conversions
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         In the realm of precise design work, CAD stands as a vital tool.
         However, collaboration and development can be impeded by outdated
         paper-based or incompatible digital drawings. Fear not, for our CAD
@@ -475,7 +565,13 @@ const sixteen = () => (
       >
         CAD As-build
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         CAD As-built is the process of creating accurate and detailed digital
         representations of existing buildings, infrastructure, or any physical
         structure. It involves capturing the current state of a facility,
@@ -510,7 +606,13 @@ const seventeen = () => (
       >
         SD/CD Sets
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Elevate your architectural and engineering endeavors with NineFive BIM,
         the foremost outsourcing company in the industry. We pride ourselves on
         delivering unparalleled solutions through our exquisite offerings in
@@ -557,7 +659,13 @@ const eighteen = () => (
       >
         Shop Drawings
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Shop drawings are detailed illustrations, diagrams, and plans that
         depict the specific dimensions, materials, and installation instructions
         for various components of a construction project. These drawings serve
@@ -582,7 +690,13 @@ const nineteen = () => (
       >
         Redline Markups
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         They are the industry-standard annotations and revisions made on
         electronic documents, usually in the form of red or colored lines, to
         indicate changes, suggestions, or feedback. Redline Markups enable
@@ -613,7 +727,13 @@ const Twenty = () => (
       >
         Interior & Exterior 3D Rendering
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Welcome to NineFive BIM, where we specialize in providing high-end
         Interior and Exterior 3D Rendering Services. Our team of skilled experts
         is dedicated to bringing your design visions to life through a
@@ -665,7 +785,13 @@ const Twentyone = () => (
       >
         3D Walkthrough
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         We excel in providing state-of-the-art 3D Walkthrough Services. Our team
         of talented professionals harnesses the power of creativity, technology,
         and expertise to breathe life into your architectural designs, real
@@ -693,7 +819,13 @@ const Twentytwo = () => (
       >
         Floor Plan Rendering
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Our Floor Plan Rendering Services are designed to transform your 2D
         blueprints into immersive and photorealistic 3D representations. Our
         skilled team of rendering artists and designers utilizes the latest
@@ -733,7 +865,13 @@ const Twentythree = () => (
       >
         Landscape & Outdoor Rendering
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Landscape and outdoor rendering is a crucial aspect of architectural
         visualization that allows clients to envision their projects in a
         realistic and immersive way. Whether you're an architect, landscape
@@ -782,7 +920,13 @@ const Twentyfour = () => (
       >
         Furniture & Product Rendering
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Our Furniture & Product Rendering Services cater to a wide range of
         industries, including furniture manufacturers, interior designers,
         architects, e-commerce businesses, and product developers. Whether you
@@ -823,7 +967,13 @@ const Twentyfive = () => (
       >
         AR & VR Services
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Augmented Reality (AR) is a technology that superimposes
         computer-generated elements onto the real world, enhancing the user's
         perception and interaction with their physical surroundings.By employing
@@ -871,7 +1021,13 @@ const Twentysix = () => (
       >
         Revit modeling service
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Revit modeling services play a crucial role in the field of
         architectural, engineering, and construction industries. As an
         outsourcing company, we specialize in providing high-quality Revit
@@ -909,7 +1065,13 @@ const Twentyseven = () => (
       >
         CAD Modeling Service
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         CAD modeling services provide businesses with professional expertise in
         creating detailed and accurate computer-aided design (CAD) models for a
         wide range of industries. Whether it's architectural, mechanical,
@@ -955,7 +1117,13 @@ const Twentyeight = () => (
       >
         Sketch Up modeling Service
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         Our talented SketchUp artists work closely with you to understand your
         project requirements, ensuring that every aspect is accurately captured
         in the model. Whether it's an intricate building facade, intricate
@@ -990,7 +1158,13 @@ const Twentynine = () => (
       >
         Rhino Modeling Service
       </h1>
-      <p>
+      <hr data-aos="fade-left" data-aos-delay={30} />
+      <p
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="70"
+        data-aos-offset="0"
+      >
         At NineFive BIM, we are proud to offer high-quality Rhino modeling
         services to meet the diverse needs of our clients. Rhino, also known as
         Rhinoceros or Rhino3D, is a powerful 3D computer-aided design (CAD)
@@ -1191,7 +1365,7 @@ export const SubService = () => {
     <div className="container-fluid p-0">
       <Header />
       <div className="section_Padding"></div>
-      <div className="section_Padding"></div>
+
       <div className="container">
         <div className="accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">

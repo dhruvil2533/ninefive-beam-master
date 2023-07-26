@@ -588,6 +588,13 @@ img {
   top: 17%;
   left: 45%;
 }
+.Dis_container hr {
+  width: 100px;
+  height: 2px;
+  opacity: 1;
+  background-color: #4d7d9b;
+  margin: 10px auto;
+}
 /* .design {
   width: 10%;
   background-color: red;
@@ -600,11 +607,12 @@ img {
 #tab-5,
 #tab-6,
 #tab-7 {
+  font-size: 14px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.276);
   height: 45px;
   background-color: white;
-  color: black;
+  color: #2c5d7c;
   border-radius: 1px;
 }
 #tab-0:active,
@@ -632,6 +640,10 @@ img {
 
 .accordion-body {
   padding: 0;
+}
+.accordion-button {
+  color: #19394d;
+  font-weight: 700;
 }
 .accordion-button:focus {
   box-shadow: none;
