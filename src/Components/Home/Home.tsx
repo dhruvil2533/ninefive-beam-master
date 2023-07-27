@@ -199,7 +199,7 @@ export const Features = () => {
               className="  choose_img ms-4 mt-4"
             />
           </div>
-          <div className="col p-5 text-start">
+          <div className="col text-start">
             <div>
               <p className=" blueText mt-5 fs-5">
                 At NineFive BIM, we understand the complexities and challenges
@@ -259,7 +259,7 @@ export const Features = () => {
 export const ServiceDescription = () => {
   const deviceWidth = window.innerWidth;
   return (
-    <div className="row p-3 p-lg-5">
+    <div className="row p-3 p-lg-5 mt-5">
       <h2 className="text-center col-12 heading-text mb-5 fw-bolder letter-spacing2">
         What We Provide?
       </h2>
