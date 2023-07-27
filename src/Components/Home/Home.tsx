@@ -84,7 +84,7 @@ const Drawings = () => {
     <>
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide carousel-fade mt-3"
+        className="carousel slide carousel-fade mt-5"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
@@ -190,6 +190,38 @@ export const Features = () => {
       <h2 className="text-center heading-text fw-bolder letter-spacing2 mt-5 pt-3">
         Why Choose NineFive BIM?
       </h2>
+      <div className="container">
+        <div className="row justify-content-center choose_col">
+          <div className="col text-centerm  m-auto">
+            <img
+              src={`/images/services/pc2.jpg`}
+              alt=""
+              className="  choose_img ms-4 mt-4"
+            />
+          </div>
+          <div className="col p-5 text-start">
+            <div>
+              <p className=" blueText mt-5 fs-5">
+                At NineFive BIM, we understand the complexities and challenges
+                that come with outsourcing your architectural, engineering, and
+                construction (AEC) projects. <br />
+                <br />
+                We strive to be your trusted partner in providing Building
+                Information Modeling (BIM) services, revolutionizing the way you
+                plan, design, construct, and manage your projects.
+              </p>
+              <br />
+              <Link to="/about-us" className=" choose_btn text-decoration-none">
+                Know More
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <h2 className="text-center heading-text fw-bolder letter-spacing2 mt-5 pt-3">
+        Why Choose NineFive BIM?
+      </h2>
       <div className="features-section row mt-5 p-3 p-lg-5 pb-0">
         <img
           src={`/images/services/pc2.jpg`}
@@ -219,7 +251,7 @@ export const Features = () => {
             Know More
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -12,6 +12,8 @@ import img0 from "../Portfolio/images2/portfolio-image1.jpg";
 import Aboutcards from "../../Constants/aboutus";
 import Description from "../../Constants/ServiceBrief";
 import aboutdes from "./aboutD";
+import img1 from "./images/icon-1.png";
+import img2 from "./images/icon-2.png";
 export const AboutUs = () => {
   const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
@@ -83,7 +85,7 @@ export const AboutUs = () => {
           About Us
         </h3>
         <p
-          className="text-justify blueText text-center"
+          className="text-justify blueText text-center "
           data-aos="fade-left"
           data-aos-delay={300}
         >
@@ -126,7 +128,7 @@ export const AboutUs = () => {
           <div className="col-lg-4 p-4">
             <div className="container mt-3 mb-3 text-center">
               <img
-                src="/images/icons/icon-1.png"
+                src={img1}
                 alt=""
                 className="img-thumbnail p-0 border-0 bg-transparent w-50"
               />
@@ -144,7 +146,7 @@ export const AboutUs = () => {
           <div className="col-lg-4 p-4">
             <div className="container mt-3 mb-3 text-center">
               <img
-                src="/images/icons/icon-2.png"
+                src={img2}
                 alt=""
                 className="img-thumbnail p-0 border-0 bg-transparent w-50"
               />
