@@ -24,13 +24,13 @@ import Tabs from "./tabs";
 const one = () => (
   <div className="Dis_container">
     <div className="container">
-      <h1
+      <h2
         className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
         Scan To BIM
-      </h1>
+      </h2>
       <hr data-aos="fade-left" data-aos-delay={30} />
       <p
         data-aos="fade-zoom-in"

@@ -104,7 +104,7 @@ const Drawings = () => {
             >
               Bim Services
             </h2>
-            <img src={img1} className="d-block w-100 " alt="..." />
+            <img src={img1} className="d-block carousal_img  " alt="..." />
           </div>
           <div className="carousel-item">
             <h2
@@ -122,7 +122,7 @@ const Drawings = () => {
             >
               BIM Consultation
             </h2>
-            <img src={img2} className="d-block w-100" alt="..." />
+            <img src={img2} className="d-block carousal_img" alt="..." />
           </div>
           <div className="carousel-item">
             <h2
@@ -140,7 +140,7 @@ const Drawings = () => {
             >
               3D Visuals & Rendering Service
             </h2>
-            <img src={img3} className="d-block w-100" alt="..." />
+            <img src={img3} className="d-block carousal_img" alt="..." />
           </div>
           <div className="carousel-item">
             <h2
@@ -158,7 +158,7 @@ const Drawings = () => {
             >
               CAD Drafting Services
             </h2>
-            <img src={img4} className="d-block w-100" alt="..." />
+            <img src={img4} className="d-block carousal_img" alt="..." />
           </div>
         </div>
         <button

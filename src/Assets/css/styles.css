@@ -21,9 +21,9 @@ html {
   overflow-x: hidden;
 }
 .img-fluid {
-  width: 170px;
+  width: 160px;
   background-color: white;
-  padding: 10px 20px;
+  padding: 4px 20px;
   border-radius: 10px;
 }
 
@@ -69,6 +69,7 @@ html {
 .heading-text {
   /* color: #742261 !important; */
   color: #19394d !important;
+  font-size: 35px;
 }
 
 .whiteText {
@@ -717,6 +718,10 @@ img {
   animation: flicker 0.5s ease-in-out infinite alternate;
 }
 
+.carousel-inner .carousel-item .carousal_img {
+  width: 100%;
+  height: 100vh;
+}
 @keyframes flicker {
   0% {
     opacity: 0.9;
