@@ -189,13 +189,13 @@ export const AboutUs = () => {
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                   /> */}
                   <CardContent data-aos="fade-right" data-aos-delay={500}>
-                    <div>
+                    {/* <div>
                       <img
                         src={`/images/services/${data.image}`}
                         alt=""
                         className="imgg border-0 p-0 rounded-0 bg-transparent"
                       />
-                    </div>
+                    </div> */}
                     <div>
                       <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
                         {data.name}
@@ -329,11 +329,11 @@ export const AboutUs = () => {
                       key={key}
                     >
                       <Card className="h-100 shadow-lg card-filling">
-                        {/* <img
+                        <img
                           src={`/images/services/${data.image}`}
                           alt=""
-                          className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                        /> */}
+                          className="img-thumbnail border-0 aboutpoint_img bg-transparent mt-3"
+                        />
                         {/* <CardMedia>
                     <Image
                       data-aos="fade-right"
@@ -368,11 +368,11 @@ export const AboutUs = () => {
                       className="w-75 bg-transparent"
                     /> */}
                         {/* </CardMedia> */}
-                        {/* <img
+                        <img
                           src={`/images/services/${data.image}`}
                           alt=""
-                          className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                        /> */}
+                          className="img-thumbnail border-0 aboutpoint_img p-0 rounded-0 bg-transparent mt-3"
+                        />
                         <CardContent data-aos="fade-right" data-aos-delay={500}>
                           <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
                             {data.name}

@@ -84,7 +84,7 @@ const DescriptionCard = () => {
                     <br />
                     <Link
                       to={`/sub-service/0/${data.name}`}
-                      className="text-white know-more-btn  text-decoration-none btn btn-secondary"
+                      className=" know-more-btn  text-decoration-none btn btn-secondary"
                     >
                       Know More
                     </Link>
@@ -126,7 +126,7 @@ const DescriptionCard = () => {
                     <br />
                     <Link
                       to={`/sub-service/0/${data.name}`}
-                      className="text-white know-more-btn  text-decoration-none btn btn-secondary"
+                      className="know-more-btn  text-decoration-none btn btn-secondary"
                     >
                       Know More
                     </Link>

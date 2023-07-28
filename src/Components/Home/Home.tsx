@@ -11,10 +11,10 @@ import { AllServiceList } from "../../Constants/AllServices";
 import { Link } from "react-router-dom";
 import { WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
-import img1 from "./images/ninefive-1back.jpg";
-import img2 from "./images/ninefive-2back.jpg";
-import img3 from "./images/ninefive-3back.jpg";
-import img4 from "./images/ninefive4-back.jpg";
+import img1 from "./images/ninefive1.jpg";
+import img2 from "./images/ninefive2.jpg";
+import img3 from "./images/ninefive3.jpg";
+import img4 from "./images/ninefive4.jpg";
 
 type ImageProps = {
   path: string;

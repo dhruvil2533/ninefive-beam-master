@@ -282,12 +282,23 @@ html {
 }
 
 .know-more-btn {
-  position: absolute;
+  /* position: absolute;
   bottom: 0%;
   left: 7%;
   text-align: center;
   justify-content: center;
-  transition: 0.3s;
+  transition: 0.3s; */
+  color: black;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid black;
+  background: transparent;
 }
 
 .sticky {
@@ -783,6 +794,13 @@ img {
   width: 100%;
   padding: 30px;
 }
+.aboutpoint_img {
+  width: 70%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  justify-content: center;
+  margin-left: 16%;
+}
 
 @media (max-width: 990px) {
   .responsive {
@@ -799,6 +817,13 @@ img {
   .choose_img {
     width: 80%;
     padding: 0px;
+  }
+  .aboutpoint_img {
+    width: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    justify-content: center;
+    margin-left: 16%;
   }
 }
 
@@ -997,13 +1022,13 @@ img {
   font-size: 16px;
 }
 
-.imgg {
+/* .imgg {
   width: 50%;
   margin-left: 25%;
   height: auto;
   aspect-ratio: 3/2;
   object-fit: contain;
-}
+} */
 .choose_btn {
   border: 1px solid #19394d;
   padding: 10px 20px;
