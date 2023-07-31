@@ -19,7 +19,7 @@ const aboutdes = [
     //   "BIM Services, Building Information Modeling (BIM) is a new way of approaching the design and documentation of various types of building projects. It is an intelligent digital representation of the physical and functional characteristics of a facility. NineFive offer 2D to 7D BIM services to architects, building owners, contractors, engineers & all other stakeholders.",
     description:
       "Outsourcing your BIM requirements to NineFive BIM can significantly reduce your project costs. By leveraging our expertise and infrastructure, you can eliminate the need for in-house BIM teams, software licenses, and hardware investments. We offer flexible engagement models, allowing you to scale resources up or down based on project demands, ensuring optimal resource utilization and cost-efficiency.",
-    image: "cad.png",
+    image: "3.png",
   },
   {
     name: "Time Efficiency",
@@ -39,7 +39,7 @@ const aboutdes = [
     name: "Data Security and Confidentiality",
     description:
       "We understand the importance of data security and confidentiality in the outsourcing industry. At NineFive BIM, we implement robust data protection measures to safeguard your intellectual property and project-related information. Our secure infrastructure, stringent access controls, and confidentiality agreements ensure the utmost protection of your sensitive data.",
-    image: "Modelling-Image.jpg",
+    image: "6.jpg",
   },
   {
     name: "Collaboration and Communication",
