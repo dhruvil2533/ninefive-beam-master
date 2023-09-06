@@ -43,25 +43,30 @@ const one = () => (
         the perfect solution for you. Our Scan to BIM process is versatile and
         capable of producing detailed 3D models of various existing structures,
         such as commercial buildings, educational institutions, historical
-        monuments, hotels, and train stations. Booming Scan to BIM service
-        provider For AEC proffessionals in USA, UK, Middel East and Australia.
-        Promiscuous portfolio with 100+ successful Scan to BIM projects
-        delivered. Our Scan-to-BIM service is designed to facilitate all your
-        site improvement and project alteration ideas, regardless of whether
-        it's a 60-year-old commercial building site or a 100-year-old historical
-        monument. As one of the leading Scan-to-BIM companies in the industry,
-        we offer exceptional laser scanning in construction and 3D building
-        scanning services. We take a pragmatic approach to ensure that we live
-        up to your renovation aspirations. Our comprehensive Scan-to-BIM service
-        includes 3D BIM modeling, MEP creation, and conversion of laser scan raw
-        data into BIM models. Our Scan-to-BIM services include a range of
-        deliverables, including 2D and 3D drawings, BIM models, clash detection
-        reports, and virtual reality walkthroughs. These deliverables provide
-        our clients with a comprehensive understanding of the building's
-        existing condition, allowing them to make informed decisions about their
-        project.We deliver best-in-class solutions using laser scan raw data
-        (point cloud data) to provide high-quality 3D models ranging from LOD
-        200 to LOD 400 in Revit.
+        monuments, hotels, and train stations. <br />
+        <br /> Booming Scan to BIM service provider For AEC proffessionals in
+        USA, UK, Middel East and Australia. Promiscuous portfolio with 100+
+        successful Scan to BIM projects delivered. Our Scan-to-BIM service is
+        designed to facilitate all your site improvement and project alteration
+        ideas, regardless of whether it's a 60-year-old commercial building site
+        or a 100-year-old historical monument.
+        <br />
+        <br />
+        As one of the leading Scan-to-BIM companies in the industry, we offer
+        exceptional laser scanning in construction and 3D building scanning
+        services. We take a pragmatic approach to ensure that we live up to your
+        renovation aspirations. Our comprehensive Scan-to-BIM service includes
+        3D BIM modeling, MEP creation, and conversion of laser scan raw data
+        into BIM models.
+        <br />
+        <br />
+        Our Scan-to-BIM services include a range of deliverables, including 2D
+        and 3D drawings, BIM models, clash detection reports, and virtual
+        reality walkthroughs. These deliverables provide our clients with a
+        comprehensive understanding of the building's existing condition,
+        allowing them to make informed decisions about their project.We deliver
+        best-in-class solutions using laser scan raw data (point cloud data) to
+        provide high-quality 3D models ranging from LOD 200 to LOD 400 in Revit.
       </p>
     </div>
   </div>
@@ -87,17 +92,23 @@ const two = () => (
         model by digitizing and documenting its virtual rendition. As-built
         diagrams are typically produced during or after the construction phase
         and serve as a record of any deviations from the architect's original
-        drawings. These 2D documents capture construction details such as walls,
-        doors, windows, millwork, and plumbing fixtures, and can be utilized for
-        future renovations, retrofits, or restorations of the building. We can
+        drawings.
+        <br />
+        <br />
+        These 2D documents capture construction details such as walls, doors,
+        windows, millwork, and plumbing fixtures, and can be utilized for future
+        renovations, retrofits, or restorations of the building. We can
         transform existing 2D as-built documents into 3D BIM Modeling Services,
         which provide the necessary data to visualize as-built floor plans and
-        any plumbing and electrical fittings. Our team of experienced engineers,
-        drafters, and 3D modelers can make the process of creating 3D as-built
-        models seem effortless. If you provide us with your existing as-built
-        diagrams in CAD or PDF format, we can create a 3D model from scratch
-        that includes precise measurements, dimensions, elevations, textures of
-        various elements, and placement of electrical fittings.
+        any plumbing and electrical fittings.
+        <br />
+        <br />
+        Our team of experienced engineers, drafters, and 3D modelers can make
+        the process of creating 3D as-built models seem effortless. If you
+        provide us with your existing as-built diagrams in CAD or PDF format, we
+        can create a 3D model from scratch that includes precise measurements,
+        dimensions, elevations, textures of various elements, and placement of
+        electrical fittings.
       </p>
     </div>
   </div>
@@ -122,24 +133,32 @@ const three = () => (
         BIM is increasingly being utilized by MEP contractors, MEP consultants,
         and Design-Build firms to enhance the design, detailing, estimation,
         fabrication, and installation of MEP (mechanical, electrical, and
-        plumbing) building systems. MEP modeling facilitates collaboration,
-        streamlines projects, and reduces risk and waste throughout the project
-        life cycle. MEP 3D modeling, CAD services, and MEP coordination ensure
-        effective synchronization between all the components of a building. Our
-        MEP BIM modeling services cater to various sectors, including
-        healthcare, residential, commercial, and industrial properties, as well
-        as hotels and resorts. BIM MEP services are essential for ensuring
-        efficient and accurate design, installation, and maintenance of building
-        systems. At NineFive BIM, we specialize in providing high-quality BIM
-        MEP services to clients across various industries. Our team of
-        experienced engineers and designers uses cutting-edge software to create
-        detailed 3D models of building systems, which can be used to identify
-        and resolve potential issues before construction begins. This results in
-        reduced costs, increased productivity, and improved collaboration
-        between all stakeholders involved in the project. Whether you require
-        MEP design, drafting, or coordination services, our team is dedicated to
-        delivering customized solutions that meet your specific needs and
-        requirements.
+        plumbing) building systems.
+        <br />
+        <br />
+        MEP modeling facilitates collaboration, streamlines projects, and
+        reduces risk and waste throughout the project life cycle. MEP 3D
+        modeling, CAD services, and MEP coordination ensure effective
+        synchronization between all the components of a building. Our MEP BIM
+        modeling services cater to various sectors, including healthcare,
+        residential, commercial, and industrial properties, as well as hotels
+        and resorts.
+        <br />
+        <br />
+        BIM MEP services are essential for ensuring efficient and accurate
+        design, installation, and maintenance of building systems. At NineFive
+        BIM, we specialize in providing high-quality BIM MEP services to clients
+        across various industries. Our team of experienced engineers and
+        designers uses cutting-edge software to create detailed 3D models of
+        building systems, which can be used to identify and resolve potential
+        issues before construction begins.
+        <br />
+        <br />
+        This results in reduced costs, increased productivity, and improved
+        collaboration between all stakeholders involved in the project. Whether
+        you require MEP design, drafting, or coordination services, our team is
+        dedicated to delivering customized solutions that meet your specific
+        needs and requirements.
       </p>
     </div>
   </div>
@@ -165,14 +184,19 @@ const four = () => (
         building's physical and functional characteristics. BIM services have
         become a vital part of the architecture, engineering, and construction
         (AEC) industry, as it enables architects and engineers to create and
-        manage building designs more efficiently. NineFive BIM is a provider of
-        professional and high-quality 3D BIM modeling services to a diverse
-        range of clients, including home builders, retailers, architects,
-        engineers, and general contractors.We take a comprehensive approach to
-        BIM, covering all disciplines, including architecture, interiors,
-        structure, MEPF, and site development, to deliver projects in their
-        entirety. This approach enables the design team to adopt an integrated
-        design approach. Our team of BIM experts is skilled in delivering 3D BIM
+        manage building designs more efficiently.
+        <br />
+        <br />
+        NineFive BIM is a provider of professional and high-quality 3D BIM
+        modeling services to a diverse range of clients, including home
+        builders, retailers, architects, engineers, and general contractors.We
+        take a comprehensive approach to BIM, covering all disciplines,
+        including architecture, interiors, structure, MEPF, and site
+        development, to deliver projects in their entirety.
+        <br />
+        <br />
+        This approach enables the design team to adopt an integrated design
+        approach. Our team of BIM experts is skilled in delivering 3D BIM
         services from LOD100 to LOD500 for various building types, including
         commercial malls, recreational parks, hospitals, airports, railways,
         residential townships, infrastructure, and industrial production plants.
@@ -205,26 +229,33 @@ const five = () => (
         process begins. These conflicts could include issues such as two systems
         occupying the same space or interference between different building
         systems. Failure to detect these conflicts in advance could result in
-        costly rework, construction delays, and potential safety hazards. At
-        NineFive BIM, we offer specialized clash detection and coordination
+        costly rework, construction delays, and potential safety hazards.
+        <br />
+        <br />
+        At NineFive BIM, we offer specialized clash detection and coordination
         services to our clients using advanced software tools such as Autodesk
         Navisworks and Revit. Our team of experienced engineers and designers
         works closely with clients and other stakeholders involved in the
         project, such as architects, MEP engineers, structural engineers, and
         contractors, to develop an efficient and accurate coordination plan. Our
         clash detection and coordination services involve the creation of 3D
-        models of all building systems involved in the project. These models are
-        then integrated and analyzed to identify potential clashes between
-        different building systems. Our team uses their expertise to evaluate
-        each clash scenario and develop a comprehensive resolution plan. Once
-        the plan is finalized, it is shared with all stakeholders, and necessary
-        modifications are made to the design to resolve the conflicts. In
-        conclusion, our clash detection and coordination services are an
-        essential part of the BIM process that helps to ensure a successful
-        construction project. By partnering withour outsourcing company, clients
-        can benefit from our expertise and experience in delivering high-quality
-        and cost-effective services that are tailored to meet their specific
-        needs and requirements.
+        models of all building systems involved in the project.
+        <br />
+        <br />
+        These models are then integrated and analyzed to identify potential
+        clashes between different building systems. Our team uses their
+        expertise to evaluate each clash scenario and develop a comprehensive
+        resolution plan. Once the plan is finalized, it is shared with all
+        stakeholders, and necessary modifications are made to the design to
+        resolve the conflicts. In conclusion, our clash detection and
+        coordination services are an essential part of the BIM process that
+        helps to ensure a successful construction project.
+        <br />
+        <br />
+        By partnering withour outsourcing company, clients can benefit from our
+        expertise and experience in delivering high-quality and cost-effective
+        services that are tailored to meet their specific needs and
+        requirements.
       </p>
     </div>
   </div>
@@ -279,14 +310,17 @@ const seven = () => (
         creating a BIM model from existing documentation can be a time-consuming
         process. This is where PDF or CAD to BIM services come in. PDF to BIM
         and CAD to BIM services both involve converting 2D drawings or plans
-        into 3D BIM models. The process for PDF to BIM typically requires
-        redrawing plans in BIM software to create the 3D model, while the CAD to
-        BIM process involves importing the CAD file into BIM software to create
-        the model. Both processes can be time-consuming and require skilled
-        operators with knowledge of both the original file format (PDF or CAD)
-        and the BIM software. However, these services offer significant benefits
-        in terms of accuracy, collaboration, and cost-effectiveness, making them
-        an essential component of the construction industry.
+        into 3D BIM models.
+        <br />
+        <br />
+        The process for PDF to BIM typically requires redrawing plans in BIM
+        software to create the 3D model, while the CAD to BIM process involves
+        importing the CAD file into BIM software to create the model. Both
+        processes can be time-consuming and require skilled operators with
+        knowledge of both the original file format (PDF or CAD) and the BIM
+        software. However, these services offer significant benefits in terms of
+        accuracy, collaboration, and cost-effectiveness, making them an
+        essential component of the construction industry.
       </p>
     </div>
   </div>
@@ -312,15 +346,17 @@ const eight = () => (
         characteristics of a building or infrastructure project. It encompasses
         the use of intelligent 3D models that incorporate detailed information
         about the project's various components, such as geometry, spatial
-        relationships, quantities, and properties. BIM acts as a shared
-        knowledge resource for all project stakeholders, facilitating
-        collaboration, decision-making, and efficient project management. At
-        NineFive BIM, we offer comprehensive BIM implementation services
-        tailored to your specific project requirements. Our team of experienced
-        BIM consultants possesses in-depth knowledge and expertise in
-        implementing BIM workflows across various construction disciplines.
-        Whether you are a small-scale contractor or a large architectural firm,
-        we can assist you in integrating BIM processes effectively.
+        relationships, quantities, and properties. <br />
+        <br />
+        BIM acts as a shared knowledge resource for all project stakeholders,
+        facilitating collaboration, decision-making, and efficient project
+        management. At NineFive BIM, we offer comprehensive BIM implementation
+        services tailored to your specific project requirements. Our team of
+        experienced BIM consultants possesses in-depth knowledge and expertise
+        in implementing BIM workflows across various construction disciplines.
+        <br />
+        <br /> Whether you are a small-scale contractor or a large architectural
+        firm, we can assist you in integrating BIM processes effectively.
       </p>
     </div>
   </div>
@@ -408,13 +444,15 @@ const eleven = () => (
         their built environments. It combines the principles of BIM, space
         management, and facility management to create a holistic approach
         towards optimizing space utilization, improving maintenance processes,
-        and maximizing the performance of facilities. At NineFive BIM, we take a
-        client-centric approach to BIM Space & Facility Management Consultation.
-        We work closely with our clients to understand their unique
-        requirements, challenges, and goals. Our experienced team of BIM
-        specialists, space planners, and facility management experts collaborate
-        to develop tailored solutions that meet the specific needs of each
-        client.
+        and maximizing the performance of facilities.
+        <br />
+        <br />
+        At NineFive BIM, we take a client-centric approach to BIM Space &
+        Facility Management Consultation. We work closely with our clients to
+        understand their unique requirements, challenges, and goals. Our
+        experienced team of BIM specialists, space planners, and facility
+        management experts collaborate to develop tailored solutions that meet
+        the specific needs of each client.
       </p>
     </div>
   </div>
@@ -439,14 +477,19 @@ const twelve = () => (
         At NineFive BIM, we specialize in BIM scheduling consultation services
         for the construction industry. Our expertise allows us to optimize
         project timelines, improve resource allocation, and enhance project
-        coordination. By leveraging the power of BIM technology, we create
-        comprehensive schedules tailored to your specific needs. Our experienced
-        team collaborates closely with you to develop customized solutions.
-        Accurate quantity take-offs are crucial for estimating project costs,
-        determining material requirements, and facilitating effective
-        procurement.We offer comprehensive quantity take-off consultation
-        services, leveraging BIM technology and our domain expertise to deliver
-        precise and reliable results.
+        coordination.
+        <br />
+        <br />
+        By leveraging the power of BIM technology, we create comprehensive
+        schedules tailored to your specific needs. Our experienced team
+        collaborates closely with you to develop customized solutions. Accurate
+        quantity take-offs are crucial for estimating project costs, determining
+        material requirements, and facilitating effective procurement.
+        <br />
+        <br />
+        We offer comprehensive quantity take-off consultation services,
+        leveraging BIM technology and our domain expertise to deliver precise
+        and reliable results.
       </p>
     </div>
   </div>
@@ -470,16 +513,21 @@ const thirteen = () => (
       >
         NineFive BIM, your premier destination for 2D CAD drafting services.
         With our extensive expertise and commitment to excellence, we provide
-        top-notch drafting solutions to clients worldwide. Whether you're an
-        architecture firm, engineering company, construction business, or any
-        other industry that requires accurate and precise technical drawings, we
-        are here to meet your needs. Our 2D CAD drafting service offers a range
-        of benefits to streamline your design process and enhance project
-        outcomes. At NineFive, we are committed to delivering high-quality 2D
-        CAD drafting services that exceed your expectations. Our focus on
-        accuracy, attention to detail, and customer satisfaction sets us apart
-        as a trusted outsourcing partner. Contact us today to discuss your
-        project requirements and discover how we can contribute to your success.
+        top-notch drafting solutions to clients worldwide.
+        <br />
+        <br />
+        Whether you're an architecture firm, engineering company, construction
+        business, or any other industry that requires accurate and precise
+        technical drawings, we are here to meet your needs. Our 2D CAD drafting
+        service offers a range of benefits to streamline your design process and
+        enhance project outcomes. At NineFive, we are committed to delivering
+        high-quality 2D CAD drafting services that exceed your expectations.
+        <br />
+        <br />
+        Our focus on accuracy, attention to detail, and customer satisfaction
+        sets us apart as a trusted outsourcing partner. Contact us today to
+        discuss your project requirements and discover how we can contribute to
+        your success.
       </p>
     </div>
   </div>
@@ -534,23 +582,28 @@ const fifteen = () => (
         However, collaboration and development can be impeded by outdated
         paper-based or incompatible digital drawings. Fear not, for our CAD
         conversion services come to the rescue, surmounting these obstacles and
-        ushering in a seamless era of collaboration and development. At NineFive
-        BIM, we pride ourselves on our expertise in providing superior CAD
-        conversion services to a wide spectrum of industries. Our team of highly
-        skilled CAD specialists excels in the conversion of blueprints,
-        drawings, and sketches from diverse sources, into industry-standard CAD
-        formats such as AutoCAD (DWG/DXF), SolidWorks, Revit, among others.
-        Whether you have physical paper drawings, scanned images, or obsolete
-        digital files, we possess the capability to convert them into fully
-        editable and compatible CAD formats. Our CAD conversion process is
-        meticulous, ensuring accuracy and precision at every step. We prioritize
-        customer satisfaction and strive to exceed your expectations with our
-        CAD conversion services. Our commitment to accuracy, quality, and timely
-        delivery sets us apart in the outsourcing industry. Trust us to handle
-        your CAD conversion requirements, and we guarantee exceptional results
-        that empower your design processes. Contact us today to discuss your CAD
-        conversion needs, and let's embark on a journey of digitizing and
-        optimizing your engineering designs.
+        ushering in a seamless era of collaboration and development.
+        <br />
+        <br />
+        At NineFive BIM, we pride ourselves on our expertise in providing
+        superior CAD conversion services to a wide spectrum of industries. Our
+        team of highly skilled CAD specialists excels in the conversion of
+        blueprints, drawings, and sketches from diverse sources, into
+        industry-standard CAD formats such as AutoCAD (DWG/DXF), SolidWorks,
+        Revit, among others. Whether you have physical paper drawings, scanned
+        images, or obsolete digital files, we possess the capability to convert
+        them into fully editable and compatible CAD formats.
+        <br />
+        <br />
+        Our CAD conversion process is meticulous, ensuring accuracy and
+        precision at every step. We prioritize customer satisfaction and strive
+        to exceed your expectations with our CAD conversion services. Our
+        commitment to accuracy, quality, and timely delivery sets us apart in
+        the outsourcing industry. Trust us to handle your CAD conversion
+        requirements, and we guarantee exceptional results that empower your
+        design processes. Contact us today to discuss your CAD conversion needs,
+        and let's embark on a journey of digitizing and optimizing your
+        engineering designs.
       </p>
     </div>
   </div>
@@ -578,20 +631,23 @@ const sixteen = () => (
         including architectural, structural, mechanical, electrical, and
         plumbing elements, and converting them into precise CAD (Computer-Aided
         Design) drawings. We understand the importance of having up-to-date
-        as-built drawings for your projects. Whether you're renovating an
-        existing facility, expanding a structure, or simply need accurate
-        documentation for maintenance purposes, our CAD As-built service offers
-        a cost-effective solution tailored to your specific requirements. With
-        our CAD As-built service, you can unlock numerous benefits for your
-        projects, including accurate documentation, improved decision-making,
-        streamlined collaboration, and enhanced facility management. Our
-        commitment to quality, efficiency, and customer satisfaction has made us
-        a preferred outsourcing partner for CAD As-built services. Contact us
-        today to discuss your project requirements and discover how our CAD
-        As-built service can support your business goals. Our team of experts is
-        ready to assist you in achieving precise and comprehensive documentation
-        of your built environment. Partner with NineFive BIM and experience the
-        difference in CAD As-built outsourcing.
+        as-built drawings for your projects. <br />
+        <br />
+        Whether you're renovating an existing facility, expanding a structure,
+        or simply need accurate documentation for maintenance purposes, our CAD
+        As-built service offers a cost-effective solution tailored to your
+        specific requirements. With our CAD As-built service, you can unlock
+        numerous benefits for your projects, including accurate documentation,
+        improved decision-making, streamlined collaboration, and enhanced
+        facility management. Our commitment to quality, efficiency, and customer
+        satisfaction has made us a preferred outsourcing partner for CAD
+        As-built services. <br />
+        <br />
+        Contact us today to discuss your project requirements and discover how
+        our CAD As-built service can support your business goals. Our team of
+        experts is ready to assist you in achieving precise and comprehensive
+        documentation of your built environment. Partner with NineFive BIM and
+        experience the difference in CAD As-built outsourcing.
       </p>
     </div>
   </div>
@@ -621,8 +677,10 @@ const seventeen = () => (
         standards, we provide an exceptional level of excellence in design and
         documentation services tailored to our clients' distinct requirements.
         Our schematic design sets service is tailored to assist architects,
-        designers, and developers in the initial stages of a project. We
-        collaborate closely with our clients to develop innovative and
+        designers, and developers in the initial stages of a project.
+        <br />
+        <br />
+        We collaborate closely with our clients to develop innovative and
         functional design concepts that align with their vision and project
         requirements. Our experienced team combines creativity with technical
         expertise to produce detailed sketches, floor plans, elevations, and 3D
@@ -630,8 +688,10 @@ const seventeen = () => (
         communication and rapid prototyping to ensure client satisfaction before
         proceeding to the next phase. As a trusted outsourcing partner, we excel
         in providing construction documentation sets that serve as an essential
-        resource for contractors, engineers, and construction teams. Our
-        meticulous attention to detail guarantees accurate and comprehensive
+        resource for contractors, engineers, and construction teams.
+        <br />
+        <br />
+        Our meticulous attention to detail guarantees accurate and comprehensive
         documentation that adheres to local building codes, regulations, and
         industry standards. We create detailed architectural, structural,
         electrical, and mechanical drawings, along with specifications,
@@ -639,12 +699,15 @@ const seventeen = () => (
         construction processes, minimize errors, and enhance project efficiency.
         In conclusion, at NineFive BIM, we offer an array of services in SD/CD
         sets, meticulously crafted to empower our clients in executing their
-        projects with utmost success. Our unwavering dedication to quality,
-        precision, and timely delivery sets us apart, enabling us to surpass
-        client expectations and propel their projects to new heights of
-        achievement. Embrace the opportunity to partner with us, and together,
-        we will revolutionize your architectural and engineering endeavors,
-        fostering innovation and efficiency at every step.
+        projects with utmost success.
+        <br />
+        <br />
+        Our unwavering dedication to quality, precision, and timely delivery
+        sets us apart, enabling us to surpass client expectations and propel
+        their projects to new heights of achievement. Embrace the opportunity to
+        partner with us, and together, we will revolutionize your architectural
+        and engineering endeavors, fostering innovation and efficiency at every
+        step.
       </p>
     </div>
   </div>
@@ -671,11 +734,13 @@ const eighteen = () => (
         for various components of a construction project. These drawings serve
         as a crucial bridge between the design phase and the actual construction
         process, ensuring seamless coordination and effective communication
-        between architects, engineers, contractors, and fabricators. Partner
-        with NineFive BIM for your Shop Drawings Services needs and experience
-        the advantages of working with a reliable and skilled team. Contact us
-        today to discuss your project requirements and receive a personalized
-        quote.
+        between architects, engineers, contractors, and fabricators.
+        <br />
+        <br />
+        Partner with NineFive BIM for your Shop Drawings Services needs and
+        experience the advantages of working with a reliable and skilled team.
+        Contact us today to discuss your project requirements and receive a
+        personalized quote.
       </p>
     </div>
   </div>
@@ -701,18 +766,21 @@ const nineteen = () => (
         electronic documents, usually in the form of red or colored lines, to
         indicate changes, suggestions, or feedback. Redline Markups enable
         multiple stakeholders to collaborate on documents, ensuring a smooth
-        exchange of ideas and effective version control. Our Redline Markup
-        Services provide you with a dedicated team of experienced professionals
-        adept at handling a variety of document types, including contracts,
-        legal agreements, technical specifications, marketing materials, and
-        more. Our skilled experts meticulously review and annotate your
-        documents, precisely capturing all requested revisions, comments, and
-        suggestions. Partner with us for your Redline Markup needs, and
-        experience streamlined document collaboration, improved communication,
-        and enhanced efficiency within your organization. Our commitment to
-        excellence and customer satisfaction makes us the ideal outsourcing
-        choice for your business. Contact us today to discuss your requirements
-        and let us transform your document workflows.
+        exchange of ideas and effective version control.
+        <br />
+        <br />
+        Our Redline Markup Services provide you with a dedicated team of
+        experienced professionals adept at handling a variety of document types,
+        including contracts, legal agreements, technical specifications,
+        marketing materials, and more. Our skilled experts meticulously review
+        and annotate your documents, precisely capturing all requested
+        revisions, comments, and suggestions. Partner with us for your Redline
+        Markup needs, and experience streamlined document collaboration,
+        improved communication, and enhanced efficiency within your
+        organization. Our commitment to excellence and customer satisfaction
+        makes us the ideal outsourcing choice for your business. Contact us
+        today to discuss your requirements and let us transform your document
+        workflows.
       </p>
     </div>
   </div>
@@ -795,15 +863,20 @@ const Twentyone = () => (
         We excel in providing state-of-the-art 3D Walkthrough Services. Our team
         of talented professionals harnesses the power of creativity, technology,
         and expertise to breathe life into your architectural designs, real
-        estate projects, and product visualizations. We are committed to pushing
-        the boundaries of what's possible and transforming the way you showcase
-        your ideas, impress your clients, and captivate your target audience
-        with our immersive 3D walkthroughs. When it comes to captivating your
-        audience, showcasing your designs, and boosting your marketing efforts,
-        our 3D Walkthrough Services are the perfect solution. With our expertise
-        and commitment to quality, we bring your projects to life, offering a
-        realistic and interactive experience that will leave a lasting
-        impression. Contact us today to discover how we can elevate your
+        estate projects, and product visualizations.
+        <br />
+        <br />
+        We are committed to pushing the boundaries of what's possible and
+        transforming the way you showcase your ideas, impress your clients, and
+        captivate your target audience with our immersive 3D walkthroughs. When
+        it comes to captivating your audience, showcasing your designs, and
+        boosting your marketing efforts, our 3D Walkthrough Services are the
+        perfect solution.
+        <br />
+        <br />
+        With our expertise and commitment to quality, we bring your projects to
+        life, offering a realistic and interactive experience that will leave a
+        lasting impression. Contact us today to discover how we can elevate your
         projects and help you stand out in a visually demanding world.
       </p>
     </div>
@@ -836,21 +909,25 @@ const Twentytwo = () => (
         of benefits. Firstly, our renderings provide a realistic depiction of
         the property, allowing clients and stakeholders to visualize the space
         accurately. This aids in making informed decisions regarding design
-        choices, layout optimization, and overall functionality. Furthermore,
-        our floor plan renderings incorporate a high level of detail, including
-        architectural elements, interior furnishings, lighting effects, and
-        textures. This attention to detail adds depth and realism to the
-        visualizations, enhancing their overall appeal. These realistic
+        choices, layout optimization, and overall functionality.
+        <br />
+        <br />
+        Furthermore, our floor plan renderings incorporate a high level of
+        detail, including architectural elements, interior furnishings, lighting
+        effects, and textures. This attention to detail adds depth and realism
+        to the visualizations, enhancing their overall appeal. These realistic
         representations help attract potential buyers, investors, and tenants,
         giving you a competitive edge in the market.Whether you need floor plan
         renderings for marketing purposes, presentations, or project planning,
         our services can fulfill your needs. With our expertise,
         state-of-the-art technology, and commitment to excellence, we guarantee
-        exceptional results that exceed your expectations. Take a look at our
-        portfolio to see the quality of our work and get in touch with us to
-        discuss your floor plan rendering requirements. Let our outsourcing
-        company assist you in bringing your visions to life through stunning and
-        captivating floor plan renderings.
+        exceptional results that exceed your expectations.
+        <br />
+        <br />
+        Take a look at our portfolio to see the quality of our work and get in
+        touch with us to discuss your floor plan rendering requirements. Let our
+        outsourcing company assist you in bringing your visions to life through
+        stunning and captivating floor plan renderings.
       </p>
     </div>
   </div>
@@ -879,33 +956,40 @@ const Twentythree = () => (
         can provide you with a powerful tool to communicate your ideas and make
         informed decisions. With our expertise in 3D rendering and visualization
         techniques, we can transform your design concepts into captivating,
-        high-quality images and animations. Our team utilizes cutting-edge
-        software and technologies to create detailed renderings that capture
-        every aspect of your outdoor spaces, including architectural elements,
-        vegetation, lighting, textures, and atmospheric effects. By outsourcing
-        your landscape and outdoor rendering needs to our company, you can
-        benefit from several advantages. Firstly, our dedicated team of
-        professionals has extensive experience in the field, ensuring that the
-        final output meets your specific requirements and exceeds your
-        expectations. Additionally, outsourcing your rendering services can save
-        you valuable time and resources. Instead of investing in expensive
-        software, hardware, and training, you can rely on our company's
-        infrastructure and expertise. This allows you to focus on other
-        essential aspects of your projects while we handle the rendering process
-        efficiently and effectively. Furthermore, our outsourcing services offer
-        a cost-effective solution, enabling you to reduce overhead expenses
-        associated with in-house rendering capabilities. We provide flexible
-        pricing options tailored to your project's scope and scale, ensuring
-        that you receive a high return on your investment. Whether you need
-        still images, virtual tours, or interactive presentations, our Landscape
-        & Outdoor Rendering Services are designed to provide you with visually
-        stunning representations that enhance your project's marketability,
-        attract clients, and facilitate better decision-making. Partner with our
-        outsourcing company today and unlock the potential of your landscape
-        designs through our expert rendering services. Let us transform your
-        ideas into captivating visual experiences that bring your outdoor spaces
-        to life. Contact us now to discuss your project and discover how we can
-        exceed your expectations.
+        high-quality images and animations.
+        <br />
+        <br />
+        Our team utilizes cutting-edge software and technologies to create
+        detailed renderings that capture every aspect of your outdoor spaces,
+        including architectural elements, vegetation, lighting, textures, and
+        atmospheric effects. By outsourcing your landscape and outdoor rendering
+        needs to our company, you can benefit from several advantages. Firstly,
+        our dedicated team of professionals has extensive experience in the
+        field, ensuring that the final output meets your specific requirements
+        and exceeds your expectations. Additionally, outsourcing your rendering
+        services can save you valuable time and resources.
+        <br />
+        <br />
+        Instead of investing in expensive software, hardware, and training, you
+        can rely on our company's infrastructure and expertise. This allows you
+        to focus on other essential aspects of your projects while we handle the
+        rendering process efficiently and effectively. Furthermore, our
+        outsourcing services offer a cost-effective solution, enabling you to
+        reduce overhead expenses associated with in-house rendering
+        capabilities. We provide flexible pricing options tailored to your
+        project's scope and scale, ensuring that you receive a high return on
+        your investment.
+        <br />
+        <br />
+        Whether you need still images, virtual tours, or interactive
+        presentations, our Landscape & Outdoor Rendering Services are designed
+        to provide you with visually stunning representations that enhance your
+        project's marketability, attract clients, and facilitate better
+        decision-making. Partner with our outsourcing company today and unlock
+        the potential of your landscape designs through our expert rendering
+        services. Let us transform your ideas into captivating visual
+        experiences that bring your outdoor spaces to life. Contact us now to
+        discuss your project and discover how we can exceed your expectations.
       </p>
     </div>
   </div>
@@ -934,25 +1018,32 @@ const Twentyfour = () => (
         catalogs, or online platforms, our team of skilled designers and artists
         is here to bring your concepts to life. Using state-of-the-art software
         and advanced rendering techniques, we create highly detailed and
-        lifelike 3D models of furniture and products. Our talented professionals
-        possess a keen eye for aesthetics and pay meticulous attention to every
-        aspect of the rendering process. From texture and materials to lighting
-        and shadows, we ensure that each visual representation exudes realism
-        and captures the essence of your designs. By leveraging our Furniture &
-        Product Rendering Services, you gain numerous benefits. Firstly, our
-        renderings provide a tangible sense of how your furniture or products
-        will look in various environments, enabling you to make informed
-        decisions before manufacturing or launching. This saves you time,
-        effort, and resources by minimizing the need for physical prototypes and
-        revisions. Additionally, our renderings allow you to showcase your
-        offerings with unparalleled visual impact. High-quality, photorealistic
-        images and animations enhance your marketing efforts, enabling you to
-        engage customers, generate excitement, and drive sales. Whether you
-        require static images, dynamic animations, or virtual reality
-        experiences, we can deliver tailored solutions to suit your specific
-        requirements. Contact us today to discuss your rendering needs, and let
-        us embark on a creative journey together, bringing your ideas to life
-        with our top-notch Furniture & Product Rendering Services.
+        lifelike 3D models of furniture and products.
+        <br />
+        <br />
+        Our talented professionals possess a keen eye for aesthetics and pay
+        meticulous attention to every aspect of the rendering process. From
+        texture and materials to lighting and shadows, we ensure that each
+        visual representation exudes realism and captures the essence of your
+        designs. By leveraging our Furniture & Product Rendering Services, you
+        gain numerous benefits.
+        <br />
+        <br />
+        Firstly, our renderings provide a tangible sense of how your furniture
+        or products will look in various environments, enabling you to make
+        informed decisions before manufacturing or launching. This saves you
+        time, effort, and resources by minimizing the need for physical
+        prototypes and revisions. Additionally, our renderings allow you to
+        showcase your offerings with unparalleled visual impact. High-quality,
+        photorealistic images and animations enhance your marketing efforts,
+        enabling you to engage customers, generate excitement, and drive sales.
+        <br />
+        <br />
+        Whether you require static images, dynamic animations, or virtual
+        reality experiences, we can deliver tailored solutions to suit your
+        specific requirements. Contact us today to discuss your rendering needs,
+        and let us embark on a creative journey together, bringing your ideas to
+        life with our top-notch Furniture & Product Rendering Services.
       </p>
     </div>
   </div>
@@ -978,35 +1069,45 @@ const Twentyfive = () => (
         computer-generated elements onto the real world, enhancing the user's
         perception and interaction with their physical surroundings.By employing
         AR, we enable our clients to experience architectural designs in a
-        highly immersive and interactive manner. Through the use of specialized
-        devices like smartphones or tablets, users can visualize virtual models
-        overlaid onto real-world environments, allowing them to explore and
-        evaluate design concepts with unparalleled realism. With AR, clients
-        gain a deeper understanding of spatial relationships, materials,
-        lighting, and other crucial elements, empowering them to make informed
-        decisions throughout the design and construction processes. Virtual
-        Reality (VR) transports users into entirely virtual environments,
-        creating a fully immersive experience that simulates real-world
-        settings. With our VR services, clients can step into their
-        architectural designs and experience them from every angle, offering an
-        unprecedented level of engagement. By donning VR headsets, users can
-        walk through virtual buildings, inspect interior and exterior spaces,
-        and even interact with virtual objects. This technology provides an
-        invaluable tool for design validation, collaboration, and stakeholder
-        communication, as it allows all parties involved to visualize and
-        comprehend complex architectural concepts with remarkable clarity. Our
-        team of skilled professionals specializes in leveraging AR and VR
-        technologies to bring architectural designs to life. Whether it's
-        presenting a concept to clients, collaborating with project
+        highly immersive and interactive manner.
+        <br />
+        <br />
+        Through the use of specialized devices like smartphones or tablets,
+        users can visualize virtual models overlaid onto real-world
+        environments, allowing them to explore and evaluate design concepts with
+        unparalleled realism. With AR, clients gain a deeper understanding of
+        spatial relationships, materials, lighting, and other crucial elements,
+        empowering them to make informed decisions throughout the design and
+        construction processes. Virtual Reality (VR) transports users into
+        entirely virtual environments, creating a fully immersive experience
+        that simulates real-world settings.
+        <br />
+        <br />
+        With our VR services, clients can step into their architectural designs
+        and experience them from every angle, offering an unprecedented level of
+        engagement. By donning VR headsets, users can walk through virtual
+        buildings, inspect interior and exterior spaces, and even interact with
+        virtual objects. This technology provides an invaluable tool for design
+        validation, collaboration, and stakeholder communication, as it allows
+        all parties involved to visualize and comprehend complex architectural
+        concepts with remarkable clarity. Our team of skilled professionals
+        specializes in leveraging AR and VR technologies to bring architectural
+        designs to life.
+        <br />
+        <br />
+        Whether it's presenting a concept to clients, collaborating with project
         stakeholders, or conducting design reviews, our AR and VR solutions
         enable seamless communication and efficient decision-making. We are
         committed to harnessing the power of these immersive technologies to
         enhance the efficiency, accuracy, and overall quality of our clients'
-        projects. With our AR and VR services, you can expect a transformative
-        experience that goes beyond traditional architectural visualization.
-        Embrace the future of design and construction with our BIM outsourcing
-        company, and unlock the true potential of your projects through the
-        power of AR and VR.
+        projects.
+        <br />
+        <br />
+        With our AR and VR services, you can expect a transformative experience
+        that goes beyond traditional architectural visualization. Embrace the
+        future of design and construction with our BIM outsourcing company, and
+        unlock the true potential of your projects through the power of AR and
+        VR.
       </p>
     </div>
   </div>
@@ -1032,25 +1133,31 @@ const Twentysix = () => (
         architectural, engineering, and construction industries. As an
         outsourcing company, we specialize in providing high-quality Revit
         modeling services that cater to the specific needs and requirements of
-        our clients. Revit is a powerful Building Information Modeling (BIM)
-        software that allows professionals to create detailed 3D models of
-        buildings, infrastructure, and construction projects. Our team of
-        experienced Revit modelers possesses deep knowledge and expertise in
-        utilizing this software to its full potential, ensuring accurate and
-        efficient modeling solutions. With our Revit modeling services, we
-        assist architects, engineers, contractors, and developers in visualizing
-        their designs and bringing them to life. Our skilled modelers
-        meticulously create 3D models that encompass architectural elements,
-        structural components, MEP (mechanical, electrical, plumbing) systems,
-        and other intricate details. By utilizing Revit's intelligent parametric
-        objects, we enable easy modification and coordination throughout the
-        design and construction process. By outsourcing your Revit modeling
-        needs to our experienced team, you can benefit from enhanced design
-        visualization, improved collaboration, reduced errors, and increased
-        efficiency in your projects. We prioritize quality, adherence to project
-        timelines, and cost-effectiveness, ensuring that our clients receive
-        top-notch Revit modeling services tailored to their unique project
-        needs.
+        our clients. <br />
+        <br />
+        Revit is a powerful Building Information Modeling (BIM) software that
+        allows professionals to create detailed 3D models of buildings,
+        infrastructure, and construction projects. Our team of experienced Revit
+        modelers possesses deep knowledge and expertise in utilizing this
+        software to its full potential, ensuring accurate and efficient modeling
+        solutions. With our Revit modeling services, we assist architects,
+        engineers, contractors, and developers in visualizing their designs and
+        bringing them to life.
+        <br />
+        <br />
+        Our skilled modelers meticulously create 3D models that encompass
+        architectural elements, structural components, MEP (mechanical,
+        electrical, plumbing) systems, and other intricate details. By utilizing
+        Revit's intelligent parametric objects, we enable easy modification and
+        coordination throughout the design and construction process.
+        <br />
+        <br />
+        By outsourcing your Revit modeling needs to our experienced team, you
+        can benefit from enhanced design visualization, improved collaboration,
+        reduced errors, and increased efficiency in your projects. We prioritize
+        quality, adherence to project timelines, and cost-effectiveness,
+        ensuring that our clients receive top-notch Revit modeling services
+        tailored to their unique project needs.
       </p>
     </div>
   </div>
@@ -1128,22 +1235,27 @@ const Twentyeight = () => (
         project requirements, ensuring that every aspect is accurately captured
         in the model. Whether it's an intricate building facade, intricate
         furniture design, or intricate landscape elements, our attention to
-        detail ensures the utmost precision in our models. Using SketchUp's
-        powerful tools and features, we create highly detailed 3D models with
-        accurate dimensions, textures, materials, and lighting effects. Our
-        models not only showcase the aesthetics of your designs but also provide
-        a realistic sense of scale and spatial relationships, enabling you to
-        visualize the final outcome before any construction or manufacturing
-        begins. By outsourcing your SketchUp modeling requirements to us, you
-        can benefit from cost-effective solutions without compromising on the
+        detail ensures the utmost precision in our models. <br />
+        <br />
+        Using SketchUp's powerful tools and features, we create highly detailed
+        3D models with accurate dimensions, textures, materials, and lighting
+        effects. Our models not only showcase the aesthetics of your designs but
+        also provide a realistic sense of scale and spatial relationships,
+        enabling you to visualize the final outcome before any construction or
+        manufacturing begins.
+        <br />
+        <br /> By outsourcing your SketchUp modeling requirements to us, you can
+        benefit from cost-effective solutions without compromising on the
         quality of work. Our competitive pricing packages ensure that you
         receive exceptional value for your investment, allowing you to allocate
         your resources efficiently. Choose our SketchUp modeling services and
         experience the seamless integration of creativity, precision, and
         innovation. Let us assist you in bringing your ideas to life, giving you
-        a competitive edge in your industry. Contact us today to discuss your
-        project requirements, and let us embark on a collaborative journey
-        towards realizing your design aspirations.
+        a competitive edge in your industry.
+        <br />
+        <br /> Contact us today to discuss your project requirements, and let us
+        embark on a collaborative journey towards realizing your design
+        aspirations.
       </p>
     </div>
   </div>
@@ -1171,22 +1283,26 @@ const Twentynine = () => (
         software widely used in industries such as architecture, industrial
         design, engineering, and product development. With our expertise in
         Rhino, we can help you bring your creative concepts to life and
-        transform them into realistic 3D models. Our team of skilled and
-        experienced Rhino modelers possesses a deep understanding of the
-        software's capabilities and its application in various industries. They
-        are proficient in utilizing Rhino's extensive toolset, which includes
-        advanced surfacing, NURBS (Non-Uniform Rational B-Splines) modeling,
-        mesh editing, and parametric design functionalities. Whether you require
-        precise geometric designs, intricate organic shapes, or complex surface
-        modeling, our experts can deliver exceptional results with utmost
-        precision. Whether you are an architectural firm, product designer,
-        engineering company, or a creative professional seeking Rhino modeling
-        services, we have the expertise and resources to cater to your needs.
-        With our commitment to excellence and attention to detail, we strive to
-        exceed your expectations and deliver outstanding 3D models that bring
-        your ideas to life. Contact us today to discuss your Rhino modeling
-        requirements and explore how our outsourcing services can benefit your
-        business.
+        transform them into realistic 3D models. <br />
+        <br />
+        Our team of skilled and experienced Rhino modelers possesses a deep
+        understanding of the software's capabilities and its application in
+        various industries. They are proficient in utilizing Rhino's extensive
+        toolset, which includes advanced surfacing, NURBS (Non-Uniform Rational
+        B-Splines) modeling, mesh editing, and parametric design
+        functionalities. <br />
+        <br />
+        Whether you require precise geometric designs, intricate organic shapes,
+        or complex surface modeling, our experts can deliver exceptional results
+        with utmost precision. Whether you are an architectural firm, product
+        designer, engineering company, or a creative professional seeking Rhino
+        modeling services, we have the expertise and resources to cater to your
+        needs. With our commitment to excellence and attention to detail, we
+        strive to exceed your expectations and deliver outstanding 3D models
+        that bring your ideas to life. <br />
+        <br />
+        Contact us today to discuss your Rhino modeling requirements and explore
+        how our outsourcing services can benefit your business.
       </p>
     </div>
   </div>

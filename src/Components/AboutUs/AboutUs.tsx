@@ -175,6 +175,15 @@ export const AboutUs = () => {
 
         <div className="container">
           <div className="row justify-content-center">
+            {/* {CardTravelSharp.map((card) => {
+              if (id== card.id) {
+                return (
+                  <div>
+                    {card.image}
+                  </div>
+                )
+              }
+            })} */}
             {Aboutcards.map((data, key) => (
               <div
                 className="col-12 col-md-6 col-lg-3 mb-4 p-2" // Adjust the column sizes as per your preference

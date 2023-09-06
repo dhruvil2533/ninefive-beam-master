@@ -196,7 +196,7 @@ export const ContactUs = () => {
             <div className="container text-center w-50 mt-3 mb-3">
               <button
                 className={`
-                        form-control btn-primary blueBG
+                        form-control btn-primary blueBG whiteText
                     `}
                 onClick={onSubmit}
                 disabled={disabled}

@@ -34,21 +34,38 @@ import "./port.css";
 // import "./images1";
 
 const Portfolio = () => {
-  // const [model, setModel] = React.useState(false);
-  // const [tempdata, setTempdata] = React.useState<string[]>([]);
-  // const [idValue, setIdvalue] = React.useState<number>();
+  const [model, setModel] = useState(false);
+  const [tempdata, setTempdata] = useState<string[]>([]);
+  const [idValue, setIdValue] = useState<number | undefined>(undefined);
+  const dummyData = [
+    {
+      id: 1,
+      img: "image1.jpg",
+      title: "Item 1",
+      desc: "Description for Item 1",
+    },
+    {
+      id: 2,
+      img: "image2.jpg",
+      title: "Item 2",
+      desc: "Description for Item 2",
+    },
+    // Add more dummy data as needed
+  ];
+  const getData = (img: string, title: string, desc: string) => {
+    let tempData = [img, title, desc];
+    setTempdata((prevData) => [...prevData, ...tempData]);
+    setModel(true);
+  };
 
-  // const getData = (img: string, title: string, desc: string) => {
-  //   let tempData = [img, title, desc];
-  //   setTempdata((item) => ["1", ...tempData]);
-  //   return setModel(true);
-  // };
-  // const [open, setOpen] = React.useState(false);
-  // const handleOpen = (id: number) => {
-  //   setOpen(true);
-  //   setIdvalue(id);
-  // };
-  // const handleClose = () => setOpen(false);
+  const handleOpen = (id: number) => {
+    setIdValue(id);
+  };
+
+  const handleClose = () => {
+    setModel(false);
+    setIdValue(undefined);
+  };
 
   return (
     <>
@@ -277,6 +294,940 @@ const Portfolio = () => {
 
       <div className="main">
         <ul className="cards">
+          <>
+            {/* Button trigger modal */}
+
+            {/* Modal */}
+            <div
+              className="modal fade"
+              id="exampleModal1"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img2} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">
+                        Heritage church Facade model
+                      </h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal fade"
+              id="exampleModal2"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img3} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal3"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img4} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal4"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img5} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal5"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img6} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal6"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img7} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal7"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img8} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal8"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img9} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal9"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img10} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal10"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img11} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal11"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img12} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal12"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img13} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal13"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img14} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal14"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img15} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal15"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img16} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="modal fade"
+              id="exampleModal16"
+              tabIndex={-1}
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="exampleModalLabel">
+                      Modal title
+                    </h1>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    />
+                  </div>
+                  <div className="modal-body">
+                    <div className="card_image">
+                      <img src={img17} />
+                    </div>
+                    <div className="card_content img " style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage church</h2>
+                      <br />
+                      <p className="card_text">
+                        <b>Project Over View:</b> A detailed Facade Model of a
+                        heritage Church Building From Given photographs and old
+                        drawings.
+                        <br />
+                        <b>Type :</b> BIM Models
+                        <br />
+                        <b>Sector:</b> Public Building
+                        <br />
+                        <b>Scope :</b> BIM Architecture
+                        <br />
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
+                        with surrounding building blocks.
+                        <br />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+
           <li className="cards_item">
             <div className="card ">
               <div className="card_image">
@@ -303,8 +1254,9 @@ const Portfolio = () => {
                 </p>
                 <button
                   className="btn card_btn"
+                  type="button"
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  data-bs-target="#exampleModal1"
                 >
                   See More
                 </button>
@@ -331,7 +1283,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -356,7 +1315,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -377,7 +1343,14 @@ const Portfolio = () => {
                   <b>Deliverables:</b> LOD 400 Model to be delivered Along with
                   quantity and Material take off. <br /> <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -402,7 +1375,14 @@ const Portfolio = () => {
                   <br />
                 </p>
 
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal5"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -426,7 +1406,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal6"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -451,7 +1438,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal7"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -476,7 +1470,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal8"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -500,7 +1501,14 @@ const Portfolio = () => {
                   valves, equipement, and structural steel using laser scan
                   point clouds.
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal9"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -524,7 +1532,14 @@ const Portfolio = () => {
                   hangars, valves, equipement, and structural steel using laser
                   scan point clouds
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal10"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -549,7 +1564,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal11"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -576,7 +1598,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal12"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -599,7 +1628,14 @@ const Portfolio = () => {
                   <b> Deliverables:</b> LOD 400 3D Revit model with precise
                   exterior details.
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal13"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -623,7 +1659,14 @@ const Portfolio = () => {
                   <br />
                   <br />
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal14"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -645,7 +1688,14 @@ const Portfolio = () => {
                   <b>Deliverables:</b> LOD 400 3D Revit model with precise
                   exterior details.
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal15"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
@@ -667,7 +1717,14 @@ const Portfolio = () => {
                   <b>Deliverables:</b> LOD 300 3D Revit model with accurate
                   landscape.
                 </p>
-                <button className="btn card_btn">See More</button>
+                <button
+                  className="btn card_btn"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal16"
+                >
+                  See More
+                </button>
               </div>
             </div>
           </li>
