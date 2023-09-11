@@ -32,26 +32,404 @@ import Modal from "@mui/material/Modal";
 import Model from "../../Constants/Model";
 // import Model from "../../Constants/Model";
 import "./port.css";
-// import "./images1";
+// import "./images1/1.png";
 
 const modelimg = [
   {
-    src: "./images1/1.jpg",
+    src: "/images1/1.jpg",
   },
   {
-    src: "./images1/2.jpg",
+    src: "/images1/2.jpg",
   },
   {
-    src: "./images1/3.jpg",
+    src: "/images1/3.jpg",
   },
   {
-    src: "./images1/4.jpg",
+    src: "/images1/4.jpg",
   },
   {
-    src: "./images1/5.jpg",
+    src: "/images1/5.jpg",
   },
   {
-    src: "./images1/6.jpg",
+    src: "/images1/6.jpg",
+  },
+];
+const modelimg1 = [
+  {
+    src: "/images1/7.jpg",
+  },
+  {
+    src: "/images1/8.jpg",
+  },
+  {
+    src: "/images1/9.jpg",
+  },
+  {
+    src: "/images1/10.jpg",
+  },
+  {
+    src: "/images1/11.jpg",
+  },
+  {
+    src: "/images1/12.jpg",
+  },
+];
+const modelimg2 = [
+  {
+    src: "/images1/13.jpg",
+  },
+  {
+    src: "/images1/14.jpg",
+  },
+  {
+    src: "/images1/15.jpg",
+  },
+  {
+    src: "/images1/16.jpg",
+  },
+  {
+    src: "/images1/17.jpg",
+  },
+  {
+    src: "/images1/18.jpg",
+  },
+  {
+    src: "/images1/19.jpg",
+  },
+];
+const modelimg3 = [
+  {
+    src: "/images1/20.jpg",
+  },
+  {
+    src: "/images1/21.jpg",
+  },
+  {
+    src: "/images1/22.jpg",
+  },
+  {
+    src: "/images1/23.jpg",
+  },
+];
+const modelimg4 = [
+  {
+    src: "/images1/24.jpg",
+  },
+  {
+    src: "/images1/25.jpg",
+  },
+  {
+    src: "/images1/26.jpg",
+  },
+  {
+    src: "/images1/27.jpg",
+  },
+  {
+    src: "/images1/28.jpg",
+  },
+  {
+    src: "/images1/29.jpg",
+  },
+];
+const modelimg5 = [
+  {
+    src: "/images1/30.jpg",
+  },
+  {
+    src: "/images1/31.jpg",
+  },
+  {
+    src: "/images1/32.jpg",
+  },
+  {
+    src: "/images1/33.jpg",
+  },
+];
+const modelimg6 = [
+  {
+    src: "/images1/34.jpg",
+  },
+  {
+    src: "/images1/35.jpg",
+  },
+  {
+    src: "/images1/36.jpg",
+  },
+  {
+    src: "/images1/37.jpg",
+  },
+  {
+    src: "/images1/38.jpg",
+  },
+  {
+    src: "/images1/39.jpg",
+  },
+  {
+    src: "/images1/40.jpg",
+  },
+  {
+    src: "/images1/41.jpg",
+  },
+  {
+    src: "/images1/42.jpg",
+  },
+  {
+    src: "/images1/43.jpg",
+  },
+  {
+    src: "/images1/44.jpg",
+  },
+  {
+    src: "/images1/45.jpg",
+  },
+  {
+    src: "/images1/46.jpg",
+  },
+  {
+    src: "/images1/47.jpg",
+  },
+];
+const modelimg7 = [
+  {
+    src: "/images1/48.jpg",
+  },
+  {
+    src: "/images1/49.jpg",
+  },
+  {
+    src: "/images1/50.jpg",
+  },
+  {
+    src: "/images1/51.jpg",
+  },
+  {
+    src: "/images1/52.jpg",
+  },
+  {
+    src: "/images1/53.jpg",
+  },
+  {
+    src: "/images1/54.jpg",
+  },
+  {
+    src: "/images1/55.jpg",
+  },
+  {
+    src: "/images1/56.jpg",
+  },
+  {
+    src: "/images1/57.jpg",
+  },
+  {
+    src: "/images1/58.jpg",
+  },
+];
+const modelimg8 = [
+  {
+    src: "/images1/59.jpg",
+  },
+  {
+    src: "/images1/60.jpg",
+  },
+  {
+    src: "/images1/61.jpg",
+  },
+  {
+    src: "/images1/62.jpg",
+  },
+  {
+    src: "/images1/63.jpg",
+  },
+  {
+    src: "/images1/64.jpg",
+  },
+];
+const modelimg9 = [
+  {
+    src: "/images1/65.jpg",
+  },
+  {
+    src: "/images1/66.jpg",
+  },
+  {
+    src: "/images1/67.jpg",
+  },
+  {
+    src: "/images1/68.jpg",
+  },
+  {
+    src: "/images1/69.jpg",
+  },
+];
+const modelimg10 = [
+  {
+    src: "/images1/70.jpg",
+  },
+  {
+    src: "/images1/71.jpg",
+  },
+  {
+    src: "/images1/72.jpg",
+  },
+  {
+    src: "/images1/73.jpg",
+  },
+];
+const modelimg11 = [
+  {
+    src: "/images1/74.jpg",
+  },
+  {
+    src: "/images1/75.jpg",
+  },
+  {
+    src: "/images1/76.jpg",
+  },
+  {
+    src: "/images1/77.jpg",
+  },
+  {
+    src: "/images1/78.jpg",
+  },
+  {
+    src: "/images1/79.jpg",
+  },
+  {
+    src: "/images1/80.jpg",
+  },
+  {
+    src: "/images1/81.jpg",
+  },
+  {
+    src: "/images1/82.jpg",
+  },
+  {
+    src: "/images1/83.jpg",
+  },
+];
+const modelimg12 = [
+  {
+    src: "/images1/84.jpg",
+  },
+  {
+    src: "/images1/85.jpg",
+  },
+  {
+    src: "/images1/86.jpg",
+  },
+  {
+    src: "/images1/87.jpg",
+  },
+  {
+    src: "/images1/88.jpg",
+  },
+  {
+    src: "/images1/89.jpg",
+  },
+  {
+    src: "/images1/90.jpg",
+  },
+  {
+    src: "/images1/91.jpg",
+  },
+  {
+    src: "/images1/92.jpg",
+  },
+  {
+    src: "/images1/93.jpg",
+  },
+];
+const modelimg13 = [
+  {
+    src: "/images1/94.jpg",
+  },
+  {
+    src: "/images1/95.jpg",
+  },
+  {
+    src: "/images1/96.jpg",
+  },
+  {
+    src: "/images1/97.jpg",
+  },
+  {
+    src: "/images1/98.jpg",
+  },
+  {
+    src: "/images1/99.jpg",
+  },
+  {
+    src: "/images1/100.jpg",
+  },
+  {
+    src: "/images1/101.jpg",
+  },
+  {
+    src: "/images1/102.jpg",
+  },
+  {
+    src: "/images1/103.jpg",
+  },
+  {
+    src: "/images1/104.jpg",
+  },
+  {
+    src: "/images1/105.jpg",
+  },
+];
+const modelimg14 = [
+  {
+    src: "/images1/106.jpg",
+  },
+  {
+    src: "/images1/107.jpg",
+  },
+  {
+    src: "/images1/108.jpg",
+  },
+  {
+    src: "/images1/109.jpg",
+  },
+  {
+    src: "/images1/110.jpg",
+  },
+  {
+    src: "/images1/111.jpg",
+  },
+  {
+    src: "/images1/112.jpg",
+  },
+  {
+    src: "/images1/113.jpg",
+  },
+  {
+    src: "/images1/114.jpg",
+  },
+  {
+    src: "/images1/115.jpg",
+  },
+  {
+    src: "/images1/116.jpg",
+  },
+];
+const modelimg15 = [
+  {
+    src: "/images1/117.jpg",
+  },
+  {
+    src: "/images1/118.jpg",
+  },
+  {
+    src: "/images1/119.jpg",
+  },
+  {
+    src: "/images1/120.jpg",
+  },
+  {
+    src: "/images1/121.jpg",
+  },
+  {
+    src: "/images1/122.jpg",
   },
 ];
 const Portfolio = () => {
@@ -326,7 +704,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -365,6 +743,15 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <div className="row">
+                      {modelimg1.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -385,7 +772,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -421,6 +808,13 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    {modelimg2.map((item, key) => (
+                      <div className="col-xl-12 col-md-12 col-sm-12">
+                        <div className="client_logo mb-3">
+                          <img src={item.src} alt="404 - Not Given" />
+                        </div>
+                      </div>
+                    ))}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -442,7 +836,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -479,6 +873,15 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <div className="row">
+                      {modelimg3.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -500,7 +903,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -536,6 +939,15 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <div className="row">
+                      {modelimg4.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -557,7 +969,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -593,6 +1005,15 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <div className="row">
+                      {modelimg5.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -614,7 +1035,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -650,6 +1071,15 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <div className="row">
+                      {modelimg6.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -671,7 +1101,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -708,12 +1138,11 @@ const Portfolio = () => {
                       </p>
                     </div>
                     <div className="container text-center">
-                      <h4>
-                        <b>Gallery</b>
-                      </h4>
+                      <hr />
+                      <hr />
                       <div className="row">
                         {modelimg.map((item, key) => (
-                          <div className="col">
+                          <div className="col-xl-12 col-md-12 col-sm-12">
                             <div className="client_logo">
                               <img src={item.src} alt="404 - Not Given" />
                             </div>
@@ -742,7 +1171,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -779,6 +1208,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg14.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -800,7 +1240,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -839,6 +1279,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg13.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -860,7 +1311,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -900,6 +1351,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg15.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -921,7 +1383,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -957,6 +1419,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg12.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -978,7 +1451,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -1015,6 +1488,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg11.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1036,7 +1520,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -1073,6 +1557,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg10.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1094,7 +1589,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -1130,6 +1625,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg9.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1151,7 +1657,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -1188,6 +1694,17 @@ const Portfolio = () => {
                         <br />
                       </p>
                     </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg8.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1209,7 +1726,7 @@ const Portfolio = () => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div className="modal-dialog">
+              <div className="modal-dialog modal-dialog-scrollable">
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -1245,6 +1762,17 @@ const Portfolio = () => {
                         <br />
                         <br />
                       </p>
+                    </div>
+                    <hr />
+                    <hr />
+                    <div className="row">
+                      {modelimg7.map((item, key) => (
+                        <div className="col-xl-12 col-md-12 col-sm-12">
+                          <div className="client_logo mb-3">
+                            <img src={item.src} alt="404 - Not Given" />
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
                   <div className="modal-footer">
