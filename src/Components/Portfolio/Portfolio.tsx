@@ -21,6 +21,7 @@ import img15 from "./images2/JJ Render.jpg";
 import img16 from "./images2/414 Flushing Ave_05.jpg";
 import img17 from "./images2/Model 2.jpg";
 import img0 from "./images2/portfolio-image1.jpg";
+
 // import Modal from "react-bootstrap/Modal";
 // import Button from "react-bootstrap/Button";
 import projectsData from "../../Constants/projectsData";
@@ -33,6 +34,26 @@ import Model from "../../Constants/Model";
 import "./port.css";
 // import "./images1";
 
+const modelimg = [
+  {
+    src: "./images1/1.jpg",
+  },
+  {
+    src: "./images1/2.jpg",
+  },
+  {
+    src: "./images1/3.jpg",
+  },
+  {
+    src: "./images1/4.jpg",
+  },
+  {
+    src: "./images1/5.jpg",
+  },
+  {
+    src: "./images1/6.jpg",
+  },
+];
 const Portfolio = () => {
   const [model, setModel] = useState(false);
   const [tempdata, setTempdata] = useState<string[]>([]);
@@ -685,6 +706,20 @@ const Portfolio = () => {
                         <br />
                         <br />
                       </p>
+                    </div>
+                    <div className="container text-center">
+                      <h4>
+                        <b>Gallery</b>
+                      </h4>
+                      <div className="row">
+                        {modelimg.map((item, key) => (
+                          <div className="col">
+                            <div className="client_logo">
+                              <img src={item.src} alt="404 - Not Given" />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                   <div className="modal-footer">

@@ -603,12 +603,14 @@ img {
 }
 
 .Dis_container {
-  width: 40%;
+  width: 100%;
+
+  /* width: 50%;
   background-color: transparent;
   position: absolute;
   right: 0;
   top: 18%;
-  left: 45%;
+  left: 45%; */
 }
 .Dis_container hr {
   width: 100px;
@@ -618,11 +620,12 @@ img {
   margin: 10px auto;
 }
 .accordion {
-  width: 500px;
+  width: 100%;
 }
 .Dis_container p {
   text-align: justify;
 }
+
 @media (max-width: 1200px) {
   .Dis_container {
     width: 100%;

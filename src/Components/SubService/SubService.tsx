@@ -10,7 +10,7 @@ import { getDownloadURL, ref } from "firebase/storage";
 import { DesciplineList } from "../../Constants/DesciplineList";
 import SoftwareList from "../../Constants/SoftwareList";
 import { Tooltip } from "@mui/material";
-import { Padding, WhatsApp } from "@mui/icons-material";
+import { Margin, Padding, WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
 import services from "../../Constants/Services.json";
 import BIMServices from "../../Constants/BIMServices";
@@ -1492,7 +1492,7 @@ export const SubService = () => {
   };
 
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid p-0 overlay">
       <Header />
       <div className="section_Padding"></div>
       <div className="section_Padding"></div>
@@ -1505,7 +1505,7 @@ export const SubService = () => {
                 <div>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed "
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
