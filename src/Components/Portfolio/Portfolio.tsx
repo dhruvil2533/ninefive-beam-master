@@ -309,7 +309,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Heritage church Facade model
                     </h1>
                     <button
                       type="button"
@@ -368,7 +368,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      City Hall Model
                     </h1>
                     <button
                       type="button"
@@ -382,12 +382,11 @@ const Portfolio = () => {
                       <img src={img3} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">City Hall Model</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> Detailed Exterior model of a
+                        City hall in New york
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
@@ -395,8 +394,8 @@ const Portfolio = () => {
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 500 As-build Achitectural
+                        model.
                         <br />
                         <br />
                       </p>
@@ -426,7 +425,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      3D Dome Model
                     </h1>
                     <button
                       type="button"
@@ -440,12 +439,12 @@ const Portfolio = () => {
                       <img src={img4} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">3D Dome Model</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> To review caliber and skill of
+                        the team, NineFive BIM's team has developed an
+                        incredible 3D model of a Dome with detailed facade.
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
@@ -484,7 +483,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Landsdale Park
                     </h1>
                     <button
                       type="button"
@@ -498,21 +497,20 @@ const Portfolio = () => {
                       <img src={img5} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Landsdale Park</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model to use for
+                        renovation work, based on CAD drawings and Photographs.
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Residencial Building
                         <br />
-                        <b>Scope :</b> BIM Architecture
+                        <b>Scope :</b> BIM Architecture & Structure
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 Model to be delivered Along
+                        with quantity and Material take off.
                         <br />
                         <br />
                       </p>
@@ -542,7 +540,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      173 King's Rd.
                     </h1>
                     <button
                       type="button"
@@ -556,21 +554,20 @@ const Portfolio = () => {
                       <img src={img6} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">173 King's Rd.</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model, based on
+                        CAD drawings and Photographs.
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Residencial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit model with
+                        accurate landscape.
                         <br />
                         <br />
                       </p>
@@ -600,7 +597,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      School Model
                     </h1>
                     <button
                       type="button"
@@ -614,12 +611,12 @@ const Portfolio = () => {
                       <img src={img7} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">School Model</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> 3D model of the School is to
+                        manage the design, construction and renovation of school
+                        facilities in New York City.
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
@@ -627,8 +624,7 @@ const Portfolio = () => {
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 BIM Architectural Model
                         <br />
                         <br />
                       </p>
@@ -658,7 +654,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Villa
                     </h1>
                     <button
                       type="button"
@@ -672,21 +668,20 @@ const Portfolio = () => {
                       <img src={img8} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Villa</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model, based on
+                        CAD drawings and Photographs.
                         <br />
                         <b>Type :</b> BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Residencial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit model with
+                        accurate materials.
                         <br />
                         <br />
                       </p>
@@ -716,7 +711,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Chemical Refinery As-Build
                     </h1>
                     <button
                       type="button"
@@ -730,21 +725,21 @@ const Portfolio = () => {
                       <img src={img9} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Chemical Refinery As-Build</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> As-build 3D model of a
+                        chemical refinery to re-work and prefabrication of new
+                        piping during an upgrade.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> BIM MEP Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Industrail Building
                         <br />
-                        <b>Scope :</b> BIM Architecture
+                        <b>Scope :</b> BIM MEP
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit MEP model with
+                        clash detection.
                         <br />
                         <br />
                       </p>
@@ -774,7 +769,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      As-Build Chiller Plant
                     </h1>
                     <button
                       type="button"
@@ -788,21 +783,23 @@ const Portfolio = () => {
                       <img src={img10} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">As-Build Chiller Plant</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> As-build 3D model of chiller
+                        plant facility where used to create as-built p&id
+                        drawings for engineering design, clash detection, and
+                        coordination drawings.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> BIM MEP Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Industrail Building
                         <br />
-                        <b>Scope :</b> BIM Architecture
+                        <b>Scope :</b> BIM MEP
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit MEP model of
+                        piping, valves, equipement, and structural steel using
+                        laser scan point clouds.
                         <br />
                         <br />
                       </p>
@@ -832,7 +829,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Process Plant As-Built
                     </h1>
                     <button
                       type="button"
@@ -846,21 +843,24 @@ const Portfolio = () => {
                       <img src={img11} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Process Plant As-Built</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
+                        <b>Project Over View:</b> As-build 3D model of Process
+                        plant where used to connect tie-in points, clash
+                        detection of new piping, and construction coordination
                         drawings.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> BIM MEP Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Industrail Building
                         <br />
-                        <b>Scope :</b> BIM Architecture
+                        <b>Scope :</b> BIM MEP
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit MEP model of
+                        electrical conduit, ductwork, hot and cold water piping,
+                        cable-tray, pipe hangars, valves, equipement, and
+                        structural steel using laser scan point clouds
                         <br />
                         <br />
                       </p>
@@ -890,7 +890,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      West End Commercial
                     </h1>
                     <button
                       type="button"
@@ -904,21 +904,20 @@ const Portfolio = () => {
                       <img src={img12} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">West End Commercial</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model of Exterior
+                        & Roof of Commercial Building From laser scanned data.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> Scan-To-BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Commercial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 3D Revit model with
+                        Accurate Architectural Details in exterior.
                         <br />
                         <br />
                       </p>
@@ -948,7 +947,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Varick Shopping Mall
                     </h1>
                     <button
                       type="button"
@@ -962,21 +961,21 @@ const Portfolio = () => {
                       <img src={img13} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Varick Shopping Mall</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model of complete
+                        Interior, Exterior & Roof of a Shopping Mall From laser
+                        scanned data.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> Scan-To-BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Commercial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 3D Revit model with
+                        Accurate Architectural Details.
                         <br />
                         <br />
                       </p>
@@ -1006,7 +1005,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      329 Main St-Brooklyn NY.
                     </h1>
                     <button
                       type="button"
@@ -1020,21 +1019,21 @@ const Portfolio = () => {
                       <img src={img14} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">329 Main St-Brooklyn NY.</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model of complete
+                        Interior, Exterior & Roof of a commerical Building From
+                        laser scanned data.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b>Scan-To-BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Commercial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 3D Revit model with precise
+                        exterior details.
                         <br />
                         <br />
                       </p>
@@ -1064,7 +1063,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      JJ Exterior Facade Model
                     </h1>
                     <button
                       type="button"
@@ -1078,21 +1077,20 @@ const Portfolio = () => {
                       <img src={img15} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">JJ Exterior Facade Model</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> Exterior AS-build 3D model of
+                        JJ Library Building From laser scanned data.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> Scan-To-BIM Models
                         <br />
                         <b>Sector:</b> Public Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 3D Revit model with precise
+                        exterior details.
                         <br />
                         <br />
                       </p>
@@ -1122,7 +1120,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      Flushing Ave-Brooklyn NY.
                     </h1>
                     <button
                       type="button"
@@ -1136,21 +1134,21 @@ const Portfolio = () => {
                       <img src={img16} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">Flushing Ave-Brooklyn NY.</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model of complete
+                        Interior, Exterior & Roof of a commerical Building From
+                        laser scanned data.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> Scan-To-BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Commercial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 400 3D Revit model with precise
+                        exterior details.
                         <br />
                         <br />
                       </p>
@@ -1180,7 +1178,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      Modal title
+                      6 Clark
                     </h1>
                     <button
                       type="button"
@@ -1194,21 +1192,21 @@ const Portfolio = () => {
                       <img src={img17} />
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">Heritage church</h2>
+                      <h2 className="card_title">6 Clark</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
-                        heritage Church Building From Given photographs and old
-                        drawings.
+                        <b>Project Over View:</b> AS-build 3D model used for
+                        upgrade and Renovation from 3D laser scanned Data and
+                        Photographs.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type :</b> Scan-To-BIM Models
                         <br />
-                        <b>Sector:</b> Public Building
+                        <b>Sector:</b> Residencial Building
                         <br />
                         <b>Scope :</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
+                        <b>Deliverables:</b> LOD 300 3D Revit model with
+                        accurate landscape.
                         <br />
                         <br />
                       </p>
