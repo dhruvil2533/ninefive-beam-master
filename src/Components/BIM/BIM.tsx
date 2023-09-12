@@ -50,7 +50,7 @@ export const BIM = () => {
     <>
       <Header />
       <div className="container">
-        <div className="row p-2 mt-5 mb-5">
+        <div className="row p-2 mb-5" style={{ marginTop: "10rem" }}>
           <div className="col-md-4 mb-5">
             <div
               className="container text-center"

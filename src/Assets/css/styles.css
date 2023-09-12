@@ -688,6 +688,8 @@ img {
 
 .accordion-body {
   padding: 0;
+  background-color: #19394d29;
+  padding: 20px;
 }
 .accordion-button {
   color: #19394d;
