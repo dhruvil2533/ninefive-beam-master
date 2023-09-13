@@ -56,22 +56,22 @@ const modelimg = [
 ];
 const modelimg1 = [
   {
-    src: "/images1/7.jpg",
+    src: "/images1/7.JPG",
   },
   {
-    src: "/images1/8.jpg",
+    src: "/images1/8.JPG",
   },
   {
-    src: "/images1/9.jpg",
+    src: "/images1/9.JPG",
   },
   {
-    src: "/images1/10.jpg",
+    src: "/images1/10.JPG",
   },
   {
-    src: "/images1/11.jpg",
+    src: "/images1/11.JPG",
   },
   {
-    src: "/images1/12.jpg",
+    src: "/images1/12.JPG",
   },
 ];
 const modelimg2 = [
