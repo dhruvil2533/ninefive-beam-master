@@ -603,14 +603,12 @@ img {
 }
 
 .Dis_container {
-  width: 100%;
-
-  /* width: 50%;
+  width: 40%;
   background-color: transparent;
   position: absolute;
   right: 0;
   top: 18%;
-  left: 45%; */
+  left: 53%;
 }
 .Dis_container hr {
   width: 100px;
@@ -620,7 +618,8 @@ img {
   margin: 10px auto;
 }
 .accordion {
-  width: 100%;
+  width: 50%;
+  margin-bottom: 13rem;
 }
 .Dis_container p {
   text-align: justify;
@@ -842,24 +841,18 @@ img {
     height: 100%;
   }
 }
-
-/* @media (min-width: 1000px) and (max-width: 1400px) {
-  .accordion {
-    width: 400px;
-  }
-  .Dis_container {
-    width: 50%;
-    background-color: transparent;
-    position: absolute;
-    right: 0;
-    top: 9%;
-    left: 44%;
-  }
+@media (min-width: 1200px) and (max-width: 1300px) {
   .container_padding {
-    padding-bottom: 6rem;
+    padding-bottom: 33rem;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1600px) {
+  .container_padding {
+    padding-bottom: 25rem;
   }
 }
 
+/* 
 @media (min-width: 800px) and (max-width: 1000px) {
   .accordion {
     width: 371px;

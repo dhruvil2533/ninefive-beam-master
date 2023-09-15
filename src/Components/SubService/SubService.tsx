@@ -806,37 +806,50 @@ const Twenty = () => (
         Interior and Exterior 3D Rendering Services. Our team of skilled experts
         is dedicated to bringing your design visions to life through a
         harmonious blend of creativity, cutting-edge technology, and meticulous
-        attention to detail. Whether you are an esteemed architect, visionary
-        interior designer, ambitious real estate developer, or even a discerning
-        homeowner, our rendering services are tailored to elevate your projects
-        and captivate your audience. At NineFivew BIM, we possess an exceptional
-        knack for transforming your blueprints, sketches, or CAD files into
-        awe-inspiring, realistic visualizations of interior spaces. Utilizing
-        advanced rendering techniques, our talented artists meticulously craft
-        immersive virtual environments that enable you to experience the essence
-        of your designs before they manifest in the physical realm. We
-        painstakingly render every element, including lighting, textures,
-        furniture, and decor, ensuring that every aspect of your interior
-        concept is accurately portrayed. Our superior-quality renders serve as
-        invaluable tools for presentations, marketing materials, and client
-        approvals, empowering you to showcase your ideas with unwavering
-        confidence. With our exterior 3D rendering services, we go above and
-        beyond in highlighting the beauty and functionality of your
-        architectural projects. Be it residential buildings, commercial
-        complexes, or breathtaking landscape designs, our team strives to create
-        visually striking and hyper-realistic renders that encapsulate the
-        essence of your exterior spaces. We meticulously consider elements such
-        as materials, landscaping, lighting, and environmental factors to
-        provide an unparalleled level of realism in our renders. These
-        captivating visuals serve as indispensable marketing assets, enabling
-        potential clients and investors to envision the final outcome of your
-        project and make informed decisions with utmost certainty. At NineFive
-        BIM, we take immense pride in delivering Interior and Exterior 3D
-        Rendering Services of the highest caliber, surpassing expectations at
-        every turn. Whether you require captivating visuals for marketing
-        purposes, design validation, or client presentations, our skilled team
-        is dedicated to transforming your ideas into stunning visual
-        masterpieces. Experience the epitome of rendering excellence with
+        attention to detail.
+        <br />
+        <br />
+        Whether you are an esteemed architect, visionary interior designer,
+        ambitious real estate developer, or even a discerning homeowner, our
+        rendering services are tailored to elevate your projects and captivate
+        your audience. At NineFivew BIM, we possess an exceptional knack for
+        transforming your blueprints, sketches, or CAD files into awe-inspiring,
+        realistic visualizations of interior spaces.
+        <br />
+        <br />
+        Utilizing advanced rendering techniques, our talented artists
+        meticulously craft immersive virtual environments that enable you to
+        experience the essence of your designs before they manifest in the
+        physical realm. We painstakingly render every element, including
+        lighting, textures, furniture, and decor, ensuring that every aspect of
+        your interior concept is accurately portrayed. Our superior-quality
+        renders serve as invaluable tools for presentations, marketing
+        materials, and client approvals, empowering you to showcase your ideas
+        with unwavering confidence.
+        <br />
+        <br />
+        With our exterior 3D rendering services, we go above and beyond in
+        highlighting the beauty and functionality of your architectural
+        projects. Be it residential buildings, commercial complexes, or
+        breathtaking landscape designs, our team strives to create visually
+        striking and hyper-realistic renders that encapsulate the essence of
+        your exterior spaces.
+        <br />
+        <br />
+        We meticulously consider elements such as materials, landscaping,
+        lighting, and environmental factors to provide an unparalleled level of
+        realism in our renders. These captivating visuals serve as indispensable
+        marketing assets, enabling potential clients and investors to envision
+        the final outcome of your project and make informed decisions with
+        utmost certainty.
+        <br />
+        <br />
+        At NineFive BIM, we take immense pride in delivering Interior and
+        Exterior 3D Rendering Services of the highest caliber, surpassing
+        expectations at every turn. Whether you require captivating visuals for
+        marketing purposes, design validation, or client presentations, our
+        skilled team is dedicated to transforming your ideas into stunning
+        visual masterpieces. Experience the epitome of rendering excellence with
         NineFivew BIM by contacting us today, and witness the unrivaled beauty
         of your projects coming to life.
       </p>
@@ -1181,19 +1194,23 @@ const Twentyseven = () => (
       >
         CAD modeling services provide businesses with professional expertise in
         creating detailed and accurate computer-aided design (CAD) models for a
-        wide range of industries. Whether it's architectural, mechanical,
-        electrical, or industrial design, CAD modeling plays a crucial role in
-        visualizing concepts, simulating real-world scenarios, and aiding in the
-        manufacturing process. We offer comprehensive CAD modeling services to
-        help businesses streamline their design processes and bring their ideas
-        to life. Our team of skilled CAD designers and engineers are equipped
-        with the latest software tools and technologies to deliver high-quality
-        and precise 2D and 3D models. Our CAD modeling services encompass a
-        broad spectrum of solutions tailored to meet the specific needs of our
-        clients. We specialize in creating detailed architectural models that
-        accurately represent building structures, floor plans, and interior
-        designs. This enables architects, developers, and construction firms to
-        visualize and communicate their ideas effectively, leading to better
+        wide range of industries. <br />
+        <br />
+        Whether it's architectural, mechanical, electrical, or industrial
+        design, CAD modeling plays a crucial role in visualizing concepts,
+        simulating real-world scenarios, and aiding in the manufacturing
+        process. We offer comprehensive CAD modeling services to help businesses
+        streamline their design processes and bring their ideas to life. Our
+        team of skilled CAD designers and engineers are equipped with the latest
+        software tools and technologies to deliver high-quality and precise 2D
+        and 3D models. <br />
+        <br /> Our CAD modeling services encompass a broad spectrum of solutions
+        tailored to meet the specific needs of our clients. We specialize in
+        creating detailed architectural models that accurately represent
+        building structures, floor plans, and interior designs. <br />
+        <br />
+        This enables architects, developers, and construction firms to visualize
+        and communicate their ideas effectively, leading to better
         decision-making and improved project outcomes. For mechanical and
         industrial designs, our CAD modeling services provide a cost-effective
         solution for prototyping, product development, and manufacturing
@@ -1201,15 +1218,19 @@ const Twentyseven = () => (
         components, and assemblies, allowing for thorough analysis,
         optimization, and evaluation before production begins. This ensures that
         potential issues are identified early on, reducing time-to-market and
-        minimizing costly errors. Electrical CAD modeling is another area of
-        expertise we offer, catering to the needs of electronics and electrical
-        engineering industries. Our skilled professionals can create detailed
-        circuit diagrams, wiring layouts, and panel designs, facilitating
-        efficient planning, installation, and maintenance of electrical systems.
-        By outsourcing your CAD modeling needs to our company, you can benefit
-        from reduced costs, increased productivity, and access to a highly
-        skilled team of experts. We prioritize quality and accuracy in our work,
-        ensuring that our CAD models meet the highest industry standards.
+        minimizing costly errors. <br />
+        <br />
+        Electrical CAD modeling is another area of expertise we offer, catering
+        to the needs of electronics and electrical engineering industries. Our
+        skilled professionals can create detailed circuit diagrams, wiring
+        layouts, and panel designs, facilitating efficient planning,
+        installation, and maintenance of electrical systems. By outsourcing your
+        CAD modeling needs to our company, you can benefit from reduced costs,
+        increased productivity, and access to a highly skilled team of experts.{" "}
+        <br />
+        <br />
+        We prioritize quality and accuracy in our work, ensuring that our CAD
+        models meet the highest industry standards.
       </p>
     </div>
   </div>
@@ -1934,7 +1955,7 @@ export const SubService = () => {
       </div> */}
       <div className="section_Padding"></div>
       <div className="section_Padding"></div>
-      <div className="container-fluid mt-3 mb-3 p-0"></div>
+      <div className="container-fluid mt-5 mb-3 p-0"></div>
       <MaterialLink href="https://wa.me/7016591928" target="_blank">
         <IconButton
           size="large"
@@ -1944,7 +1965,7 @@ export const SubService = () => {
           <WhatsApp />
         </IconButton>
       </MaterialLink>
-      {/* <div className="container_padding"></div> */}
+      <div className="container_padding"></div>
       <Footer />
     </div>
   );
