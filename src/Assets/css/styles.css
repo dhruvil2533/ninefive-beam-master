@@ -283,13 +283,14 @@ html {
 
 .know-more-btn {
   /* position: absolute;
-  bottom: 0%;
-  left: 7%;
+  bottom: 2%;
+  left: 4%;
   text-align: center;
-  justify-content: center;
-  transition: 0.3s; */
+  justify-content: center; */
+  transition: 0.3s;
   color: black;
-  padding: 0.8rem;
+  transition: 0.4s;
+  padding: 10px;
   font-size: 14px;
   text-transform: uppercase;
   border-radius: 4px;

@@ -90,8 +90,14 @@ const DescriptionCard = () => {
                       Know More
                     </Link>
                   </CardContent>
-                  <br />
-                  <br />
+                  {/* <br />
+                  <br /> */}
+                  {/* <Link
+                    to={`/sub-service/0/${data.name}`}
+                    className=" know-more-btn  text-decoration-none btn btn-secondary"
+                  >
+                    Know More
+                  </Link> */}
                 </Card>
               </div>
             )
@@ -132,8 +138,14 @@ const DescriptionCard = () => {
                       Know More
                     </Link>
                   </CardContent>
-                  <br />
-                  <br />
+                  {/* <br />
+                  <br /> */}
+                  {/* <Link
+                    to={`/sub-service/0/${data.name}`}
+                    className="know-more-btn  text-decoration-none btn btn-secondary"
+                  >
+                    Know More
+                  </Link> */}
                 </Card>
               </div>
             )
