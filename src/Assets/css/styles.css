@@ -604,10 +604,11 @@ img {
 
 .Dis_container {
   width: 40%;
-  background-color: transparent;
+  background-color: #19394d29;
+  border-radius: 10px;
   position: absolute;
   right: 0;
-  top: 18%;
+  top: 70%;
   left: 53%;
 }
 .Dis_container hr {
@@ -623,6 +624,8 @@ img {
 }
 .Dis_container p {
   text-align: justify;
+  color: #19394d;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
@@ -845,10 +848,36 @@ img {
   .container_padding {
     padding-bottom: 33rem;
   }
+  .Dis_container {
+    width: 40%;
+    background-color: #19394d29;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    left: 53%;
+  }
 }
 @media (min-width: 1300px) and (max-width: 1600px) {
-  .container_padding {
-    padding-bottom: 25rem;
+  .Dis_container {
+    width: 40%;
+    background-color: #19394d29;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 80%;
+    left: 53%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 2200px) {
+  .Dis_container {
+    width: 40%;
+    background-color: #19394d29;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    left: 53%;
   }
 }
 

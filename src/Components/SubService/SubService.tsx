@@ -20,12 +20,13 @@ import VisualServices from "../../Constants/3DVisualServices";
 import ModelingServices from "../../Constants/3DModelingServices";
 import img1 from "./sub_images/scan-to-bim.jpg";
 import Tabs from "./tabs";
+import img2 from "./Residential.jpg";
 
 const one = () => (
   <div className="Dis_container">
     <div className="container">
       <h2
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -75,7 +76,7 @@ const two = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -117,7 +118,7 @@ const three = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -167,7 +168,7 @@ const four = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -210,7 +211,7 @@ const five = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -264,7 +265,7 @@ const six = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -291,7 +292,7 @@ const seven = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -329,7 +330,7 @@ const eight = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -365,7 +366,7 @@ const nine = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -395,7 +396,7 @@ const ten = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -426,7 +427,7 @@ const eleven = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -461,7 +462,7 @@ const twelve = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -498,7 +499,7 @@ const thirteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -536,7 +537,7 @@ const fourteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -565,7 +566,7 @@ const fifteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -612,7 +613,7 @@ const sixteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -656,7 +657,7 @@ const seventeen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -716,7 +717,7 @@ const eighteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -749,7 +750,7 @@ const nineteen = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -789,7 +790,7 @@ const Twenty = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -860,7 +861,7 @@ const Twentyone = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -899,7 +900,7 @@ const Twentytwo = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -949,7 +950,7 @@ const Twentythree = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1011,7 +1012,7 @@ const Twentyfour = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1065,7 +1066,7 @@ const Twentyfive = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1129,7 +1130,7 @@ const Twentysix = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1179,7 +1180,7 @@ const Twentyseven = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1239,7 +1240,7 @@ const Twentyeight = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1285,7 +1286,7 @@ const Twentynine = () => (
   <div className="Dis_container">
     <div className="container">
       <h1
-        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6`}
+        className={`text-center heading-text mt-5 mb-3 fw-bold letter-spacing2 display-6 text-shadow`}
         data-aos="fade-right"
         data-aos-delay={100}
       >
@@ -1515,9 +1516,11 @@ export const SubService = () => {
   return (
     <div className="container-fluid p-0 overlay">
       <Header />
+      <img src={img2} alt="" />
       <div className="section_Padding"></div>
       <div className="section_Padding"></div>
       <Link to="./modal.tsx"></Link>
+
       <div className="container">
         <div className="accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">
@@ -1526,7 +1529,7 @@ export const SubService = () => {
                 <div>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className="accordion-button collapsed "
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
