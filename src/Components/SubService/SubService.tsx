@@ -20,7 +20,7 @@ import VisualServices from "../../Constants/3DVisualServices";
 import ModelingServices from "../../Constants/3DModelingServices";
 import img1 from "./sub_images/scan-to-bim.jpg";
 import Tabs from "./tabs";
-import img2 from "./Residential.jpg";
+import img2 from "./top images/38.png";
 
 const one = () => (
   <div className="Dis_container">
@@ -1518,7 +1518,7 @@ export const SubService = () => {
       <Header />
       <img src={img2} alt="" />
       <div className="section_Padding"></div>
-      <div className="section_Padding"></div>
+
       <Link to="./modal.tsx"></Link>
 
       <div className="container">

@@ -14,12 +14,14 @@ import Description from "../../Constants/ServiceBrief";
 import aboutdes from "./aboutD";
 import img1 from "./images/icon-1.png";
 import img2 from "./images/icon-2.png";
+import img3 from "../SubService/top images/44.png";
 export const AboutUs = () => {
   const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
   return (
     <div className="container-fluid p-0">
       <Header />
+      <img src={img3} alt="" />
       {/* <div
         className=" img-container mb-5 "
         data-aos="zoom-in"
@@ -79,7 +81,7 @@ export const AboutUs = () => {
           }}
         ></div>
       </div> */}
-      <div className="section_Padding"></div>
+      {/* <div className="section_Padding"></div> */}
       <div className="container mt-5 mb-5">
         <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
           About Us

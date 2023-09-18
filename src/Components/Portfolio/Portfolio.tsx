@@ -21,7 +21,7 @@ import img15 from "./images2/JJ Render.jpg";
 import img16 from "./images2/414 Flushing Ave_05.jpg";
 import img17 from "./images2/Model 2.jpg";
 import img0 from "./images2/portfolio-image1.jpg";
-
+import img18 from "../SubService/top images/42.png";
 // import Modal from "react-bootstrap/Modal";
 // import Button from "react-bootstrap/Button";
 import projectsData from "../../Constants/projectsData";
@@ -470,7 +470,8 @@ const Portfolio = () => {
     <>
       <div className="container-fluid portfolio-container p-0">
         <Header />
-        <div
+        <img src={img18} alt="" />
+        {/* <div
           className=" img-container mb-5"
           data-aos="zoom-in"
           data-aos-delay={700}
@@ -518,7 +519,7 @@ const Portfolio = () => {
               zIndex: -1,
             }}
           ></div>
-        </div>
+        </div> */}
 
         <div className="container-fluid text-center mt-5 mb-5">
           <button type="button" className="m-2 btn btn-outline-secondary">

@@ -9,6 +9,7 @@ import { WhatsApp } from "@mui/icons-material";
 import { IconButton, Link as MaterialLink } from "@mui/material";
 import ServiceData from "../../Constants/Services.json";
 import Tabs from "../SubService/tabs";
+import img1 from "../SubService/top images/43.png";
 type MouseOverType = {
   mouseOver: boolean;
   key: number;
@@ -46,8 +47,8 @@ const DescriptionCard = () => {
 
   return (
     <>
-      <div className="section_Padding"></div>
-
+      {/* <div className="section_Padding"></div> */}
+      <img src={img1} alt="" />
       <h2
         className="text-center blueText mb-5 fw-bolder letter-spacing2 "
         // style={{ marginTop: "7%" }}
