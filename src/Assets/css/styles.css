@@ -621,6 +621,7 @@ img {
 .accordion {
   width: 50%;
   margin-bottom: 13rem;
+  border: 1px solid #19394d6e;
 }
 .Dis_container p {
   text-align: justify;
@@ -657,7 +658,7 @@ img {
 #tab-5,
 #tab-6,
 #tab-7 {
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.276);
   height: 45px;
@@ -665,6 +666,18 @@ img {
   color: #2c5d7c;
   border-radius: 1px;
 }
+#tab-0:hover,
+#tab-1:hover,
+#tab-2:hover,
+#tab-3:hover,
+#tab-4:hover,
+#tab-5:hover,
+#tab-6:hover,
+#tab-7:hover {
+  border: 1px solid rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
 #tab-0:active,
 #tab-1:active,
 #tab-2:active,

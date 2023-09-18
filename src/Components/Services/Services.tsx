@@ -50,7 +50,7 @@ const DescriptionCard = () => {
       {/* <div className="section_Padding"></div> */}
       <img src={img1} alt="" />
       <h2
-        className="text-center blueText mb-5 fw-bolder letter-spacing2 "
+        className="text-center blueText mb-5 fw-bolder letter-spacing2 mt-4 "
         // style={{ marginTop: "7%" }}
       >
         Our Services

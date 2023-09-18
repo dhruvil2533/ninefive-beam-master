@@ -1529,7 +1529,7 @@ export const SubService = () => {
                 <div>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed "
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
