@@ -1,50 +1,24 @@
 import React from "react";
-import { useState } from "react";
-import { Card, CardContent, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
-import Description from "../../Constants/ServiceBrief";
+import Description from "../ServiceDescription";
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
-import { WhatsApp } from "@mui/icons-material";
-import { IconButton, Link as MaterialLink } from "@mui/material";
+import { Image } from "../Home/Home";
 import ServiceData from "../../Constants/Services.json";
-import Tabs from "../SubService/tabs";
+import { Card, CardContent, CardMedia } from "@mui/material";
 import img1 from "../SubService/top images/43.png";
+
 type MouseOverType = {
   mouseOver: boolean;
   key: number;
 };
-const Home = () => <div>Home Component</div>;
-const Profile = () => <div>Profile Component</div>;
-const Contact = () => <div>Contact Component</div>;
-
-//  Tabs Array
-const tabs = [
-  {
-    label: "Home", // define Label
-    Component: Home, // assign Component
-  },
-  {
-    label: "Profile", // Add more
-    Component: Profile,
-  },
-  {
-    label: "Contact",
-    Component: Contact,
-  },
-];
-
-const array1 = [0, 1, 2, 3, 4];
 
 const DescriptionCard = () => {
-  const [selectedTab1, setSelectedTab1] = useState(0);
-  const [selectedTab2, setSelectedTab2] = useState(0);
   const deviceWidth = window.innerWidth;
   const [over, setOver] = React.useState<MouseOverType>({
     mouseOver: false,
     key: -1,
   });
-
   return (
     <>
       {/* <div className="section_Padding"></div> */}
@@ -57,18 +31,19 @@ const DescriptionCard = () => {
       </h2>
       <div className="container">
         <div className="row ">
-          {Description.slice(0, 3).map(
-            (
-              data,
-              key // Display the first three cards in the first row
-            ) => (
+          {Description.map((data, key) => {
+            return (
               <div
-                className="col-md-4 mb-5 " // Adjust the column sizes as per your preference
+                style={{
+                  width: deviceWidth > 992 ? "30%" : "100%",
+                  justifyContent: "center",
+                  margin: "auto",
+                }}
                 data-aos="zoom-in"
                 data-aos-delay={300}
                 key={key}
               >
-                <Card className="h-100 shadow-lg card-filling">
+                <Card className="h-100 shadow-lg card-filling  mb-5">
                   <img
                     src={`/images/services/${data.image}`}
                     alt=""
@@ -84,8 +59,8 @@ const DescriptionCard = () => {
                     <br />
                     <br />
                     <Link
-                      to={`/sub-service/0/${data.name}`}
-                      className=" know-more-btn  text-decoration-none btn btn-secondary"
+                      to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
+                      className="text-white text-decoration-none btn btn-secondary"
                     >
                       Know More
                     </Link>
@@ -100,56 +75,8 @@ const DescriptionCard = () => {
                   </Link> */}
                 </Card>
               </div>
-            )
-          )}
-        </div>
-
-        <div className="row  justify-content-center">
-          {Description.slice(3).map(
-            (
-              data,
-              key // Display the remaining two cards in the second row
-            ) => (
-              <div
-                className="col-md-4 mb-5" // Adjust the column sizes as per your preference
-                data-aos="zoom-in"
-                data-aos-delay={300}
-                key={key}
-              >
-                <Card className="h-100 shadow-lg card-filling">
-                  <img
-                    src={`/images/services/${data.image}`}
-                    alt=""
-                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                  />
-                  <CardContent data-aos="fade-right" data-aos-delay={400}>
-                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
-                      {data.name}
-                    </h6>
-                    <h6 className="text-justify blueText mt-3">
-                      {data.description}
-                    </h6>
-                    <br />
-                    <br />
-                    <Link
-                      to={`/sub-service/0/${data.name}`}
-                      className="know-more-btn  text-decoration-none btn btn-secondary"
-                    >
-                      Know More
-                    </Link>
-                  </CardContent>
-                  {/* <br />
-                  <br /> */}
-                  {/* <Link
-                    to={`/sub-service/0/${data.name}`}
-                    className="know-more-btn  text-decoration-none btn btn-secondary"
-                  >
-                    Know More
-                  </Link> */}
-                </Card>
-              </div>
-            )
-          )}
+            );
+          })}
         </div>
       </div>
 
@@ -226,33 +153,23 @@ const DescriptionCard = () => {
           );
         })}
       </div> */}
-      <Footer />
     </>
   );
 };
 
 export const Services = () => {
-  document.title = "NineFive Bim - Services";
+  document.title = "ArchBuDe - Services";
   return (
     <>
       <Header />
-      {/* <div
+      <div
         style={{
-          height: "100vh",
+          minHeight: "70vh",
         }}
-      > */}
-      <DescriptionCard />
-      {/* </div> */}
-      <MaterialLink href="https://wa.me/7016591928" target="_blank">
-        <IconButton
-          size="large"
-          className="bg-dark text-success"
-          style={{ position: "fixed", bottom: 45, right: 40 }}
-        >
-          <WhatsApp />
-        </IconButton>
-      </MaterialLink>
-      {/* <Footer /> */}
+      >
+        <DescriptionCard />
+      </div>
+      <Footer />
     </>
   );
 };
