@@ -14,6 +14,7 @@ import { getDownloadURL, ref } from "firebase/storage";
 import services from "../../Constants/Services.json";
 // import ReactHtmlParser from "react-html-parser";
 import img1 from "../SubService/top images/38.png";
+import { useLayoutEffect } from "react";
 // import NineFiveLogo from "../../Assets/Images/logo.png";
 type ImageProps = {
   path: string;
@@ -48,6 +49,9 @@ type DescriptionType = {
 };
 
 export const SubService = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const { service, name } = useParams();
   const route = useLocation().pathname.replaceAll("%20", " ");
   const [loader, setLoader] = React.useState<boolean>(true);
@@ -122,7 +126,7 @@ export const SubService = () => {
                         </h5>
                       </Accordion.Header>
                       <Accordion.Body className=" p-0">
-                        <ul className="nav flex-column">
+                        <ul className="nav flex-column ">
                           {obj.subservice.map((value) => {
                             return (
                               <li
@@ -167,7 +171,7 @@ export const SubService = () => {
                 })}
               </Accordion>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8" style={{ backgroundColor: "#ebebeb" }}>
               <>
                 <h4
                   className="blueText fw-bold mt-4 text-center text-shadow"

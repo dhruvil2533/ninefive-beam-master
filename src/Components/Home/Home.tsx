@@ -15,6 +15,8 @@ import img1 from "./images/ninefive1.jpg";
 import img2 from "./images/ninefive2.jpg";
 import img3 from "./images/ninefive3.jpg";
 import img4 from "./images/ninefive4.jpg";
+import ServiceData from "../../Constants/Services.json";
+import { useLayoutEffect } from "react";
 
 type ImageProps = {
   path: string;
@@ -55,6 +57,9 @@ export const Image = (props: ImageProps) => {
 };
 
 const Drawings = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const deviceWidth = window.innerWidth;
 
   const [index, setIndex] = React.useState<number>(1);
@@ -295,6 +300,14 @@ export const ServiceDescription = () => {
                     <h6 className="text-justify blueText mt-3">
                       {data.description}
                     </h6>
+                    <br />
+                    <br />
+                    <Link
+                      to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
+                      className="text-white text-decoration-none btn btn-secondary"
+                    >
+                      Know More
+                    </Link>
                   </CardContent>
                 </Card>
               </div>

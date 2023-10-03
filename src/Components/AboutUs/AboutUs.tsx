@@ -15,14 +15,19 @@ import aboutdes from "./aboutD";
 import img1 from "./images/icon-1.png";
 import img2 from "./images/icon-2.png";
 import img3 from "../SubService/top images/44.png";
+import { useLayoutEffect } from "react";
 export const AboutUs = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
   return (
-    <div className="container-fluid p-0">
-      <Header />
-      <img src={img3} alt="" />
-      {/* <div
+    <>
+      <div className="container-fluid p-0">
+        <Header />
+        <img src={img3} alt="" />
+        {/* <div
         className=" img-container mb-5 "
         data-aos="zoom-in"
         data-aos-delay={700}
@@ -35,7 +40,7 @@ export const AboutUs = () => {
         </h3>
       </div> */}
 
-      {/* <div
+        {/* <div
         className=" img-container mb-5"
         data-aos="zoom-in"
         data-aos-delay={700}
@@ -81,103 +86,106 @@ export const AboutUs = () => {
           }}
         ></div>
       </div> */}
-      {/* <div className="section_Padding"></div> */}
-      <div className="container mt-5 mb-5">
-        <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
-          About Us
-        </h3>
-        <p
-          className="text-justify blueText text-center "
-          data-aos="fade-left"
-          data-aos-delay={300}
-        >
-          NineFive BIM integrates & aligns with your design team to provide you
-          solutions that enhances your efforts and helps you take informed
-          decisions. <br />
-          <br />
-          To deliver the very best to clients, NineFive BIM believes that along
-          with technology, enhancement of people skills is critical. Regular
-          Training forms an integral part of work ethics.
-        </p>
-        <h3
-          className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2"
-          data-aos="zoom-in"
-          data-aos-delay={300}
-        >
-          Who We Are?
-        </h3>
-        <p
-          className="text-justify blueText"
-          data-aos="fade-up-left"
-          data-aos-delay={300}
-        >
-          NineFive BIM was established in January 2016 with the basic principle
-          of Work ethics, Quality deliverance, and hustle-free outsourcing
-          service-providing Company. With several years of experience in diverse
-          companies, we understand the outsourcing requirements of clients,
-          Arbaaz came up with a vision to make outsourcing more Reliable,
-          Trustworthy and Hustle-free. Hence, by designing a smooth workflow and
-          building a strong foundation, we deliver EXCELLENCE at NineFive BIM.
-          With an Oath to serve the vision of Arbaaz, This Company will provide
-          innovative outsourcing solutions to lead the industry with state of
-          the art quality, on-time delivery, and affordable prices.
-        </p>
-      </div>
-
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-2"></div>
-          <div className="col-lg-4 p-4">
-            <div className="container mt-3 mb-3 text-center">
-              <img
-                src={img1}
-                alt=""
-                className="img-thumbnail p-0 border-0 bg-transparent w-50"
-              />
-            </div>
-            <h4 className="fw-bolder text-center blueText mb-3">Mission</h4>
-            <p className=" blueText text-justify">
-              We aim to maintain the highest standards of professionalism,
-              integrity, high-quality client satisfaction, and technological
-              know-how for our clients throughout the project-ideation process.
-              We promise to establish a long-lasting working relationship built
-              on trust and on-time delivery of products that will satisfy the
-              client.
-            </p>
-          </div>
-          <div className="col-lg-4 p-4">
-            <div className="container mt-3 mb-3 text-center">
-              <img
-                src={img2}
-                alt=""
-                className="img-thumbnail p-0 border-0 bg-transparent w-50"
-              />
-            </div>
-            <h4 className="fw-bolder text-center blueText mt-3 mb-3">Vision</h4>
-            <p className=" blueText text-justify">
-              Our vision is to be a leading global participant in the
-              pre-construction industry by integrating cutting-edge and
-              developing technology into our projects with our in-depth
-              knowledge, effective teamwork, and communication to add value to
-              what we produce.
-            </p>
-          </div>
-          <div className="col-lg-2"></div>
+        {/* <div className="section_Padding"></div> */}
+        <div className="container mt-5 mb-5">
+          <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
+            About Us
+          </h3>
+          <p
+            className="text-justify blueText text-center "
+            data-aos="fade-left"
+            data-aos-delay={300}
+          >
+            NineFive BIM integrates & aligns with your design team to provide
+            you solutions that enhances your efforts and helps you take informed
+            decisions. <br />
+            <br />
+            To deliver the very best to clients, NineFive BIM believes that
+            along with technology, enhancement of people skills is critical.
+            Regular Training forms an integral part of work ethics.
+          </p>
+          <h3
+            className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2"
+            data-aos="zoom-in"
+            data-aos-delay={300}
+          >
+            Who We Are?
+          </h3>
+          <p
+            className="text-justify blueText"
+            data-aos="fade-up-left"
+            data-aos-delay={300}
+          >
+            NineFive BIM was established in January 2016 with the basic
+            principle of Work ethics, Quality deliverance, and hustle-free
+            outsourcing service-providing Company. With several years of
+            experience in diverse companies, we understand the outsourcing
+            requirements of clients, Arbaaz came up with a vision to make
+            outsourcing more Reliable, Trustworthy and Hustle-free. Hence, by
+            designing a smooth workflow and building a strong foundation, we
+            deliver EXCELLENCE at NineFive BIM. With an Oath to serve the vision
+            of Arbaaz, This Company will provide innovative outsourcing
+            solutions to lead the industry with state of the art quality,
+            on-time delivery, and affordable prices.
+          </p>
         </div>
-      </div>
-
-      <div className="container p-3">
-        <h3
-          className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
-          data-aos="zoom-in"
-          data-aos-delay={300}
-        >
-          Core Values
-        </h3>
 
         <div className="container">
-          <div className="row justify-content-center">
-            {/* {CardTravelSharp.map((card) => {
+          <div className="row">
+            <div className="col-lg-2"></div>
+            <div className="col-lg-4 p-4">
+              <div className="container mt-3 mb-3 text-center">
+                <img
+                  src={img1}
+                  alt=""
+                  className="img-thumbnail p-0 border-0 bg-transparent w-50"
+                />
+              </div>
+              <h4 className="fw-bolder text-center blueText mb-3">Mission</h4>
+              <p className=" blueText text-justify">
+                We aim to maintain the highest standards of professionalism,
+                integrity, high-quality client satisfaction, and technological
+                know-how for our clients throughout the project-ideation
+                process. We promise to establish a long-lasting working
+                relationship built on trust and on-time delivery of products
+                that will satisfy the client.
+              </p>
+            </div>
+            <div className="col-lg-4 p-4">
+              <div className="container mt-3 mb-3 text-center">
+                <img
+                  src={img2}
+                  alt=""
+                  className="img-thumbnail p-0 border-0 bg-transparent w-50"
+                />
+              </div>
+              <h4 className="fw-bolder text-center blueText mt-3 mb-3">
+                Vision
+              </h4>
+              <p className=" blueText text-justify">
+                Our vision is to be a leading global participant in the
+                pre-construction industry by integrating cutting-edge and
+                developing technology into our projects with our in-depth
+                knowledge, effective teamwork, and communication to add value to
+                what we produce.
+              </p>
+            </div>
+            <div className="col-lg-2"></div>
+          </div>
+        </div>
+
+        <div className="container p-3">
+          <h3
+            className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
+            data-aos="zoom-in"
+            data-aos-delay={300}
+          >
+            Core Values
+          </h3>
+
+          <div className="container">
+            <div className="row justify-content-center">
+              {/* {CardTravelSharp.map((card) => {
               if (id== card.id) {
                 return (
                   <div>
@@ -186,43 +194,43 @@ export const AboutUs = () => {
                 )
               }
             })} */}
-            {Aboutcards.map((data, key) => (
-              <div
-                className="col-12 col-md-6 col-lg-3 mb-4 p-2" // Adjust the column sizes as per your preference
-                data-aos="zoom-in"
-                data-aos-delay={key * 100} // Delay the animation for each card
-                key={key}
-              >
-                <Card className="h-100 me-2 shadow-lg card-filling">
-                  {/* <img
+              {Aboutcards.map((data, key) => (
+                <div
+                  className="col-12 col-md-6 col-lg-3 mb-4 p-2" // Adjust the column sizes as per your preference
+                  data-aos="zoom-in"
+                  data-aos-delay={key * 100} // Delay the animation for each card
+                  key={key}
+                >
+                  <Card className="h-100 me-2 shadow-lg card-filling">
+                    {/* <img
                     src={`/images/services/${data.image}`}
                     alt=""
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                   /> */}
-                  <CardContent data-aos="fade-right" data-aos-delay={500}>
-                    {/* <div>
+                    <CardContent data-aos="fade-right" data-aos-delay={500}>
+                      {/* <div>
                       <img
                         src={`/images/services/${data.image}`}
                         alt=""
                         className="imgg border-0 p-0 rounded-0 bg-transparent"
                       />
                     </div> */}
-                    <div>
-                      <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
-                        {data.name}
-                      </h2>
-                      <h6 className="text-justify blueText mt-3">
-                        {data.description}
-                      </h6>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
+                      <div>
+                        <h2 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                          {data.name}
+                        </h2>
+                        <h6 className="text-justify blueText mt-3">
+                          {data.description}
+                        </h6>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
 
-        {/* <div className="col-lg-3 p-3">
+          {/* <div className="col-lg-3 p-3">
           <Card
             className="shadow"
             data-aos="zoom-out"
@@ -307,45 +315,45 @@ export const AboutUs = () => {
           </Card>
         </div> */}
 
-        <div className="container">
-          <h3
-            className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
-            data-aos="zoom-in"
-            data-aos-delay={300}
-          >
-            Why Choose NineFive BIM?
-          </h3>
+          <div className="container">
+            <h3
+              className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2 "
+              data-aos="zoom-in"
+              data-aos-delay={300}
+            >
+              Why Choose NineFive BIM?
+            </h3>
 
-          <p>
-            At NineFive BIM, we understand the complexities and challenges that
-            come with outsourcing your architectural, engineering, and
-            construction (AEC) projects. <br />
-            <br />
-            We strive to be your trusted partner in providing Building
-            Information Modeling (BIM) services, revolutionizing the way you
-            plan, design, construct, and manage your projects. Here are the
-            compelling reasons to choose NineFive BIM for all your outsourcing
-            requirements:
-          </p>
-          <div className="row ">
-            {aboutdes.map((data, key) => {
-              return (
-                <>
-                  {deviceWidth > 992 ? (
-                    <div
-                      className="mb-5 p-2"
-                      style={{ width: "33%" }}
-                      data-aos="zoom-in"
-                      data-aos-delay={300}
-                      key={key}
-                    >
-                      <Card className="h-100 shadow-lg card-filling">
-                        <img
-                          src={`/images/services/${data.image}`}
-                          alt=""
-                          className="img-thumbnail border-0 aboutpoint_img bg-transparent mt-3"
-                        />
-                        {/* <CardMedia>
+            <p>
+              At NineFive BIM, we understand the complexities and challenges
+              that come with outsourcing your architectural, engineering, and
+              construction (AEC) projects. <br />
+              <br />
+              We strive to be your trusted partner in providing Building
+              Information Modeling (BIM) services, revolutionizing the way you
+              plan, design, construct, and manage your projects. Here are the
+              compelling reasons to choose NineFive BIM for all your outsourcing
+              requirements:
+            </p>
+            <div className="row ">
+              {aboutdes.map((data, key) => {
+                return (
+                  <>
+                    {deviceWidth > 992 ? (
+                      <div
+                        className="mb-5 p-2"
+                        style={{ width: "33%" }}
+                        data-aos="zoom-in"
+                        data-aos-delay={300}
+                        key={key}
+                      >
+                        <Card className="h-100 shadow-lg card-filling">
+                          <img
+                            src={`/images/services/${data.image}`}
+                            alt=""
+                            className="img-thumbnail border-0 aboutpoint_img bg-transparent mt-3"
+                          />
+                          {/* <CardMedia>
                     <Image
                       data-aos="fade-right"
                       data-aos-delay={400}
@@ -353,54 +361,60 @@ export const AboutUs = () => {
                       className="w-75 bg-transparent"
                     />
                   </CardMedia> */}
-                        <CardContent data-aos="fade-right" data-aos-delay={500}>
-                          <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
-                            {data.name}
-                          </h6>
-                          <h6 className="text-justify blueText mt-3">
-                            {data.description}
-                          </h6>
-                        </CardContent>
-                      </Card>
-                    </div>
-                  ) : (
-                    <div
-                      className="container mb-5 p-2"
-                      data-aos="zoom-in"
-                      data-aos-delay={300}
-                      key={key}
-                    >
-                      <Card className="h-100 shadow-lg card-filling">
-                        {/* <CardMedia image="/public/images/services/bim-modeling.JPG" /> */}
-                        {/* <Image
+                          <CardContent
+                            data-aos="fade-right"
+                            data-aos-delay={500}
+                          >
+                            <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                              {data.name}
+                            </h6>
+                            <h6 className="text-justify blueText mt-3">
+                              {data.description}
+                            </h6>
+                          </CardContent>
+                        </Card>
+                      </div>
+                    ) : (
+                      <div
+                        className="container mb-5 p-2"
+                        data-aos="zoom-in"
+                        data-aos-delay={300}
+                        key={key}
+                      >
+                        <Card className="h-100 shadow-lg card-filling">
+                          {/* <CardMedia image="/public/images/services/bim-modeling.JPG" /> */}
+                          {/* <Image
                       data-aos="fade-right"
                       data-aos-delay={400}
                       path={`home/service/${data.image}`}
                       className="w-75 bg-transparent"
                     /> */}
-                        {/* </CardMedia> */}
-                        <img
-                          src={`/images/services/${data.image}`}
-                          alt=""
-                          className="img-thumbnail border-0 aboutpoint_img p-0 rounded-0 bg-transparent mt-3"
-                        />
-                        <CardContent data-aos="fade-right" data-aos-delay={500}>
-                          <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
-                            {data.name}
-                          </h6>
-                          <h6 className="text-justify blueText mt-3">
-                            {data.description}
-                          </h6>
-                        </CardContent>
-                      </Card>
-                    </div>
-                  )}
-                </>
-              );
-            })}
-          </div>
+                          {/* </CardMedia> */}
+                          <img
+                            src={`/images/services/${data.image}`}
+                            alt=""
+                            className="img-thumbnail border-0 aboutpoint_img p-0 rounded-0 bg-transparent mt-3"
+                          />
+                          <CardContent
+                            data-aos="fade-right"
+                            data-aos-delay={500}
+                          >
+                            <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-2">
+                              {data.name}
+                            </h6>
+                            <h6 className="text-justify blueText mt-3">
+                              {data.description}
+                            </h6>
+                          </CardContent>
+                        </Card>
+                      </div>
+                    )}
+                  </>
+                );
+              })}
+            </div>
 
-          {/* <div>
+            {/* <div>
             <h3 style={{ color: "#19394d" }}>1. Expertise and Experience:</h3>
             <p>
               With a team of highly skilled and experienced professionals,
@@ -499,19 +513,20 @@ export const AboutUs = () => {
               and success in your projects.
             </p>
           </div> */}
+          </div>
         </div>
-      </div>
 
-      <MaterialLink href="https://wa.me/7016591928" target="_blank">
-        <IconButton
-          size="large"
-          className="bg-dark text-success"
-          style={{ position: "fixed", bottom: 45, right: 40 }}
-        >
-          <WhatsApp />
-        </IconButton>
-      </MaterialLink>
-      <Footer />
-    </div>
+        <MaterialLink href="https://wa.me/7016591928" target="_blank">
+          <IconButton
+            size="large"
+            className="bg-dark text-success"
+            style={{ position: "fixed", bottom: 45, right: 40 }}
+          >
+            <WhatsApp />
+          </IconButton>
+        </MaterialLink>
+        <Footer />
+      </div>
+    </>
   );
 };

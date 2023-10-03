@@ -7,13 +7,16 @@ import { Image } from "../Home/Home";
 import ServiceData from "../../Constants/Services.json";
 import { Card, CardContent, CardMedia } from "@mui/material";
 import img1 from "../SubService/top images/43.png";
-
+import { useLayoutEffect } from "react";
 type MouseOverType = {
   mouseOver: boolean;
   key: number;
 };
 
 const DescriptionCard = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const deviceWidth = window.innerWidth;
   const [over, setOver] = React.useState<MouseOverType>({
     mouseOver: false,
