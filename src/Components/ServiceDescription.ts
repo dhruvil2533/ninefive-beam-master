@@ -22,7 +22,7 @@ const Description = [
     name: "3D Visuals & Rendering Services",
     description:
       "Welcome to NineFive BIM, where we specialize in providing high-end Interior and Exterior 3D Rendering Services. Our team of skilled experts is dedicated to bringing your design visions to life through a harmonious blend of creativity, and cutting-edge technology. Whether you are an esteemed architect, visionary interior designer, ambitious real estate developer, our rendering services are tailored to elevate your projects and captivate your audience.",
-    image: "render.jpg",
+    image: "render.JPG",
   },
   {
     name: "3D modeling Services",
