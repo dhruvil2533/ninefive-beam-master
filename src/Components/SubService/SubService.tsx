@@ -14,7 +14,7 @@ import { getDownloadURL, ref } from "firebase/storage";
 import services from "../../Constants/Services.json";
 // import ReactHtmlParser from "react-html-parser";
 import img1 from "../SubService/top images/38.png";
-import { useLayoutEffect } from "react";
+// import { useLayoutEffect } from "react";
 // import NineFiveLogo from "../../Assets/Images/logo.png";
 type ImageProps = {
   path: string;
@@ -49,9 +49,9 @@ type DescriptionType = {
 };
 
 export const SubService = () => {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
   const { service, name } = useParams();
   const route = useLocation().pathname.replaceAll("%20", " ");
   const [loader, setLoader] = React.useState<boolean>(true);
