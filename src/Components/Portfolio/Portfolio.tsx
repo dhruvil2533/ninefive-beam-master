@@ -31,7 +31,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import Model from "../../Constants/Model";
 // import Model from "../../Constants/Model";
-import { useLayoutEffect } from "react";
+// import { useLayoutEffect } from "react";
 import "./port.css";
 // import "./images1/1.png";
 
@@ -434,9 +434,9 @@ const modelimg15 = [
   },
 ];
 const Portfolio = () => {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
   const [model, setModel] = useState(false);
   const [tempdata, setTempdata] = useState<string[]>([]);
   const [idValue, setIdValue] = useState<number | undefined>(undefined);

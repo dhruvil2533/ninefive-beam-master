@@ -15,11 +15,11 @@ import aboutdes from "./aboutD";
 import img1 from "./images/icon-1.png";
 import img2 from "./images/icon-2.png";
 import img3 from "../SubService/top images/44.png";
-import { useLayoutEffect } from "react";
+// import { useLayoutEffect } from "react";
 export const AboutUs = () => {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
   const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
   return (
