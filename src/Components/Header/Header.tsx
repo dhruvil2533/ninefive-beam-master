@@ -154,6 +154,7 @@ export const Header = () => {
                 </div>
               </div> */}
             </div>
+
             {/* <div className="h-100 d-inline-block">
               <Link
                 to="/projects"
@@ -216,6 +217,18 @@ export const Header = () => {
                 onMouseOver={() => setMegavisible(false)}
               >
                 About us
+              </Link>
+            </div>
+            <div className="h-100 d-inline-block">
+              <Link
+                to="/contact-us"
+                className={`
+                            text-decoration-none h6 text-uppercase me-1 p-3 pt-2 pb-2 rounded
+                            nav-filling
+                            `}
+                onMouseOver={() => setMegavisible(false)}
+              >
+                Contact Us
               </Link>
             </div>
             {/* <div className="h-100 d-inline-block">

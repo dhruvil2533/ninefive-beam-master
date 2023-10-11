@@ -46,36 +46,38 @@ const DescriptionCard = () => {
                 data-aos-delay={300}
                 key={key}
               >
-                <Card className="h-100 shadow-lg card-filling  mb-5">
+                <Card
+                  className="h-100 shadow-lg card-filling mb-5"
+                  style={{ display: "flex", flexDirection: "column" }}
+                >
                   <img
                     src={`/images/services/${data.image}`}
                     alt=""
                     className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                   />
-                  <CardContent data-aos="fade-right" data-aos-delay={500}>
-                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
-                      {data.name}
-                    </h6>
-                    <h6 className="text-justify blueText mt-3">
-                      {data.description}
-                    </h6>
-                    <br />
-                    <br />
+                  <div
+                    style={{
+                      flex: 1,
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <CardContent data-aos="fade-right" data-aos-delay={500}>
+                      <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                        {data.name}
+                      </h6>
+                      <h6 className="text-justify blueText mt-3">
+                        {data.description}
+                      </h6>
+                    </CardContent>
                     <Link
                       to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
-                      className="text-white text-decoration-none btn btn-secondary"
+                      className="text-white text-decoration-none btn btn-secondary align-self-start ms-3 mb-3"
                     >
                       Know More
                     </Link>
-                  </CardContent>
-                  {/* <br />
-                  <br /> */}
-                  {/* <Link
-                    to={`/sub-service/0/${data.name}`}
-                    className=" know-more-btn  text-decoration-none btn btn-secondary"
-                  >
-                    Know More
-                  </Link> */}
+                  </div>
                 </Card>
               </div>
             );
@@ -161,7 +163,7 @@ const DescriptionCard = () => {
 };
 
 export const Services = () => {
-  document.title = "ArchBuDe - Services";
+  document.title = "NineFive BIM - Services";
   return (
     <>
       <Header />

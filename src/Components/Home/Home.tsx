@@ -207,15 +207,28 @@ export const Features = () => {
           <div className="col text-start">
             <div>
               <p className=" blueText mt-5 fs-5">
-                At NineFive BIM, we understand the complexities and challenges
-                that come with outsourcing your architectural, engineering, and
-                construction (AEC) projects. <br />
+                NineFive BIM was established in January 2016 with the basic
+                principle of Work ethics, Quality deliverance, and hustle-free
+                outsourcing service-providing Company. With several years of
+                experience in diverse companies, we understand the outsourcing
+                requirements of clients, Arbaaz came up with a vision to make
+                outsourcing more Reliable, Trustworthy and Hustle-free. Hence,
+                by designing a smooth workflow and building a strong foundation,
+                we deliver EXCELLENCE at NineFive BIM. With an Oath to serve the
+                vision of Arbaaz, This Company will provide innovative
+                outsourcing solutions to lead the industry with state of the art
+                quality, on-time delivery, and affordable prices.
                 <br />
-                We strive to be your trusted partner in providing Building
+                <br /> At NineFive BIM, we understand the complexities and
+                challenges that come with outsourcing your architectural,
+                engineering, and construction (AEC) projects. <br />
+                <br />
+                {/* We strive to be your trusted partner in providing Building
                 Information Modeling (BIM) services, revolutionizing the way you
-                plan, design, construct, and manage your projects.
+                plan, design, construct, and manage your projects. */}
               </p>
               <br />
+
               <Link to="/about-us" className=" choose_btn text-decoration-none">
                 Know More
               </Link>
@@ -280,35 +293,35 @@ export const ServiceDescription = () => {
                 key={key}
               >
                 <Card className="h-100 shadow-lg card-filling">
-                  <img
-                    src={`/images/services/${data.image}`}
-                    alt=""
-                    className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
-                  />
-                  {/* <CardMedia>
-                    <Image
-                      data-aos="fade-right"
-                      data-aos-delay={400}
-                      path={`home/service/${data.image}`}
-                      className="w-75 bg-transparent"
+                  <div className="d-flex flex-column h-100">
+                    <img
+                      src={`/images/services/${data.image}`}
+                      alt=""
+                      className="img-thumbnail border-0 p-0 rounded-0 bg-transparent"
                     />
-                  </CardMedia> */}
-                  <CardContent data-aos="fade-right" data-aos-delay={500}>
-                    <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
-                      {data.name}
-                    </h6>
-                    <h6 className="text-justify blueText mt-3">
-                      {data.description}
-                    </h6>
-                    <br />
-                    <br />
-                    <Link
-                      to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
-                      className="text-white text-decoration-none btn btn-secondary"
+                    <CardContent
+                      data-aos="fade-right"
+                      data-aos-delay={500}
+                      className="flex-grow-1 d-flex flex-column justify-content-between"
                     >
-                      Know More
-                    </Link>
-                  </CardContent>
+                      <div>
+                        <h6 className="text-center blueText textBlue fw-bolder letter-spacing1 mb-0 mb-lg-2">
+                          {data.name}
+                        </h6>
+                        <h6 className="text-justify blueText mt-3">
+                          {data.description}
+                        </h6>
+                      </div>
+                      <div>
+                        <Link
+                          to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
+                          className="text-white text-decoration-none btn btn-secondary"
+                        >
+                          Know More
+                        </Link>
+                      </div>
+                    </CardContent>
+                  </div>
                 </Card>
               </div>
             ) : (
@@ -339,6 +352,14 @@ export const ServiceDescription = () => {
                     <h6 className="text-justify blueText mt-3">
                       {data.description}
                     </h6>
+                    <div>
+                      <Link
+                        to={`/sub-service/${key}/${ServiceData[key].subservice[0].description[1]}`}
+                        className="text-white text-decoration-none btn btn-secondary"
+                      >
+                        Know More
+                      </Link>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
@@ -361,7 +382,7 @@ export const AllServices = () => {
           return (
             <Link
               to={data.link}
-              className="col-lg-2 col-md-6   mb-4 text-decoration-none"
+              className="col-lg-2 col-md-6   mb-4 text-decoration-none "
               // style={{ width: "20%" }}
               key={key}
               data-aos="zoom-in"

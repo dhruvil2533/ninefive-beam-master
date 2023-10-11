@@ -485,6 +485,7 @@ html {
 
 #services_id .col-lg-2 {
   width: 20%;
+  cursor: default;
 }
 /* .sub_ser {
   padding: 0px 15%;

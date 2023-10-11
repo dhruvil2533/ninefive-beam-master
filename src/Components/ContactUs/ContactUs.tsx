@@ -64,6 +64,9 @@ export const ContactUs = () => {
   return (
     <>
       <Header />
+      <br />
+      <br /> <br />
+      <br />
       <div className="container mt-5 mb-5 text-center">
         {/* <iframe
           className="w-100"
@@ -207,6 +210,7 @@ export const ContactUs = () => {
           </div>
         </div>
       </div>
+      <br />
       <Footer />
     </>
   );

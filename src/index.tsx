@@ -15,9 +15,13 @@ import { BIM } from "./Components/BIM/BIM";
 import { ContactUs } from "./Components/ContactUs/ContactUs";
 import { Career } from "./Components/Career/Career";
 import Portfolio from "./Components/Portfolio/Portfolio";
-
+import {} from "react-router-dom";
+const ScrollToTop = () => {
+  return null;
+};
 ReactDOM.render(
   <Router>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/portfolio" element={<Portfolio />} />

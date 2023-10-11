@@ -15,13 +15,15 @@ import aboutdes from "./aboutD";
 import img1 from "./images/icon-1.png";
 import img2 from "./images/icon-2.png";
 import img3 from "../SubService/top images/44.png";
-// import { useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
+
 export const AboutUs = () => {
-  // useLayoutEffect(() => {
-  //   window.scrollTo(0, 0);
-  // });
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const deviceWidth = window.innerWidth;
   document.title = "NineFive BIM - About Us";
+
   return (
     <>
       <div className="container-fluid p-0">
@@ -88,7 +90,7 @@ export const AboutUs = () => {
       </div> */}
         {/* <div className="section_Padding"></div> */}
         <div className="container mt-5 mb-5">
-          <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
+          {/* <h3 className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2">
             About Us
           </h3>
           <p
@@ -103,7 +105,7 @@ export const AboutUs = () => {
             To deliver the very best to clients, NineFive BIM believes that
             along with technology, enhancement of people skills is critical.
             Regular Training forms an integral part of work ethics.
-          </p>
+          </p> */}
           <h3
             className="text-center col-12 blueText mt-5 mb-3 fw-bolder letter-spacing2"
             data-aos="zoom-in"
@@ -130,7 +132,7 @@ export const AboutUs = () => {
           </p>
         </div>
 
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-lg-2"></div>
             <div className="col-lg-4 p-4">
@@ -172,7 +174,7 @@ export const AboutUs = () => {
             </div>
             <div className="col-lg-2"></div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container p-3">
           <h3

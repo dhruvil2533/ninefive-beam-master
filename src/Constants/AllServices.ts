@@ -1,19 +1,19 @@
 export const AllServiceList = [
   {
     name: "BIM Modelling LOD 300/400/500",
-    link: "/sub-service/2/3D Bim Services",
+    link: "#",
   },
   {
     name: "4D/5D Simulation",
-    link: "/sub-service/2/4D Bim Services",
+    link: "#",
   },
   {
     name: "BIM Consulting",
-    link: "/bim",
+    link: "#",
   },
   {
     name: "CAD Services",
-    link: "/sub-service/2/Laser CAD Services",
+    link: "#",
   },
   {
     name: "BIM for Infrastructure",
@@ -33,7 +33,7 @@ export const AllServiceList = [
   },
   {
     name: "Clash Detection and Constructability Analysis",
-    link: "/sub-service/2/Coordination & Clash Detection Services",
+    link: "#",
   },
   {
     name: "BIM to FM",

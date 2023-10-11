@@ -31,7 +31,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import Model from "../../Constants/Model";
 // import Model from "../../Constants/Model";
-// import { useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
 import "./port.css";
 // import "./images1/1.png";
 
@@ -434,9 +434,13 @@ const modelimg15 = [
   },
 ];
 const Portfolio = () => {
-  // useLayoutEffect(() => {
-  //   window.scrollTo(0, 0);
-  // });
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  const deviceWidth = window.innerWidth;
+  document.title = "NineFive BIM - Portfolio";
+
   const [model, setModel] = useState(false);
   const [tempdata, setTempdata] = useState<string[]>([]);
   const [idValue, setIdValue] = useState<number | undefined>(undefined);
@@ -474,7 +478,7 @@ const Portfolio = () => {
     <>
       <div className="container-fluid portfolio-container p-0">
         <Header />
-        <img src={img18} alt="" />
+        <img src={img18} alt="" id="Top" />
         {/* <div
           className=" img-container mb-5"
           data-aos="zoom-in"
@@ -525,7 +529,7 @@ const Portfolio = () => {
           ></div>
         </div> */}
 
-        <div className="container-fluid text-center mt-5 mb-5">
+        {/* <div className="container-fluid text-center mt-5 mb-5">
           <button type="button" className="m-2 btn btn-outline-secondary">
             ALL
           </button>
@@ -562,7 +566,7 @@ const Portfolio = () => {
           <button type="button" className=" m-2 btn btn-outline-secondary">
             RESIDENTIAL
           </button>
-        </div>
+        </div> */}
         {/* <div className="container">
           <div className="row">
             {projectsData.map((data, key) => {
@@ -723,41 +727,75 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img2} />
+                    <div
+                      id="carouselExample1"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg1.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample1"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample1"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
-                    <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">
-                        Heritage church Facade model
-                      </h2>
+                    <div className="card_content img" style={{ zIndex: "2" }}>
+                      <h2 className="card_title">Heritage Church Facade</h2>
                       <br />
                       <p className="card_text">
-                        <b>Project Over View:</b> A detailed Facade Model of a
+                        <b>Project Overview:</b> A detailed Facade Model of a
                         heritage Church Building From Given photographs and old
                         drawings.
                         <br />
-                        <b>Type :</b> BIM Models
+                        <b>Type:</b> BIM Models
                         <br />
                         <b>Sector:</b> Public Building
                         <br />
-                        <b>Scope :</b> BIM Architecture
+                        <b>Scope:</b> BIM Architecture
                         <br />
-                        <b>Deliverables:</b> LOD 500 As-build Achitectural model
-                        with surrounding building blocks.
-                        <br />
-                        <br />
+                        <b>Deliverables:</b> LOD 500 As-built Architectural
+                        model with surrounding building blocks.
                       </p>
                     </div>
-                    <div className="row">
-                      {modelimg1.map((item, key) => (
-                        <div className="col-xl-12 col-md-12 col-sm-12">
-                          <div className="client_logo mb-3">
-                            <img src={item.src} alt="404 - Not Given" />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
                   </div>
+
                   <div className="modal-footer">
                     <button
                       type="button"
@@ -770,6 +808,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+
             <div
               className="modal fade"
               id="exampleModal2"
@@ -781,7 +820,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      City Hall Model
+                      City Hall
                     </h1>
                     <button
                       type="button"
@@ -791,11 +830,57 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img3} />
+                    <div
+                      id="carouselExample2"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg2.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample2"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample2"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">City Hall Model</h2>
+                      <h2 className="card_title">City Hall</h2>
                       <br />
                       <p className="card_text">
                         <b>Project Over View:</b> Detailed Exterior model of a
@@ -809,17 +894,15 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 500 As-build Achitectural
                         model.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    {modelimg2.map((item, key) => (
+                    {/* {modelimg2.map((item, key) => (
                       <div className="col-xl-12 col-md-12 col-sm-12">
                         <div className="client_logo mb-3">
                           <img src={item.src} alt="404 - Not Given" />
                         </div>
                       </div>
-                    ))}
+                    ))} */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -845,7 +928,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      3D Dome Model
+                      3D Dome
                     </h1>
                     <button
                       type="button"
@@ -855,11 +938,57 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img4} />
+                    <div
+                      id="carouselExample3"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg3.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample3"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample3"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">3D Dome Model</h2>
+                      <h2 className="card_title">3D Dome </h2>
                       <br />
                       <p className="card_text">
                         <b>Project Over View:</b> To review caliber and skill of
@@ -874,11 +1003,9 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 500 As-build Achitectural model
                         with surrounding building blocks.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                       {modelimg3.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -886,7 +1013,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -922,8 +1049,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img5} />
+                    <div
+                      id="carouselExample4"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg1.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample4"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample4"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Landsdale Park</h2>
@@ -940,11 +1113,9 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 Model to be delivered Along
                         with quantity and Material take off.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                       {modelimg4.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -952,7 +1123,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -988,8 +1159,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img6} />
+                    <div
+                      id="carouselExample5"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg5.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample5"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample5"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">173 King's Rd.</h2>
@@ -1006,11 +1223,9 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 300 3D Revit model with
                         accurate landscape.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                       {modelimg5.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1018,7 +1233,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1044,7 +1259,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      School Model
+                      School
                     </h1>
                     <button
                       type="button"
@@ -1054,11 +1269,57 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img7} />
+                    <div
+                      id="carouselExample6"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg6.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample6"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample6"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">School Model</h2>
+                      <h2 className="card_title">School </h2>
                       <br />
                       <p className="card_text">
                         <b>Project Over View:</b> 3D model of the School is to
@@ -1072,11 +1333,9 @@ const Portfolio = () => {
                         <b>Scope :</b> BIM Architecture
                         <br />
                         <b>Deliverables:</b> LOD 400 BIM Architectural Model
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                       {modelimg6.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1084,7 +1343,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1120,8 +1379,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img8} />
+                    <div
+                      id="carouselExample7"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg7.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample7"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample7"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Villa</h2>
@@ -1138,14 +1443,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 300 3D Revit model with
                         accurate materials.
-                        <br />
-                        <br />
                       </p>
                     </div>
                     <div className="container text-center">
-                      <hr />
-                      <hr />
-                      <div className="row">
+                      {/* <div className="row">
                         {modelimg.map((item, key) => (
                           <div className="col-xl-12 col-md-12 col-sm-12">
                             <div className="client_logo">
@@ -1153,7 +1454,7 @@ const Portfolio = () => {
                             </div>
                           </div>
                         ))}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="modal-footer">
@@ -1190,8 +1491,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img9} />
+                    <div
+                      id="carouselExample8"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg14.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample8"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample8"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Chemical Refinery As-Build</h2>
@@ -1209,13 +1556,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 300 3D Revit MEP model with
                         clash detection.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg14.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1223,7 +1567,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1259,8 +1603,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img10} />
+                    <div
+                      id="carouselExample9"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg13.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample9"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample9"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">As-Build Chiller Plant</h2>
@@ -1280,13 +1670,10 @@ const Portfolio = () => {
                         <b>Deliverables:</b> LOD 300 3D Revit MEP model of
                         piping, valves, equipement, and structural steel using
                         laser scan point clouds.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg13.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1294,7 +1681,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1330,8 +1717,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img11} />
+                    <div
+                      id="carouselExample10"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg15.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample10"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample10"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Process Plant As-Built</h2>
@@ -1352,13 +1785,10 @@ const Portfolio = () => {
                         electrical conduit, ductwork, hot and cold water piping,
                         cable-tray, pipe hangars, valves, equipement, and
                         structural steel using laser scan point clouds
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg15.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1366,7 +1796,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1402,8 +1832,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img12} />
+                    <div
+                      id="carouselExample11"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg12.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample11"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample11"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">West End Commercial</h2>
@@ -1420,13 +1896,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 3D Revit model with
                         Accurate Architectural Details in exterior.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg12.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1434,7 +1907,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1470,8 +1943,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img13} />
+                    <div
+                      id="carouselExample12"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg11.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample12"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample12"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Varick Shopping Mall</h2>
@@ -1489,13 +2008,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 3D Revit model with
                         Accurate Architectural Details.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg11.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1503,7 +2019,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1539,8 +2055,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img14} />
+                    <div
+                      id="carouselExample13"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg10.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample13"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample13"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">329 Main St-Brooklyn NY.</h2>
@@ -1558,13 +2120,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 3D Revit model with precise
                         exterior details.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg10.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo">
@@ -1572,7 +2131,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1598,7 +2157,7 @@ const Portfolio = () => {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h1 className="modal-title fs-5" id="exampleModalLabel">
-                      JJ Exterior Facade Model
+                      JJ Exterior Facade
                     </h1>
                     <button
                       type="button"
@@ -1608,11 +2167,57 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img15} />
+                    <div
+                      id="carouselExample14"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg9.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample14"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample14"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
-                      <h2 className="card_title">JJ Exterior Facade Model</h2>
+                      <h2 className="card_title">JJ Exterior Facade </h2>
                       <br />
                       <p className="card_text">
                         <b>Project Over View:</b> Exterior AS-build 3D model of
@@ -1626,13 +2231,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 3D Revit model with precise
                         exterior details.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg9.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo">
@@ -1640,7 +2242,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1676,8 +2278,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img16} />
+                    <div
+                      id="carouselExample15"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg8.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample15"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample15"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">Flushing Ave-Brooklyn NY.</h2>
@@ -1695,13 +2343,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 400 3D Revit model with precise
                         exterior details.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg8.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1709,7 +2354,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1745,8 +2390,54 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="modal-body">
-                    <div className="card_image">
-                      <img src={img17} />
+                    <div
+                      id="carouselExample16"
+                      className="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div className="carousel-inner">
+                        {modelimg7.map((item, key) => (
+                          <div
+                            className={`carousel-item ${
+                              key === 0 ? "active" : ""
+                            }`}
+                            key={key}
+                          >
+                            <div className="image-container">
+                              <img
+                                src={item.src}
+                                className="d-block w-100"
+                                style={{ width: "100%", height: "300px" }} // Set a fixed height and width for the images
+                                alt={`Image ${key + 1}`}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <button
+                        className="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample16"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          className="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        className="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample16"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          className="carousel-control-next-icon"
+                          aria-hidden="true"
+                        />
+                        <span className="visually-hidden">Next</span>
+                      </button>
                     </div>
                     <div className="card_content img " style={{ zIndex: "2" }}>
                       <h2 className="card_title">6 Clark</h2>
@@ -1764,13 +2455,10 @@ const Portfolio = () => {
                         <br />
                         <b>Deliverables:</b> LOD 300 3D Revit model with
                         accurate landscape.
-                        <br />
-                        <br />
                       </p>
                     </div>
-                    <hr />
-                    <hr />
-                    <div className="row">
+
+                    {/* <div className="row">
                       {modelimg7.map((item, key) => (
                         <div className="col-xl-12 col-md-12 col-sm-12">
                           <div className="client_logo mb-3">
@@ -1778,7 +2466,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       ))}
-                    </div>
+                    </div> */}
                   </div>
                   <div className="modal-footer">
                     <button
@@ -1800,7 +2488,7 @@ const Portfolio = () => {
                 <img src={img2} />
               </div>
               <div className="card_content img " style={{ zIndex: "2" }}>
-                <h2 className="card_title">Heritage church Facade model</h2>
+                <h2 className="card_title">Heritage church Facade </h2>
                 <br />
                 <p className="card_text">
                   <b>Project Over View:</b> A detailed Facade Model of a
@@ -1815,8 +2503,6 @@ const Portfolio = () => {
                   <br />
                   <b>Deliverables:</b> LOD 500 As-build Achitectural model with
                   surrounding building blocks.
-                  <br />
-                  <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -1835,7 +2521,7 @@ const Portfolio = () => {
                 <img src={img3} />
               </div>
               <div className="card_content">
-                <h2 className="card_title">City Hall Model</h2> <br />
+                <h2 className="card_title">City Hall </h2> <br />
                 <p className="card_text">
                   <b>Project Over View:</b> Detailed Exterior model of a City
                   hall in New york
@@ -1846,8 +2532,6 @@ const Portfolio = () => {
                   <br />
                   <b>Deliverables:</b> LOD 500 As-build Achitectural <br />
                   model. <br />
-                  <br />
-                  <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -1866,7 +2550,7 @@ const Portfolio = () => {
                 <img src={img4} />
               </div>
               <div className="card_content">
-                <h2 className="card_title">3D Dome Model</h2>
+                <h2 className="card_title">3D Dome </h2>
                 <br />
                 <p className="card_text">
                   <b>Project Over View:</b> To review caliber and skill of the
@@ -1877,9 +2561,6 @@ const Portfolio = () => {
                   <b>Sector:</b> Public Building <br />
                   <b>Scope :</b> BIM Architecture <br />
                   <b>Deliverables:</b>
-                  <br />
-                  <br />
-                  <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -1907,7 +2588,7 @@ const Portfolio = () => {
                   <b> Sector:</b> Residencial Building <br />
                   <b>Scope :</b> BIM Architecture & Structure <br />
                   <b>Deliverables:</b> LOD 400 Model to be delivered Along with
-                  quantity and Material take off. <br /> <br />
+                  quantity and Material take off. <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -1936,11 +2617,8 @@ const Portfolio = () => {
                   <b>Scope :</b> BIM Architecture <br />
                   <b> Deliverables:</b> LOD 300 3D Revit model with accurate
                   landscape.
-                  <br />
-                  <br />
-                  <br />
                 </p>
-
+                <br />
                 <button
                   className="btn card_btn"
                   type="button"
@@ -1958,7 +2636,7 @@ const Portfolio = () => {
                 <img src={img7} />
               </div>
               <div className="card_content">
-                <h2 className="card_title">School Model</h2>
+                <h2 className="card_title">School</h2>
                 <br />
                 <p className="card_text">
                   <b>Project Over View:</b> 3D model of the School is to manage
@@ -1968,10 +2646,8 @@ const Portfolio = () => {
                   <b>Sector:</b> Public Building <br />
                   <b>Scope:</b> BIM Architecture <br />
                   <b>Deliverables:</b>LOD 400 BIM Architectural Model
-                  <br />
-                  <br />
-                  <br />
                 </p>
+                <br />
                 <button
                   className="btn card_btn"
                   type="button"
@@ -1999,11 +2675,8 @@ const Portfolio = () => {
                   <b>Scope :</b> BIM Architecture <br />
                   <b>Deliverables:</b> LOD 300 3D Revit model with accurate
                   materials.
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                 </p>
+                <br />
                 <button
                   className="btn card_btn"
                   type="button"
@@ -2032,9 +2705,6 @@ const Portfolio = () => {
                   <b>Scope :</b> BIM MEP <br />
                   <b>Deliverables:</b> LOD 300 3D Revit MEP model with clash
                   detection.
-                  <br />
-                  <br />
-                  <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -2162,7 +2832,6 @@ const Portfolio = () => {
                   <br />
                   <br />
                   <br />
-                  <br />
                 </p>
                 <button
                   className="btn card_btn"
@@ -2211,7 +2880,7 @@ const Portfolio = () => {
                 <img src={img15} />
               </div>
               <div className="card_content">
-                <h2 className="card_title">JJ Exterior Facade Model</h2>
+                <h2 className="card_title">JJ Exterior Facade</h2>
                 <br />
                 <p className="card_text">
                   <b>Project Over View:</b> Exterior AS-build 3D model of JJ
@@ -2283,6 +2952,8 @@ const Portfolio = () => {
                   <b>Deliverables:</b> LOD 300 3D Revit model with accurate
                   landscape.
                 </p>
+                <br />
+
                 <button
                   className="btn card_btn"
                   type="button"
