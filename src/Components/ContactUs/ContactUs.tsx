@@ -143,25 +143,25 @@ export const ContactUs = () => {
             <div className="row mt-2 mb-2">
               <div className="col-3">
                 <FormControl fullWidth>
-                  <InputLabel id="demo-simple-select-label">Code</InputLabel>
-                  <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
+                  {/* <InputLabel id="demo-simple-select-label">Code</InputLabel> */}
+                  <TextField
+                    // labelId="demo-simple-select-label"
+                    // id="demo-simple-select"
                     label="code"
                     className="w-100"
-                    value={contactUsObject.code}
-                    onChange={(e) => {
-                      setContactUsObject({
-                        ...contactUsObject,
-                        code: Number(e.target.value),
-                      });
-                    }}
+                    // value={contactUsObject.code}
+                    // onChange={(e) => {
+                    //   setContactUsObject({
+                    //     ...contactUsObject,
+                    //     code: Number(e.target.value),
+                    //   });
+                    // }}
                   >
-                    <MenuItem value="">Select code</MenuItem>
+                    {/* <MenuItem value="">Select code</MenuItem>
                     <MenuItem value={91}>+91</MenuItem>
                     <MenuItem value={1}>+1</MenuItem>
-                    <MenuItem value={971}>+971</MenuItem>
-                  </Select>
+                    <MenuItem value={971}>+971</MenuItem> */}
+                  </TextField>
                 </FormControl>
               </div>
               <div className="col-9">

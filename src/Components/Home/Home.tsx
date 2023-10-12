@@ -211,17 +211,17 @@ export const Features = () => {
           <div className="col text-start">
             <div>
               <p className=" blueText mt-5 fs-5">
-                NineFive BIM was established in January 2016 with the basic
-                principle of Work ethics, Quality deliverance, and hustle-free
-                outsourcing service-providing Company. With several years of
-                experience in diverse companies, we understand the outsourcing
-                requirements of clients, Arbaaz came up with a vision to make
-                outsourcing more Reliable, Trustworthy and Hustle-free. Hence,
-                by designing a smooth workflow and building a strong foundation,
-                we deliver EXCELLENCE at NineFive BIM. With an Oath to serve the
-                vision of Arbaaz, This Company will provide innovative
-                outsourcing solutions to lead the industry with state of the art
-                quality, on-time delivery, and affordable prices.
+                NineFive BIM was founded on the principles of work ethics,
+                quality deliverance, and hassle-free outsourcing services.
+                Drawing on years of diverse industry experience, we grasp the
+                unique outsourcing needs of our clients, aiming to make the
+                process more reliable and trustworthy. Through a streamlined
+                workflow and a solid foundation, we strive for excellence at
+                NineFive BIM. Committed to our vision, we offer innovative
+                outsourcing solutions, setting the industry standard with
+                cutting-edge quality, punctual delivery, and competitive
+                pricing. Recognizing the intricacies and challenges of
+                outsourcing AEC projects, we stand ready at NineFive BIM.
                 <br />
                 <br /> At NineFive BIM, we understand the complexities and
                 challenges that come with outsourcing your architectural,
