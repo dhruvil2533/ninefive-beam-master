@@ -191,7 +191,7 @@ export const SubService = () => {
                   <hr />
                 </div>
                 <h5
-                  className="blueText text-justify"
+                  className="blueText text-justify description_text"
                   data-aos="fade-right"
                   data-aos-delay={400}
                 >

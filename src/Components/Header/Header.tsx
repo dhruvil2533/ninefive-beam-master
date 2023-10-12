@@ -252,7 +252,7 @@ export const Header = () => {
       </div>
       <div className="container-fluid p-2 blueBG text-white d-block d-lg-none">
         <div className="row">
-          <div className="col-9 text-center">
+          <div className="col-9 ">
             <Link to="/">
               <img src={logo} alt="" className="logo border-0 " />
             </Link>
@@ -269,7 +269,7 @@ export const Header = () => {
                 }
               }}
             >
-              <DragHandle className="text-white" />
+              <DragHandle className="" />
             </Button>
           </div>
         </div>

@@ -123,11 +123,13 @@ html {
 }
 
 .drawerLargeFont {
-  font-size: 0.75rem !important;
+  font-size: 1rem !important;
 }
-
+.description_text {
+  font-size: 1.1rem !important;
+}
 .drawerSmallFont {
-  font-size: 0.6rem !important;
+  font-size: 1rem !important;
 }
 
 .slow-transition {
@@ -421,7 +423,7 @@ html {
     width: 280px !important;
   }
   .drawerLargeFont {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
   }
   .drawerSmallFont {
     font-size: 0.65rem !important;
@@ -451,7 +453,7 @@ html {
     width: 600px !important;
   }
   .drawerLargeFont {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
   }
   .drawerSmallFont {
     font-size: 1rem !important;
@@ -1089,8 +1091,8 @@ img {
   color: #19394d;
 }
 .choose_btn:hover {
-  background-color: #19394d;
-  color: white;
+  /* background-color: #19394d; */
+  color: rgb(0, 0, 0);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .container-fluid p {
@@ -1143,6 +1145,11 @@ img {
   font-weight: 600;
   font-family: var(--copper-font);
 }
-.about_p {
+/* .about_p {
   font-family: var(--copper-font);
+} */
+.logo {
+  height: 100%;
+  width: 50%;
+  align-items: center;
 }

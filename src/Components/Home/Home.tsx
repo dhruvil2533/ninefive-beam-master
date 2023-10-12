@@ -144,7 +144,8 @@ const Drawings = () => {
               //   borderTop: "3px solid white",
               // }}
             >
-              Reverse engineering-Scan-To-BIM services
+              Reverse engineering <br />
+              Scan-To-BIM services
               {/* 3D Visuals & Rendering Service */}
             </h2>
             <img src={img3} className="d-block carousal_img" alt="..." />
@@ -163,7 +164,7 @@ const Drawings = () => {
               //   borderTop: "3px solid white",
               // }}
             >
-              3D Visuals & Rendering Service
+              3D Visuals & Rendering <br /> Service
               {/* CAD Drafting Services */}
             </h2>
             <img src={img4} className="d-block carousal_img" alt="..." />
