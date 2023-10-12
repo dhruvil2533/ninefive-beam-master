@@ -125,7 +125,8 @@ const Drawings = () => {
               //   borderTop: "3px solid white",
               // }}
             >
-              BIM Consultation
+              CAD Drafting Services
+              {/* BIM Consultation */}
             </h2>
             <img src={img2} className="d-block carousal_img" alt="..." />
           </div>
@@ -143,7 +144,8 @@ const Drawings = () => {
               //   borderTop: "3px solid white",
               // }}
             >
-              3D Visuals & Rendering Service
+              Reverse engineering-Scan-To-BIM services
+              {/* 3D Visuals & Rendering Service */}
             </h2>
             <img src={img3} className="d-block carousal_img" alt="..." />
           </div>
@@ -161,7 +163,8 @@ const Drawings = () => {
               //   borderTop: "3px solid white",
               // }}
             >
-              CAD Drafting Services
+              3D Visuals & Rendering Service
+              {/* CAD Drafting Services */}
             </h2>
             <img src={img4} className="d-block carousal_img" alt="..." />
           </div>
@@ -448,7 +451,7 @@ export const Home = () => {
       <DetailsBanner />
       <AllServices />
       {/* <Projects /> */}
-      <MaterialLink href="https://wa.me/7016591928" target="_blank">
+      <MaterialLink href="https://wa.me/+971503384826" target="_blank">
         <IconButton
           size="large"
           className="bg-dark text-success"

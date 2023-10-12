@@ -168,7 +168,7 @@ export const BIM = () => {
           </div>
         </div>
       </div>
-      <MaterialLink href="https://wa.me/7016591928" target="_blank">
+      <MaterialLink href="https://wa.me/+971503384826" target="_blank">
         <IconButton
           size="large"
           className="bg-dark text-success"

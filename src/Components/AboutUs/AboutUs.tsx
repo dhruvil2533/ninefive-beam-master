@@ -111,24 +111,29 @@ export const AboutUs = () => {
             data-aos="zoom-in"
             data-aos-delay={300}
           >
-            Who We Are?
+            This is Us
           </h3>
           <p
-            className="text-justify blueText"
+            className="text-justify blueText about_p"
             data-aos="fade-up-left"
             data-aos-delay={300}
           >
-            NineFive BIM was established in January 2016 with the basic
-            principle of Work ethics, Quality deliverance, and hustle-free
-            outsourcing service-providing Company. With several years of
-            experience in diverse companies, we understand the outsourcing
-            requirements of clients, Arbaaz came up with a vision to make
-            outsourcing more Reliable, Trustworthy and Hustle-free. Hence, by
-            designing a smooth workflow and building a strong foundation, we
-            deliver EXCELLENCE at NineFive BIM. With an Oath to serve the vision
-            of Arbaaz, This Company will provide innovative outsourcing
-            solutions to lead the industry with state of the art quality,
-            on-time delivery, and affordable prices.
+            <span className="blue_text">NineFive BIM</span>, founded in January
+            2016 by Arbaaz Charoliya, stands as a pioneering force in the realm
+            of BIM outsourcing. With a commitment to excellence, our company has
+            been at the forefront of transforming architectural visions into
+            digital reality. At NineFive BIM, we harness cutting-edge technology
+            and a wealth of expertise to deliver comprehensive BIM solutions
+            tailored to the unique needs of our clients. Motivated by Arbaaz's
+            vision, we aspire to redefine outsourcing by infusing it with
+            reliability, trustworthiness, and efficiency. Our journey has been
+            marked by a dedication to precision, innovation, and client
+            satisfaction. We take pride in our team's proficiency, ensuring that
+            every project is executed with meticulous attention to detail. As we
+            continue to evolve, NineFive BIM remains dedicated in its mission to
+            redefine the landscape of BIM outsourcing, setting industry
+            standards with unparalleled quality and reliability in the industry,
+            timely delivery,competitive pricing.
           </p>
         </div>
 

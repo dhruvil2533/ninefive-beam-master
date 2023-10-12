@@ -86,23 +86,23 @@ export const ContactUs = () => {
             <div className="border-start-orange shadow p-4 mt-3 mb-3 w-100">
               <h5 className="blueText">
                 <br />
-                Ahmedabad, Gujarat - 380 058
+                501-Arenco building block 4, D.I.P - Dubai
               </h5>
             </div>
             <div className="border-start-orange shadow p-4 mt-3 mb-3 w-100">
-              <a href="tel:917016591928" className="text-decoration-none">
+              <a href="tel:+971503384826" className="text-decoration-none">
                 <h5 className="blueText fw-bold letter-spacing2">
-                  (+91) 70165 91928
+                  +971503384826
                 </h5>
               </a>
             </div>
             <div className="border-start-orange shadow p-4 mt-3 mb-3 w-100">
               <a
-                href="mailto:ab@ninefivebim.com"
+                href="mailto:connect@ninefivebim.com"
                 className="text-decoration-none"
               >
                 <h5 className="blueText fw-bold letter-spacing2">
-                  ab@ninefivebim.com
+                  connect@ninefivebim.com
                 </h5>
               </a>
             </div>

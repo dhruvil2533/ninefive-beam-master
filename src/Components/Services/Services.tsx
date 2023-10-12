@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Description from "../ServiceDescription";
+import { Row, Col } from "react-bootstrap";
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
 import { Image } from "../Home/Home";
@@ -33,21 +34,12 @@ const DescriptionCard = () => {
         Our Services
       </h2>
       <div className="container">
-        <div className="row ">
+        <div className="row justify-content-center">
           {Description.map((data, key) => {
             return (
-              <div
-                style={{
-                  width: deviceWidth > 992 ? "30%" : "100%",
-                  justifyContent: "center",
-                  margin: "auto",
-                }}
-                data-aos="zoom-in"
-                data-aos-delay={300}
-                key={key}
-              >
+              <Col xl={4} sm={12} key={key} className="mb-5">
                 <Card
-                  className="h-100 shadow-lg card-filling mb-5"
+                  className="h-100 shadow-lg card-filling"
                   style={{ display: "flex", flexDirection: "column" }}
                 >
                   <img
@@ -79,7 +71,7 @@ const DescriptionCard = () => {
                     </Link>
                   </div>
                 </Card>
-              </div>
+              </Col>
             );
           })}
         </div>

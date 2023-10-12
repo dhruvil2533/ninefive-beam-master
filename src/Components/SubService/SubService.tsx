@@ -2,6 +2,7 @@
 import React from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { storage } from "../../Adapters/firebase";
+import { Row, Col } from "react-bootstrap";
 
 import { Footer } from "../Footer/Footer";
 import { Header } from "../Header/Header";
@@ -14,6 +15,12 @@ import { getDownloadURL, ref } from "firebase/storage";
 import services from "../../Constants/Services.json";
 // import ReactHtmlParser from "react-html-parser";
 import img1 from "../SubService/top images/38.png";
+import img2 from "./sub_images/Architectural.png";
+import img3 from "./sub_images/Infrastructure.png";
+import img4 from "./sub_images/Mechanics.png";
+import img5 from "./sub_images/Electronic.png";
+import img6 from "./sub_images/Waterworks.png";
+import img7 from "./sub_images/Combustion.png";
 // import { useLayoutEffect } from "react";
 // import NineFiveLogo from "../../Assets/Images/logo.png";
 type ImageProps = {
@@ -171,7 +178,7 @@ export const SubService = () => {
                 })}
               </Accordion>
             </div>
-            <div className="col-lg-8" style={{ backgroundColor: "#ebebeb" }}>
+            <div className="col-lg-8">
               <>
                 <h4
                   className="blueText fw-bold mt-4 text-center text-shadow"
@@ -183,7 +190,6 @@ export const SubService = () => {
                 <div className="container text-center w-50">
                   <hr />
                 </div>
-
                 <h5
                   className="blueText text-justify"
                   data-aos="fade-right"
@@ -191,8 +197,47 @@ export const SubService = () => {
                 >
                   {ReactHtmlParser(description.description)}
                 </h5>
-
-                {description.services && (
+                <div className="mt-5 text-center info_services">
+                  <Row>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img2} alt="" />
+                        <h4>Architectural</h4>
+                      </div>
+                    </Col>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img3} alt="" />
+                        <h4>Infrastructure</h4>
+                      </div>
+                    </Col>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img4} alt="" />
+                        <h4>Mechanics</h4>
+                      </div>
+                    </Col>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img5} alt="" />
+                        <h4>Electronic</h4>
+                      </div>
+                    </Col>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img6} alt="" />
+                        <h4>Waterworks</h4>
+                      </div>
+                    </Col>
+                    <Col xl={4} md={4} sm={12}>
+                      <div className="info_content">
+                        <img src={img7} alt="" />
+                        <h4>Combustion</h4>
+                      </div>
+                    </Col>
+                  </Row>
+                </div>
+                {/* {description.services && (
                   <div className="row h6 mt-5 mb-5 fw-bold blueText">
                     <h4
                       className="redText col-12 fw-bold mb-5 text-center"
@@ -214,7 +259,7 @@ export const SubService = () => {
                       );
                     })}
                   </div>
-                )}
+                )} */}
                 {/* {description.others && (
                   <div className="h5 text-justify mt-4">
                     {ReactHtmlParser(description.others)}

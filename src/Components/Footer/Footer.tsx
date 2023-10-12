@@ -23,15 +23,19 @@ export const Footer = () => {
                 lineHeight: 1.5,
               }}
             >
-              Architecture and Planning, Ahmedabad, Gujarat - 380 058
+              501-Arenco building block 4, D.I.P - Dubai
             </h6>
-            <a href="tel:916352949297" className="text-decoration-none">
-              <h6 className="text-white">(+91) 70165 91928</h6>
+            <a href="tel:+971503384826" className="text-decoration-none">
+              <h6 className="text-white">+971 50 338 4826</h6>
             </a>
             {/* href="mailto:ab@ninefivebim.com" */}
-            <a href="Connect@ninefivebim.com" className="text-decoration-none">
+            <a
+              href="mailto:connect@ninefivebim.com"
+              target="_blank"
+              className="text-decoration-none"
+            >
               <h6 className="text-white letter-spacing1">
-                Connect@ninefivebim.com
+                connect@ninefivebim.com
               </h6>
             </a>
           </div>
@@ -89,7 +93,10 @@ export const Footer = () => {
                   <WhatsApp />
                 </IconButton>
               </MaterialLink> */}
-              <MaterialLink href="mailto:ab@ninefivebim.com" target="_blank">
+              <MaterialLink
+                href="mailto:connect@ninefivebim.com"
+                target="_blank"
+              >
                 <IconButton className="bg-light brownText">
                   <Mail />
                 </IconButton>
